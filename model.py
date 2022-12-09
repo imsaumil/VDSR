@@ -132,7 +132,7 @@ if __name__ == '__main__':
     print(params)
 
     # Using pre-fetcher to load data into memory
-    train_prefetcher, valid_prefetcher, test_prefetcher = load_dataset()
+    train_prefetcher, valid_prefetcher, test_prefetcher = load_dataset(params['batch_size'])
     print("Load train dataset and valid dataset successfully.")
 
     # Creating the model
@@ -144,7 +144,7 @@ if __name__ == '__main__':
     print("Defined all loss functions successfully.")
 
     # Defining the optimizer to reduce the losses
-    optimizer = define_optimizer(model)
+    optimizer = define_optimizer(model, params['lr'], params['momentum'])
     print("Defined all optimizer functions successfully.")
 
     # Defining the optimizer scheduler
@@ -208,22 +208,22 @@ if __name__ == '__main__':
         is_best = psnr > best_psnr
         best_psnr = max(psnr, best_psnr)
 
-        torch.save({"epoch": epoch + 1,
-                    "best_psnr": best_psnr,
-                    "state_dict": model.state_dict(),
-                    "optimizer": optimizer.state_dict(),
-                    "scheduler": scheduler.state_dict()},
-                   os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"))
+        # torch.save({"epoch": epoch + 1,
+        #             "best_psnr": best_psnr,
+        #             "state_dict": model.state_dict(),
+        #             "optimizer": optimizer.state_dict(),
+        #             "scheduler": scheduler.state_dict()},
+        #            os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"))
 
-        if is_best:
-            shutil.copyfile(os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"), os.path.join(results_dir, "best.pth.tar"))
+        # if is_best:
+        #     shutil.copyfile(os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"), os.path.join(results_dir, "best.pth.tar"))
 
-        if (epoch + 1) == config.epochs:
-            shutil.copyfile(os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"), os.path.join(results_dir, "last.pth.tar"))
+        # if (epoch + 1) == config.epochs:
+        #     shutil.copyfile(os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"), os.path.join(results_dir, "last.pth.tar"))
 
     # Reporting final results
     if perf_HPO:
-        nni.report_final_result(psnr)
+        nni.report_final_result(best_psnr)
 
     print("Finish !")
 

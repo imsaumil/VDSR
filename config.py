@@ -30,7 +30,7 @@ device = torch.device("cuda", 0)
 cudnn.benchmark = True
 
 # Image magnification factor
-upscale_factor = 2
+upscale_factor = 4
 
 # Current configuration parameter method -> Change to test for testing
 mode = "train"
@@ -40,12 +40,14 @@ exp_name = "vdsr_baseline"
 
 if mode == "train":
     # Dataset
-    train_image_dir = os.path.join('data', 'DIV2K', 'train')
-    valid_image_dir = os.path.join('data', 'DIV2K', 'valid')
+    # train_image_dir = os.path.join('data', 'DIV2K', 'train')
+    # valid_image_dir = os.path.join('data', 'DIV2K', 'valid')
+    train_image_dir = '/ocean/projects/cis220070p/jshah2/DIV2K/train'
+    valid_image_dir = '/ocean/projects/cis220070p/jshah2/DIV2K/valid'
     test_image_dir = os.path.join('data', 'Set5')
 
     image_size = 41
-    batch_size = 16
+    # batch_size = 16
     num_workers = 4
 
     # Incremental training and migration training
@@ -56,8 +58,8 @@ if mode == "train":
     epochs = 10
 
     # SGD optimizer parameter
-    model_lr = 0.1
-    model_momentum = 0.9
+    # model_lr = 0.1
+    # model_momentum = 0.9
     model_weight_decay = 1e-4
     model_nesterov = False
 

@@ -30,7 +30,7 @@ from dataset import CUDAPrefetcher
 from dataset import TrainValidImageDataset, TestImageDataset
 
 
-def load_dataset() -> [DataLoader, DataLoader]:
+def load_dataset(batch_size) -> [DataLoader, DataLoader]:
     # Load train, test and valid datasets
     train_datasets = TrainValidImageDataset(config.train_image_dir, config.image_size, "Train")
     valid_datasets = TrainValidImageDataset(config.valid_image_dir, config.image_size, "Valid")
@@ -38,14 +38,14 @@ def load_dataset() -> [DataLoader, DataLoader]:
 
     # Generator all dataloader
     train_dataloader = DataLoader(train_datasets,
-                                  batch_size=config.batch_size,
+                                  batch_size=batch_size,
                                   shuffle=True,
                                   num_workers=config.num_workers,
                                   pin_memory=True,
                                   drop_last=True,
                                   persistent_workers=True)
     valid_dataloader = DataLoader(valid_datasets,
-                                  batch_size=config.batch_size,
+                                  batch_size=batch_size,
                                   shuffle=False,
                                   num_workers=config.num_workers,
                                   pin_memory=True,
@@ -74,10 +74,10 @@ def define_loss() -> [nn.MSELoss, nn.MSELoss]:
     return psnr_criterion, pixel_criterion
 
 
-def define_optimizer(model) -> optim.SGD:
+def define_optimizer(model, lr, momentum) -> optim.SGD:
     optimizer = optim.SGD(model.parameters(),
-                          lr=config.model_lr,
-                          momentum=config.model_momentum,
+                          lr=lr,
+                          momentum=momentum,
                           weight_decay=config.model_weight_decay,
                           nesterov=config.model_nesterov)
 
