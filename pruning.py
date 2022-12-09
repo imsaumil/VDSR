@@ -9,6 +9,7 @@ import time
 from model import VDSR
 from train import *
 
+import utils
 
 epochs = 10
 
@@ -35,6 +36,9 @@ if __name__ == '__main__':
     # Defining the optimizer scheduler
     scheduler = define_scheduler(optimizer)
     print("Defined all optimizer scheduler successfully.")
+
+    # define a dummy input size
+    dummy_input = torch.rand(64, 1, 28, 28).to(config.device)
 
     # Using the pre-trained model data to get results efficiently using transfer learning
     print("Checking and reading the pre-trained model.")
@@ -88,15 +92,15 @@ if __name__ == '__main__':
         scheduler.step()
 
         # Automatically save the model with the highest index
-        is_best = psnr > best_psnr
+        # is_best = psnr > best_psnr
         best_psnr = max(psnr, best_psnr)
 
-        torch.save({"epoch": epoch + 1,
-                    "best_psnr": best_psnr,
-                    "state_dict": model.state_dict(),
-                    "optimizer": optimizer.state_dict(),
-                    "scheduler": scheduler.state_dict()},
-                   os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"))
+        # torch.save({"epoch": epoch + 1,
+        #             "best_psnr": best_psnr,
+        #             "state_dict": model.state_dict(),
+        #             "optimizer": optimizer.state_dict(),
+        #             "scheduler": scheduler.state_dict()},
+        #            os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"))
 
     # Ending time for unpruned model
     end_time = time.time()
@@ -104,11 +108,22 @@ if __name__ == '__main__':
     # The total execution time of unpruned model
     exec_time = end_time - start_time
     print("\nTHE TOTAL EXECUTION TIME OF UNPRUNED MODEL: ", exec_time, "\n\n")
+    print("\nTHE PSNR OF UNPRUNED MODEL: ", best_psnr, "\n\n")
+
+    unpruned_model_path = f"vdsr_unpruned_{config.upscale_factor}.torch"
+    torch.save(model, unpruned_model_path)
+    
+    utils.torch2onnx(unpruned_model_path,dummy_input)
+
+    
 
     # Defining the configuration list for pruning
     configuration_list = [{
         'sparsity_per_layer': 0.4,
         'op_types': ['Conv2d']
+    }, {
+        'exclude': True,
+        'op_names': ['conv1', 'conv2']
     }]
 
     # Wrapping the network with pruner
@@ -123,8 +138,8 @@ if __name__ == '__main__':
 
     # Need to unwrap the model before speeding-up.
     pruner._unwrap_model()
-
-    ModelSpeedup(model, torch.rand(64, 1, 28, 28).to(config.device), masks).speedup_model()
+    
+    ModelSpeedup(model, dummy_input.to(config.device), masks).speedup_model()
 
     print("\nPRUNED MODEL WITH {}: \n\n".format("L1NormPruner"), model, "\n\n")
 
@@ -144,15 +159,14 @@ if __name__ == '__main__':
         scheduler.step()
 
         # Automatically save the model with the highest index
-        is_best = psnr > best_psnr
         best_psnr = max(psnr, best_psnr)
 
-        torch.save({"epoch": epoch + 1,
-                    "best_psnr": best_psnr,
-                    "state_dict": model.state_dict(),
-                    "optimizer": optimizer.state_dict(),
-                    "scheduler": scheduler.state_dict()},
-                   os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"))
+        # torch.save({"epoch": epoch + 1,
+        #             "best_psnr": best_psnr,
+        #             "state_dict": model.state_dict(),
+        #             "optimizer": optimizer.state_dict(),
+        #             "scheduler": scheduler.state_dict()},
+        #            os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"))
 
     # Ending time for pruned model
     end_time = time.time()
@@ -160,3 +174,8 @@ if __name__ == '__main__':
     # The total execution time of pruned model
     exec_time = end_time - start_time
     print("\nTHE TOTAL EXECUTION TIME OF PRUNED MODEL: ", exec_time, "\n\n")
+    print("\nTHE PSNR OF PRUNED MODEL: ", best_psnr, "\n\n")
+
+    pruned_model_path = f"vdsr_pruned_{config.upscale_factor}.torch"
+    torch.save(model, pruned_model_path)
+    utils.torch2onnx(pruned_model_path,dummy_input)

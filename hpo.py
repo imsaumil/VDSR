@@ -13,7 +13,7 @@ search_space = json.loads(data)
 experiment = Experiment('local')
 
 # Conducting NNI evaluation in trail mode
-experiment.config.trial_command = 'python model.py'
+experiment.config.trial_command = 'python3 model.py'
 experiment.config.trial_code_directory = '.'
 
 # Configuring the search space
