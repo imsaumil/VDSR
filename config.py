@@ -22,14 +22,19 @@ from torch.backends import cudnn
 random.seed(0)
 torch.manual_seed(0)
 np.random.seed(0)
+
 # Use GPU for training by default
 device = torch.device("cuda", 0)
+
 # Turning on when the image size does not change during training can speed up training
 cudnn.benchmark = True
+
 # Image magnification factor
 upscale_factor = 2
-# Current configuration parameter method
+
+# Current configuration parameter method -> Change to test for testing
 mode = "train"
+
 # Experiment name, easy to save weights and log files
 exp_name = "vdsr_baseline"
 
@@ -48,7 +53,7 @@ if mode == "train":
     resume = ""
 
     # Total num epochs
-    epochs = 80
+    epochs = 10
 
     # SGD optimizer parameter
     model_lr = 0.1

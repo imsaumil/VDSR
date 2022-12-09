@@ -64,7 +64,10 @@ class TrainValidImageDataset(Dataset):
 
         if self.mode == "Train":
             # Data augment
-            lr_y_image, hr_y_image = imgproc.random_crop(lr_y_image, hr_y_image, self.image_size)
+            try:
+                lr_y_image, hr_y_image = imgproc.random_crop(lr_y_image, hr_y_image, self.image_size)
+            except Exception as e:
+                print(batch_index, lr_y_image)
             lr_y_image, hr_y_image = imgproc.random_rotate(lr_y_image, hr_y_image, angles=[0, 90, 180, 270])
             lr_y_image, hr_y_image = imgproc.random_horizontally_flip(lr_y_image, hr_y_image, p=0.5)
             lr_y_image, hr_y_image = imgproc.random_vertically_flip(lr_y_image, hr_y_image, p=0.5)
