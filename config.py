@@ -13,7 +13,7 @@
 # ==============================================================================
 """Realize the parameter configuration function of dataset, model, training and verification code."""
 import random
-
+import os
 import numpy as np
 import torch
 from torch.backends import cudnn
@@ -40,9 +40,9 @@ exp_name = "vdsr_baseline"
 
 if mode == "train":
     # Dataset
-    train_image_dir = "data/TB291/VDSR/train"
-    valid_image_dir = "data/TB291/VDSR/valid"
-    test_image_dir = "data/Set5/GTmod12"
+    train_image_dir = os.path.join('data', 'DIV2K', 'train')
+    valid_image_dir = os.path.join('data', 'DIV2K', 'valid')
+    test_image_dir = os.path.join('data', 'Set5')
 
     image_size = 41
     batch_size = 16
@@ -72,7 +72,7 @@ if mode == "train":
 
 if mode == "valid":
     # Test data address
-    sr_dir = f"results/test/{exp_name}"
-    hr_dir = f"data/Set5/GTmod12"
+    sr_dir = os.path.join('results', 'test', '{}'.format(exp_name))
+    hr_dir = os.path.join('data', 'Set5')
 
-    model_path = f"results/{exp_name}/best.pth.tar"
+    model_path = os.path.join('results', '{}'.format(exp_name), 'best.pth.tar')
