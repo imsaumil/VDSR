@@ -42,8 +42,8 @@ if mode == "train":
     # Dataset
     # train_image_dir = os.path.join('data', 'DIV2K', 'train')
     # valid_image_dir = os.path.join('data', 'DIV2K', 'valid')
-    train_image_dir = '/ocean/projects/cis220070p/jshah2/DIV2K/train'
-    valid_image_dir = '/ocean/projects/cis220070p/jshah2/DIV2K/valid'
+    train_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/train_hpo'
+    valid_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/valid_hpo'
     test_image_dir = '/ocean/projects/cis220070p/jshah2/Set5/GTmod12'
     # test_image_dir = os.path.join('data', 'Set5')
 

@@ -6,4 +6,4 @@ os.system("python3 ./prepare_dataset.py --images_dir /ocean/projects/cis220070p/
 os.system("python3 ./prepare_dataset.py --images_dir /ocean/projects/cis220070p/jshah2/div2k/original --output_dir /ocean/projects/cis220070p/jshah2/div2k/train --image_size 44 --step 44 --scale 4 --num_workers 40")
 
 # Split train and valid
-os.system("python3 ./split_train_valid_dataset.py --train_images_dir /ocean/projects/cis220070p/jshah2/div2k/train --valid_images_dir /ocean/projects/cis220070p/jshah2/div2k/valid --valid_samples_ratio 0.1")
+os.system("python3 ./split_train_valid_dataset.py --train_images_dir /ocean/projects/cis220070p/jshah2/div2k/train_subset --valid_images_dir /ocean/projects/cis220070p/jshah2/div2k/valid_subset --valid_samples_ratio 0.1")
