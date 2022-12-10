@@ -123,7 +123,8 @@ if __name__ == '__main__':
     params = {
         'lr': 0.001,
         'momentum': 0,
-        "batch_size": 64
+        "batch_size": 64,
+        "epochs": 1
     }
 
     # Fetching the next optimized hyperparameter
@@ -191,7 +192,7 @@ if __name__ == '__main__':
     best_psnr = 0.0
     perf_HPO = True
 
-    for epoch in range(0, config.epochs):
+    for epoch in range(0, params['epochs']):
         train(model, train_prefetcher, psnr_criterion, pixel_criterion, optimizer, epoch, scaler, writer)
         _ = validate(model, valid_prefetcher, psnr_criterion, epoch, writer, "Valid")
         psnr = validate(model, test_prefetcher, psnr_criterion, epoch, writer, "Test")

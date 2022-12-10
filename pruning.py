@@ -11,27 +11,27 @@ from train import *
 
 import utils
 
-epochs = 10
+# class DistillKL(nn.Module):
+#     """Distilling the Knowledge in a Neural Network"""
 
-class DistillKL(nn.Module):
-    """Distilling the Knowledge in a Neural Network"""
+#     def __init__(self, T):
+#         super(DistillKL, self).__init__()
+#         self.T = T
 
-    def __init__(self, T):
-        super(DistillKL, self).__init__()
-        self.T = T
-
-    def forward(self, y_s, y_t):
-        # loss = pixel_criterion(y_s,y_t)
-        p_s = torch.nn.functional.log_softmax(y_s / self.T, dim=1)
-        p_t = torch.nn.functional.softmax(y_t / self.T, dim=1)
-        loss = torch.nn.functional.kl_div(p_s, p_t, size_average=False) * (self.T**2) / y_s.shape[0]
-        return loss
+#     def forward(self, y_s, y_t):
+#         loss = psnr_criterion(y_s,y_t)
+#         # loss = pixel_criterion(y_s,y_t)
+#         # p_s = torch.nn.functional.log_softmax(y_s / self.T, dim=1)
+#         # p_t = torch.nn.functional.softmax(y_t / self.T, dim=1)
+#         # loss = torch.nn.functional.kl_div(p_s, p_t, size_average=False) * (self.T**2) / y_s.shape[0]
+#         return loss
 
 def fine_tune(models, optimizer,kd_temperature,train_prefetcher):
     model_s = models[0].train()
     model_t = models[-1].eval()
+    # scaler = amp.GradScaler()
     # cri_cls = criterion
-    cri_kd = DistillKL(kd_temperature)
+    # cri_kd = DistillKL(kd_temperature)
 
     batches = len(train_prefetcher)
     # Put the generator in training mode
@@ -54,17 +54,22 @@ def fine_tune(models, optimizer,kd_temperature,train_prefetcher):
         optimizer.zero_grad()
 
         # Mixed precision training
-        sr_student = model(lr)
-        sr_teacher = model(lr)
-        loss = cri_kd(sr_student, sr_teacher)
+        with amp.autocast():
+            sr_student = model_s(lr)
+            sr_teacher = model_t(lr)
+            # loss = cri_kd(sr_student, sr_teacher)
+            loss = psnr_criterion(sr_student, sr_teacher)
 
         # Gradient zoom + gradient clipping
         scaler.scale(loss).backward()
+        # scaler.update()
+        # loss.backward()
         scaler.unscale_(optimizer)
         torch.nn.utils.clip_grad_norm_(model_s.parameters(), max_norm=config.clip_gradient / optimizer.param_groups[0]["lr"], norm_type=2.0)
 
         # Update generator weight
         scaler.step(optimizer)
+        # optimizer.step()
         scaler.update()
 
         # Preload the next batch of data
@@ -74,10 +79,12 @@ def fine_tune(models, optimizer,kd_temperature,train_prefetcher):
 if __name__ == '__main__':
 
     params = {
-        'lr': 0.001,
-        'momentum': 0,
-        "batch_size": 64
+        "batch_size": 128,
+        "lr": 0.045252560928431204,
+        "epochs": 10,
+        "momentum": 0.4437527277691714
     }
+    
     # Using pre-fetcher to load data into memory
     train_prefetcher, valid_prefetcher, test_prefetcher = load_dataset(params['batch_size'])
     print("Load train dataset and valid dataset successfully.")
@@ -146,12 +153,18 @@ if __name__ == '__main__':
 
     # Training, validation and reporting accuracy to NNI
     # Initialize training to generate network evaluation indicators
-    best_psnr = 0.0
+    # best_psnr = 0.0
+    psnr = validate(model, test_prefetcher, psnr_criterion, 1, writer, "Test")
+    print("\nTHE PSNR OF VANILLA MODEL: ", psnr, "\n\n")
+    vanilla_model_path = f"generated_models/vdsr_vanilla_{config.upscale_factor}.torch"
+    torch.save(model, vanilla_model_path)
+    
+    utils.torch2onnx(vanilla_model_path,dummy_input)
 
     # Starting time for the unpruned model
     start_time = time.time()
 
-    for epoch in range(0, config.epochs):
+    for epoch in range(0, params['epochs']):
         train(model, train_prefetcher, psnr_criterion, pixel_criterion, optimizer, epoch, scaler, writer)
         _ = validate(model, valid_prefetcher, psnr_criterion, epoch, writer, "Valid")
         psnr = validate(model, test_prefetcher, psnr_criterion, epoch, writer, "Test")
@@ -168,7 +181,7 @@ if __name__ == '__main__':
     print("\nTHE TOTAL EXECUTION TIME OF UNPRUNED MODEL: ", exec_time, "\n\n")
     print("\nTHE PSNR OF UNPRUNED MODEL: ", psnr, "\n\n")
 
-    unpruned_model_path = f"vdsr_unpruned_{config.upscale_factor}.torch"
+    unpruned_model_path = f"generated_models/vdsr_unpruned_{config.upscale_factor}.torch"
     torch.save(model, unpruned_model_path)
     
     utils.torch2onnx(unpruned_model_path,dummy_input)
@@ -201,13 +214,10 @@ if __name__ == '__main__':
 
     print("\nPRUNED MODEL WITH {}: \n\n".format("L1NormPruner"), model, "\n\n")
 
-    # Initialize training to generate network evaluation indicators
-    best_psnr = 0.0
-
     # Starting time for pruned model
     start_time = time.time()
 
-    for epoch in range(0, config.epochs):
+    for epoch in range(0, params['epochs']):
         train(model, train_prefetcher, psnr_criterion, pixel_criterion, optimizer, epoch, scaler, writer)
         _ = validate(model, valid_prefetcher, psnr_criterion, epoch, writer, "Valid")
         psnr = validate(model, test_prefetcher, psnr_criterion, epoch, writer, "Test")
@@ -224,7 +234,7 @@ if __name__ == '__main__':
     print("\nTHE TOTAL EXECUTION TIME OF PRUNED MODEL: ", exec_time, "\n\n")
     print("\nTHE PSNR OF PRUNED MODEL: ", psnr, "\n\n")
 
-    pruned_model_path = f"vdsr_pruned_{config.upscale_factor}.torch"
+    pruned_model_path = f"generated_models/vdsr_pruned_{config.upscale_factor}.torch"
     torch.save(model, pruned_model_path)
     utils.torch2onnx(pruned_model_path,dummy_input)
 
@@ -235,18 +245,18 @@ if __name__ == '__main__':
     student_model = torch.load(pruned_model_path, map_location=config.device)
     
     models = [student_model, teacher_model]
-    optimizer = define_optimizer(student_model, params['lr'], params['mometum'])
+    optimizer = define_optimizer(student_model, params['lr'], params['momentum'])
 
     # optimizer = torch.optim.SGD(student_model.parameters(), lr=1e-3)
     start_time = time.time()
-    for epoch in range(config.epochs):
+    for epoch in range(params['epochs']):
         fine_tune(models,optimizer,5, train_prefetcher) # Set temperature to 5 for distillKL
         psnr = validate(models[0], test_prefetcher, psnr_criterion, epoch, writer, "Test")
     end_time = time.time()
 
-    print("\nTHE TOTAL EXECUTION TIME OF DISTILLED MODEL: ", end_time-start_time, "\n\n")
+    print("\nTHE TOTAL EXECUTION TIME OF MODEL DISTILLATION: ", end_time-start_time, "\n\n")
     print("\nTHE PSNR OF DISTILLED MODEL: ", psnr, "\n\n")
 
-    distilled_model_path = f"vdsr_distilled_{config.upscale_factor}.torch"
+    distilled_model_path = f"generated_models/vdsr_distilled_{config.upscale_factor}.torch"
     torch.save(model, distilled_model_path)
     utils.torch2onnx(distilled_model_path,dummy_input)
