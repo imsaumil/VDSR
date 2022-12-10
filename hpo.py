@@ -38,7 +38,7 @@ experiment.config.tuner.class_args = {
 experiment.config.debug = True
 
 # Setting a name for the experiment
-experiment.config.experiment_name = f'TPE - Detailed config and tuner version'
+experiment.config.experiment_name = f'BOHB - Detailed config and tuner version'
 
 # Setting up number of trials to run -> Sets of hyperparameters and trial concurrency
 experiment.config.max_trial_number = 50  # Change to a higher number -> 50
