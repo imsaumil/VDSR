@@ -78,6 +78,7 @@ def fine_tune(models, optimizer,kd_temperature,train_prefetcher):
 
 if __name__ == '__main__':
 
+    # Best parameters chosen from HPO
     params = {
         "batch_size": 128,
         "lr": 0.045252560928431204,
