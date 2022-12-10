@@ -19,19 +19,19 @@ experiment.config.trial_code_directory = '.'
 # Configuring the search space
 experiment.config.search_space = search_space
 
-experiment.config.tuner.name = 'TPE'
+experiment.config.tuner.name = 'BOHB'
 
 experiment.config.tuner.class_args = {
     'optimize_mode': 'maximize',
-    'seed': 9999,
-    'tpe_args': {
-        'constant_liar_type': 'mean',
-        'n_startup_jobs': 10,
-        'n_ei_candidates': 20,
-        'linear_forgetting': 10,
-        'prior_weight': 0,
-        'gamma': 0.6
-    }
+    'min_budget': 1,
+    'max_budget': 27,
+    'eta': 3,
+    'min_points_in_model': 7,
+    'top_n_percent': 15,
+    'num_samples': 64,
+    'random_fraction': 0.33,
+    'bandwidth_factor': 3.0,
+    'min_bandwidth': 0.001
 }
 
 experiment.config.debug = True
