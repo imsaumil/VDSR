@@ -19,6 +19,7 @@ experiment.config.trial_code_directory = '.'
 # Configuring the search space
 experiment.config.search_space = search_space
 
+# This tuner needs additional install -> pip install nni[BOHB]
 experiment.config.tuner.name = 'BOHB'
 
 experiment.config.tuner.class_args = {
