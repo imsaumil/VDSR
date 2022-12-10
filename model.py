@@ -82,6 +82,7 @@ class VDSR(nn.Module):
                     2 / (module.kernel_size[0] * module.kernel_size[1] * module.out_channels)))
 
 
+
 if __name__ == '__main__':
 
     # Creating arguments parser
@@ -120,7 +121,6 @@ if __name__ == '__main__':
 
     # Defining parameters to be tuned
     params = {
-        'dropout_rate': 0.0,
         'lr': 0.001,
         'momentum': 0,
         "batch_size": 64
@@ -205,8 +205,8 @@ if __name__ == '__main__':
         scheduler.step()
 
         # Automatically save the model with the highest index
-        is_best = psnr > best_psnr
-        best_psnr = max(psnr, best_psnr)
+        # is_best = psnr > best_psnr
+        # best_psnr = max(psnr, best_psnr)
 
         # torch.save({"epoch": epoch + 1,
         #             "best_psnr": best_psnr,
@@ -223,7 +223,7 @@ if __name__ == '__main__':
 
     # Reporting final results
     if perf_HPO:
-        nni.report_final_result(best_psnr)
+        nni.report_final_result(psnr)
 
     print("Finish !")
 

@@ -40,7 +40,7 @@ experiment.config.debug = True
 experiment.config.experiment_name = f'TPE - Detailed config and tuner version'
 
 # Setting up number of trials to run -> Sets of hyperparameters and trial concurrency
-experiment.config.max_trial_number = 50  # Change to a higher number -> 50
+experiment.config.max_trial_number = 25  # Change to a higher number -> 50
 experiment.config.trial_concurrency = 10
 
 # Running the experiment on portal

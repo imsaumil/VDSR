@@ -44,7 +44,8 @@ if mode == "train":
     # valid_image_dir = os.path.join('data', 'DIV2K', 'valid')
     train_image_dir = '/ocean/projects/cis220070p/jshah2/DIV2K/train'
     valid_image_dir = '/ocean/projects/cis220070p/jshah2/DIV2K/valid'
-    test_image_dir = os.path.join('data', 'Set5')
+    test_image_dir = '/ocean/projects/cis220070p/jshah2/Set5/GTmod12'
+    # test_image_dir = os.path.join('data', 'Set5')
 
     image_size = 41
     # batch_size = 16
