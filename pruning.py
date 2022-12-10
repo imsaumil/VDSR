@@ -80,10 +80,10 @@ if __name__ == '__main__':
 
     # Best parameters chosen from HPO
     params = {
-        "batch_size": 128,
-        "lr": 0.045252560928431204,
+        "batch_size": 512,
+        "lr": 0.0047517718546921175,
         "epochs": 10,
-        "momentum": 0.4437527277691714
+        "momentum": 0.8431304996613767
     }
     
     # Using pre-fetcher to load data into memory
