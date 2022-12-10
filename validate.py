@@ -13,32 +13,27 @@
 # ==============================================================================
 """File description: Realize the verification function after model training."""
 import os
+import sys 
 
 import cv2
 import numpy as np
 import torch
-from natsort import natsorted
 
 import config
 import imgproc
 from model import VDSR
 
 
-def main() -> None:
+
+def main(model_path) -> None:
     # Initialize the super-resolution model
-    model = VDSR().to(config.device)
-    print("Build VDSR model successfully.")
-
-    # Load the super-resolution model weights
-    checkpoint = torch.load(config.model_path, map_location=lambda storage, loc: storage)
-    model.load_state_dict(checkpoint["state_dict"])
-    print(f"Load VDSR model weights `{os.path.abspath(config.model_path)}` successfully.")
-
+    model_name = os.path.split(model_path)[1].replace(".torch","")
     # Create a folder of super-resolution experiment results
-    results_dir = os.path.join("results", "test", config.exp_name)
+    results_dir = os.path.join("results", "test", model_name)
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)
-
+    
+    model = torch.load(model_path, map_location=config.device)
     # Start the verification mode of the model.
     model.eval()
     # Turn on half-precision inference.
@@ -48,13 +43,13 @@ def main() -> None:
     total_psnr = 0.0
 
     # Get a list of test image file names.
-    file_names = natsorted(os.listdir(config.hr_dir))
+    file_names = os.listdir(config.test_image_dir)
     # Get the number of test image files.
     total_files = len(file_names)
 
     for index in range(total_files):
-        sr_image_path = os.path.join(config.sr_dir, file_names[index])
-        hr_image_path = os.path.join(config.hr_dir, file_names[index])
+        sr_image_path = os.path.join(results_dir, file_names[index])
+        hr_image_path = os.path.join(config.test_image_dir, file_names[index])
 
         print(f"Processing `{os.path.abspath(hr_image_path)}`...")
         # Make high-resolution image
@@ -98,4 +93,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    model_path = sys.argv[1]
+    main(model_path)

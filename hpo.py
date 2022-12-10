@@ -20,25 +20,32 @@ experiment.config.trial_code_directory = '.'
 experiment.config.search_space = search_space
 
 # This tuner needs additional install -> pip install nni[BOHB]
-experiment.config.tuner.name = 'BOHB'
+# experiment.config.tuner.name = 'BOHB'
+experiment.config.tuner.name = 'TPE'
 
-experiment.config.tuner.class_args = {
-    'optimize_mode': 'maximize',
-    'min_budget': 1,
-    'max_budget': 27,
-    'eta': 3,
-    'min_points_in_model': 7,
-    'top_n_percent': 15,
-    'num_samples': 64,
-    'random_fraction': 0.33,
-    'bandwidth_factor': 3.0,
-    'min_bandwidth': 0.001
-}
+# experiment.config.tuner.class_args = {
+#     'optimize_mode': 'maximize',
+#     'min_budget': 1,
+#     'max_budget': 600,
+#     'eta': 3,
+#     'min_points_in_model': 7,
+#     'top_n_percent': 15,
+#     'num_samples': 64,
+#     'random_fraction': 0.33,
+#     'bandwidth_factor': 3.0,
+#     'min_bandwidth': 0.001
+# }
+# experiment.config.tuner.name = 'Hyperband'
+# experiment.config.tuner.class_args = {
+#     'optimize_mode': 'maximize',
+#     'R': 60,
+#     'eta': 3
+# }
 
 experiment.config.debug = True
 
 # Setting a name for the experiment
-experiment.config.experiment_name = f'BOHB - Detailed config and tuner version'
+experiment.config.experiment_name = f'TPE - Detailed config and tuner version'
 
 # Setting up number of trials to run -> Sets of hyperparameters and trial concurrency
 experiment.config.max_trial_number = 50  # Change to a higher number -> 50

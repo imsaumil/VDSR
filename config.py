@@ -56,7 +56,7 @@ if mode == "train":
     resume = ""
 
     # Total num epochs
-    epochs = 10
+    # epochs = 10
 
     # SGD optimizer parameter
     # model_lr = 0.1
@@ -73,9 +73,9 @@ if mode == "train":
 
     print_frequency = 200
 
-if mode == "valid":
+# if mode == "valid":
     # Test data address
-    sr_dir = os.path.join('results', 'test', '{}'.format(exp_name))
-    hr_dir = os.path.join('data', 'Set5')
+    # sr_dir = os.path.join('results', 'test', '{}'.format(exp_name))
+    # hr_dir = os.path.join('data', 'Set5')
 
-    model_path = os.path.join('results', '{}'.format(exp_name), 'best.pth.tar')
+    # model_path = os.path.join('results', '{}'.format(exp_name), 'best.pth.tar')
