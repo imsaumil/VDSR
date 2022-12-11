@@ -1,0 +1,249 @@
+onnx_latency,fallback_latency,output_dir,slowest_device,all,input_shape,output_shape,error,device,file_name,file_path,pruning,time_cost,params,IR,MACs
+8.968,inf,Projects/final_v2/testResults//3774a16e-891f-41,R38M20BDTME,"{'R38M20BDTME': {'latency': 8.968, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}",,R38M20BDTME,vdsr_unpruned_4.onnx,Projects/final_v2/vdsr_unpruned_4.onnx,1.0,14.234210014343262,664704,122128384,33413252096.0
+inf,inf,Projects/final_v2/testResults//b0047732-e99e-4d,R38M20BDTME,"{'R38M20BDTME': {'latency': inf, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf, 'error': ""I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 204.687\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 204.1\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 205.044\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 204.164\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 204.776\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 204.007\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 206.621\nI deepvan/run/deepvan_run.cc:137] Average latency (w/o 1 outliers): 204.578 ms, boundaries: [202.401, 206.821]\n========================================================\n     capability(CPU)        init      warmup     run_avg\n========================================================\ntime          10.000     423.997    2062.832     204.578\n\n/tmp/xgen/compiler/generated/deepvan_run ~\n~\n""}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}","I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 204.687
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 204.1
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 205.044
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 204.164
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 204.776
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 204.007
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 206.621
+I deepvan/run/deepvan_run.cc:137] Average latency (w/o 1 outliers): 204.578 ms, boundaries: [202.401, 206.821]
+========================================================
+     capability(CPU)        init      warmup     run_avg
+========================================================
+time          10.000     423.997    2062.832     204.578
+
+/tmp/xgen/compiler/generated/deepvan_run ~
+~
+",R38M20BDTME,vdsr_unpruned_4.onnx,Projects/final_v2/vdsr_unpruned_4.onnx,0.0,32.172566413879395,664704,122128384,33413252096
+8.956,inf,Projects/final_v2/testResults//f457be91-a882-41,RF8M21Y9MNR,"{'RF8M21Y9MNR': {'latency': 8.956, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}",,RF8M21Y9MNR,vdsr_unpruned_4.onnx,Projects/final_v2/vdsr_unpruned_4.onnx,1.0,9.975156545639038,664704,122128384,33413252096.0
+inf,inf,Projects/final_v2/testResults//0c5e6b75-6cfc-46,RF8M21Y9MNR,"{'RF8M21Y9MNR': {'latency': inf, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf, 'error': ""I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 204.912\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 205.583\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 205.163\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 205.149\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 204.671\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 205.203\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 205.423\nI deepvan/run/deepvan_run.cc:137] Average latency (w/o 0 outliers): 204.928 ms, boundaries: [202.793, 207.001]\n========================================================\n     capability(CPU)        init      warmup     run_avg\n========================================================\ntime          10.000     418.088    2062.627     204.928\n\n/tmp/xgen/compiler/generated/deepvan_run ~\n~\n""}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}","I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 204.912
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 205.583
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 205.163
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 205.149
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 204.671
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 205.203
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 205.423
+I deepvan/run/deepvan_run.cc:137] Average latency (w/o 0 outliers): 204.928 ms, boundaries: [202.793, 207.001]
+========================================================
+     capability(CPU)        init      warmup     run_avg
+========================================================
+time          10.000     418.088    2062.627     204.928
+
+/tmp/xgen/compiler/generated/deepvan_run ~
+~
+",RF8M21Y9MNR,vdsr_unpruned_4.onnx,Projects/final_v2/vdsr_unpruned_4.onnx,0.0,31.67871069908142,664704,122128384,33413252096
+4.637,inf,Projects/final_v2/testResults//7688b28d-7414-4a,R38M20BDTME,"{'R38M20BDTME': {'latency': 4.637, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}",,R38M20BDTME,vdsr_pruned_4.onnx,Projects/final_v2/vdsr_pruned_4.onnx,1.0,9.059455871582031,247104,74461184,12435920896.0
+inf,inf,Projects/final_v2/testResults//14e84056-a15e-42,R38M20BDTME,"{'R38M20BDTME': {'latency': inf, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf, 'error': ""I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 89.495\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 89.241\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 89.48\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 89.635\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 89.644\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 90.686\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 89.489\nI deepvan/run/deepvan_run.cc:137] Average latency (w/o 1 outliers): 89.6461 ms, boundaries: [88.97, 90.37]\n========================================================\n     capability(CPU)        init      warmup     run_avg\n========================================================\ntime          10.000     390.885     908.803      89.646\n\n/tmp/xgen/compiler/generated/deepvan_run ~\n~\n""}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}","I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 89.495
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 89.241
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 89.48
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 89.635
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 89.644
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 90.686
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 89.489
+I deepvan/run/deepvan_run.cc:137] Average latency (w/o 1 outliers): 89.6461 ms, boundaries: [88.97, 90.37]
+========================================================
+     capability(CPU)        init      warmup     run_avg
+========================================================
+time          10.000     390.885     908.803      89.646
+
+/tmp/xgen/compiler/generated/deepvan_run ~
+~
+",R38M20BDTME,vdsr_pruned_4.onnx,Projects/final_v2/vdsr_pruned_4.onnx,0.0,26.460120677947998,247104,74461184,12435920896
+4.623,inf,Projects/final_v2/testResults//476154cc-d88e-43,RF8M21Y9MNR,"{'RF8M21Y9MNR': {'latency': 4.623, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}",,RF8M21Y9MNR,vdsr_pruned_4.onnx,Projects/final_v2/vdsr_pruned_4.onnx,1.0,9.278114795684814,247104,74461184,12435920896.0
+inf,inf,Projects/final_v2/testResults//eae27b32-bba6-4f,RF8M21Y9MNR,"{'RF8M21Y9MNR': {'latency': inf, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf, 'error': ""I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 89.978\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 89.681\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 90.286\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 90.681\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 90.733\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 90.558\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 88.81\nI deepvan/run/deepvan_run.cc:137] Average latency (w/o 2 outliers): 89.9546 ms, boundaries: [88.6985, 91.3905]\n========================================================\n     capability(CPU)        init      warmup     run_avg\n========================================================\ntime          10.000     385.456     926.888      89.955\n\n/tmp/xgen/compiler/generated/deepvan_run ~\n~\n""}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}","I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 89.978
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 89.681
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 90.286
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 90.681
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 90.733
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 90.558
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 88.81
+I deepvan/run/deepvan_run.cc:137] Average latency (w/o 2 outliers): 89.9546 ms, boundaries: [88.6985, 91.3905]
+========================================================
+     capability(CPU)        init      warmup     run_avg
+========================================================
+time          10.000     385.456     926.888      89.955
+
+/tmp/xgen/compiler/generated/deepvan_run ~
+~
+",RF8M21Y9MNR,vdsr_pruned_4.onnx,Projects/final_v2/vdsr_pruned_4.onnx,0.0,26.4143488407135,247104,74461184,12435920896
+8.927,inf,Projects/final_v2/testResults//0d3eb764-7a88-47,R38M20BDTME,"{'R38M20BDTME': {'latency': 8.927, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}",,R38M20BDTME,vdsr_vanilla_4.onnx,Projects/final_v2/vdsr_vanilla_4.onnx,1.0,9.684881925582886,664704,122128384,33413252096.0
+inf,inf,Projects/final_v2/testResults//51c86314-1149-4b,R38M20BDTME,"{'R38M20BDTME': {'latency': inf, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf, 'error': ""I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 203.818\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 204.688\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 203.614\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 203.41\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 204.401\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 204.085\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 204.721\nI deepvan/run/deepvan_run.cc:137] Average latency (w/o 2 outliers): 204.047 ms, boundaries: [202.532, 205.82]\n========================================================\n     capability(CPU)        init      warmup     run_avg\n========================================================\ntime          10.000     413.594    2057.616     204.047\n\n/tmp/xgen/compiler/generated/deepvan_run ~\n~\n""}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}","I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 203.818
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 204.688
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 203.614
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 203.41
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 204.401
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 204.085
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 204.721
+I deepvan/run/deepvan_run.cc:137] Average latency (w/o 2 outliers): 204.047 ms, boundaries: [202.532, 205.82]
+========================================================
+     capability(CPU)        init      warmup     run_avg
+========================================================
+time          10.000     413.594    2057.616     204.047
+
+/tmp/xgen/compiler/generated/deepvan_run ~
+~
+",R38M20BDTME,vdsr_vanilla_4.onnx,Projects/final_v2/vdsr_vanilla_4.onnx,0.0,31.709373235702515,664704,122128384,33413252096
+8.955,inf,Projects/final_v2/testResults//3f9781e9-def8-40,RF8M21Y9MNR,"{'RF8M21Y9MNR': {'latency': 8.955, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}",,RF8M21Y9MNR,vdsr_vanilla_4.onnx,Projects/final_v2/vdsr_vanilla_4.onnx,1.0,9.554705619812012,664704,122128384,33413252096.0
+inf,inf,Projects/final_v2/testResults//ac30999e-0b94-44,RF8M21Y9MNR,"{'RF8M21Y9MNR': {'latency': inf, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf, 'error': ""I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 204.514\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 204.777\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 204.175\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 204.604\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 204.992\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 205.457\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 204.87\nI deepvan/run/deepvan_run.cc:137] Average latency (w/o 2 outliers): 204.961 ms, boundaries: [203.36, 206.608]\n========================================================\n     capability(CPU)        init      warmup     run_avg\n========================================================\ntime          10.000     422.363    2063.003     204.961\n\n/tmp/xgen/compiler/generated/deepvan_run ~\n~\n""}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}","I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 204.514
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 204.777
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 204.175
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 204.604
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 204.992
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 205.457
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 204.87
+I deepvan/run/deepvan_run.cc:137] Average latency (w/o 2 outliers): 204.961 ms, boundaries: [203.36, 206.608]
+========================================================
+     capability(CPU)        init      warmup     run_avg
+========================================================
+time          10.000     422.363    2063.003     204.961
+
+/tmp/xgen/compiler/generated/deepvan_run ~
+~
+",RF8M21Y9MNR,vdsr_vanilla_4.onnx,Projects/final_v2/vdsr_vanilla_4.onnx,0.0,32.21867251396179,664704,122128384,33413252096
+4.602,inf,Projects/final_v2/testResults//0da99f4a-8cc4-4a,R38M20BDTME,"{'R38M20BDTME': {'latency': 4.602, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}",,R38M20BDTME,vdsr_distilled_4.onnx,Projects/final_v2/vdsr_distilled_4.onnx,1.0,9.155663251876831,247104,74461184,12435920896.0
+inf,inf,Projects/final_v2/testResults//33f4fda2-ac11-42,R38M20BDTME,"{'R38M20BDTME': {'latency': inf, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf, 'error': ""I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 89.7\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 89.577\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 89.424\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 89.493\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 89.745\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 90.329\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 89.734\nI deepvan/run/deepvan_run.cc:137] Average latency (w/o 1 outliers): 89.3089 ms, boundaries: [86.9225, 91.5505]\n========================================================\n     capability(CPU)        init      warmup     run_avg\n========================================================\ntime          10.000     396.260     911.062      89.309\n\n/tmp/xgen/compiler/generated/deepvan_run ~\n~\n""}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}","I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 89.7
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 89.577
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 89.424
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 89.493
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 89.745
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 90.329
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 89.734
+I deepvan/run/deepvan_run.cc:137] Average latency (w/o 1 outliers): 89.3089 ms, boundaries: [86.9225, 91.5505]
+========================================================
+     capability(CPU)        init      warmup     run_avg
+========================================================
+time          10.000     396.260     911.062      89.309
+
+/tmp/xgen/compiler/generated/deepvan_run ~
+~
+",R38M20BDTME,vdsr_distilled_4.onnx,Projects/final_v2/vdsr_distilled_4.onnx,0.0,26.528671503067017,247104,74461184,12435920896
+4.596,inf,Projects/final_v2/testResults//f9f6c647-0308-4b,RF8M21Y9MNR,"{'RF8M21Y9MNR': {'latency': 4.596, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}",,RF8M21Y9MNR,vdsr_distilled_4.onnx,Projects/final_v2/vdsr_distilled_4.onnx,1.0,9.189322710037231,247104,74461184,12435920896.0
+inf,inf,Projects/final_v2/testResults//5ee609b3-7e70-4c,RF8M21Y9MNR,"{'RF8M21Y9MNR': {'latency': inf, 'faster': 'onnx', 'slower': 'fallback', 'slower-latency': inf, 'error': ""I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 90.726\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 89.951\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 89.676\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 90.172\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 90.078\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 90.54\nI deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0\nI deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0\nI deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 89.018\nI deepvan/run/deepvan_run.cc:137] Average latency (w/o 0 outliers): 90.0578 ms, boundaries: [88.807, 91.231]\n========================================================\n     capability(CPU)        init      warmup     run_avg\n========================================================\ntime          10.000     385.246     934.066      90.058\n\n/tmp/xgen/compiler/generated/deepvan_run ~\n~\n""}}","{'data': [64, 1, 28, 28]}","{'output': [64, 1, 28, 28]}","I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 34, total(ms): 90.726
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 35, total(ms): 89.951
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 36, total(ms): 89.676
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 37, total(ms): 90.172
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 38, total(ms): 90.078
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 39, total(ms): 90.54
+I deepvan/run/deepvan_run.cc:1234] Use input data's buffer for tensor serving_default_data_nchw:0
+I deepvan/run/deepvan_run.cc:1255] Use output output's buffer for tensor PartitionedCall:0
+I deepvan/run/deepvan_run.cc:1137] Run round: 40, total(ms): 89.018
+I deepvan/run/deepvan_run.cc:137] Average latency (w/o 0 outliers): 90.0578 ms, boundaries: [88.807, 91.231]
+========================================================
+     capability(CPU)        init      warmup     run_avg
+========================================================
+time          10.000     385.246     934.066      90.058
+
+/tmp/xgen/compiler/generated/deepvan_run ~
+~
+",RF8M21Y9MNR,vdsr_distilled_4.onnx,Projects/final_v2/vdsr_distilled_4.onnx,0.0,26.26244878768921,247104,74461184,12435920896
