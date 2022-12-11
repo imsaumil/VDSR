@@ -15,15 +15,9 @@
 from math import sqrt
 import argparse
 import nni
-import torch
-import torch.nn as nn
-import config
-from torchvision import datasets, transforms
-from torchsummary import summary
+import os
+from torch.utils.tensorboard import SummaryWriter
 from train import *
-
-from dataset import CUDAPrefetcher
-from dataset import TrainValidImageDataset, TestImageDataset
 
 
 class ConvReLU(nn.Module):
@@ -80,7 +74,6 @@ class VDSR(nn.Module):
             if isinstance(module, nn.Conv2d):
                 module.weight.data.normal_(0.0, sqrt(
                     2 / (module.kernel_size[0] * module.kernel_size[1] * module.out_channels)))
-
 
 
 if __name__ == '__main__':
@@ -190,7 +183,6 @@ if __name__ == '__main__':
     # Training, validation and reporting accuracy to NNI
     # Initialize training to generate network evaluation indicators
     best_psnr = 0.0
-    perf_HPO = True
 
     for epoch in range(0, params['epochs']):
         train(model, train_prefetcher, psnr_criterion, pixel_criterion, optimizer, epoch, scaler, writer)
@@ -199,36 +191,10 @@ if __name__ == '__main__':
         print("\n")
 
         # Reporting intermediate psnr to nni
-        if perf_HPO:
-            nni.report_intermediate_result(psnr)
+        nni.report_intermediate_result(psnr)
 
         # Update lr
         scheduler.step()
 
-        # Automatically save the model with the highest index
-        # is_best = psnr > best_psnr
-        # best_psnr = max(psnr, best_psnr)
-
-        # torch.save({"epoch": epoch + 1,
-        #             "best_psnr": best_psnr,
-        #             "state_dict": model.state_dict(),
-        #             "optimizer": optimizer.state_dict(),
-        #             "scheduler": scheduler.state_dict()},
-        #            os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"))
-
-        # if is_best:
-        #     shutil.copyfile(os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"), os.path.join(results_dir, "best.pth.tar"))
-
-        # if (epoch + 1) == config.epochs:
-        #     shutil.copyfile(os.path.join(samples_dir, f"epoch_{epoch + 1}.pth.tar"), os.path.join(results_dir, "last.pth.tar"))
-
     # Reporting final results
-    if perf_HPO:
-        nni.report_final_result(psnr)
-
-    print("Finish !")
-
-
-
-
-
+    nni.report_final_result(psnr)
