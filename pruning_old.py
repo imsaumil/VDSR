@@ -8,8 +8,8 @@ from train import *
 
 import os
 import utils
-
-epochs = 10
+import os
+from torch.utils.tensorboard import SummaryWriter
 
 # class DistillKL(nn.Module):
 #     """Distilling the Knowledge in a Neural Network"""
@@ -194,7 +194,7 @@ if __name__ == '__main__':
         'op_types': ['Conv2d']
     }, {
         'exclude': True,
-        'op_names': ['conv1', 'conv2']
+        'op_names': ['conv1.0', 'conv2']
     }]
 
     # Wrapping the network with pruner
@@ -240,7 +240,8 @@ if __name__ == '__main__':
 
     print("\nPerforming distillation...\n")
 
-    teacher_model = torch.load(unpruned_model_path, map_location=config.device)
+    # teacher_model = torch.load(unpruned_model_path, map_location=config.device)
+    teacher_model = torch.load(vanilla_model_path, map_location=config.device)
     student_model = torch.load(pruned_model_path, map_location=config.device)
 
     models = [student_model, teacher_model]

@@ -14,3 +14,4 @@ conda activate env2
 cd /jet/home/jshah2/VDSR/
 # nnictl view
 python3 pruning.py
+python3 distillation.py
