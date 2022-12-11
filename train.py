@@ -12,8 +12,6 @@
 # limitations under the License.
 # ============================================================================
 """File description: Realize the model training function."""
-import os
-import shutil
 import time
 from enum import Enum
 
@@ -23,7 +21,6 @@ from torch import optim
 from torch.cuda import amp
 from torch.optim import lr_scheduler
 from torch.utils.data import DataLoader
-from torch.utils.tensorboard import SummaryWriter
 
 import config
 from dataset import CUDAPrefetcher
@@ -283,4 +280,3 @@ class ProgressMeter(object):
         num_digits = len(str(num_batches // 1))
         fmt = "{:" + str(num_digits) + "d}"
         return "[" + fmt + "/" + fmt.format(num_batches) + "]"
-
