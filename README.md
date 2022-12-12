@@ -1,104 +1,58 @@
-# VDSR-PyTorch
+# Super resolution on mobile devices
 
-### Overview
+## Contributors
 
-This repository contains an op-for-op PyTorch reimplementation of [Accurate Image Super-Resolution Using Very Deep Convolutional Networks](https://arxiv.org/abs/1511.04587).
+* Jinam Shah
+* Saumil Shah
+  
+## Repository Layout
 
-### Table of contents
+All the files are present in the parent folder. The models that we generated at each step (vanilla model, unpruned model with optimal parameters, pruned model and the model with knowledge distilled) are present in the `generated_models` folder. Log files for all our experiments are present in the `logs` folder.
 
-- [VDSR-PyTorch](#vdsr-pytorch)
-    - [Overview](#overview)
-    - [Table of contents](#table-of-contents)
-    - [About Accurate Image Super-Resolution Using Very Deep Convolutional Networks](#about-accelerating-the-super-resolution-convolutional-neural-network)
-    - [Download weights](#download-weights)
-    - [Download datasets](#download-datasets)
-    - [Test](#test)
-    - [Train](#train)
-    - [Result](#result)
-    - [Credit](#credit)
-        - [Accelerating the Super-Resolution Convolutional Neural Network](#accurate-image-super-resolution-using-very-deep-convolutional-networks)
+Please refer to the `onnx_latency3.csv` and `complete_experiment_v5.out` log files for our final experiment results.
 
-## About Accelerating the Super-Resolution Convolutional Neural Network
+The dataset used for these experiments in the div2k dataset. The dataset is present on our google drive [(link)](https://drive.google.com/drive/u/0/folders/0AFsxkLu_BbZoUk9PVA) and access for it can be shared if requested.
 
-If you're new to VDSR, here's an abstract straight from the paper:
+## VDSR model
 
-We present a highly accurate single-image superresolution (SR) method. Our method uses a very deep convolutional network inspired by VGG-net used for
-ImageNet classification. We find increasing our network depth shows a significant improvement in accuracy. Our finalmodel uses 20 weight layers. By
-cascading small filters many times in a deep network structure, contextual information over large image regions is exploited in an efficient way. With
-very deep networks, however, convergence speed becomes a critical issue during training. We propose a simple yet effective training procedure. We
-learn residuals onlyb and use extremely high learning rates
-(104 times higher than SRCNN) enabled by adjustable gradient clipping. Our proposed method performs better than existing methods in accuracy and
-visual improvements in our results are easily noticeable.
+For the VDSR model, there are a few model optimization techniques that we tried. Namely, pruning, distillation and hyper-parameter optimization.
 
-## Download weights
+## Execution
 
-- [Google Driver](https://drive.google.com/drive/folders/17ju2HN7Y6pyPK2CC_AqnAfTOe9_3hCQ8?usp=sharing)
-- [Baidu Driver](https://pan.baidu.com/s/1yNs4rqIb004-NKEdKBJtYg?pwd=llot)
+> Note: The scripts can be run directly using bash or slurm job manager.
 
-## Download datasets
+For evaluating the project, a few steps will need to be taken.
 
-Contains T91, Set5, Set14, BSDS100 and BSDS200, etc.
+**Dataset generation**
 
-- [Google Driver](https://drive.google.com/drive/folders/1A6lzGeQrFMxPqJehK9s37ce-tPDj20mD?usp=sharing)
-- [Baidu Driver](https://pan.baidu.com/s/1o-8Ty_7q6DiS3ykLU09IVg?pwd=llot)
+First, using the `dataset_runner.sh` script, generate the low-resolution/high-resolution pairs for training the model. Changes will need to be made to the script to work following the dataset's location.
 
-## Test
+Once this is done, take a subset of 2000 training image pairs to perform hyper-parameter optimization (HPO) and a subset of 20000 images for training the optimal model.
 
-Modify the contents of the file as follows.
+**Hyper parameter optimization**
 
-- line 30: `upscale_factor` change to the magnification you need to enlarge.
-- line 32: `mode` change Set to valid mode.
-- line 65: `model_path` change weight address after training.
+Once the data subset for HPO is ready, define the data paths in `config.py` and run the `hpo_runner.sh` script.
 
-## Train
+**Model pruning and knowledge distillation**
 
-Modify the contents of the file as follows.
+The optimal parameters can be identified using the NNI WebUI and once that is done, add them to the `params` variable in the `pruning.py` and `distillation.py` files.
 
-- line 30: `upscale_factor` change to the magnification you need to enlarge.
-- line 32: `mode` change Set to train mode.
+Finally, use the `train_runner.sh` shell script to run both model pruning and distillation.
 
-If you want to load weights that you've trained before, modify the contents of the file as follows.
+Following the aforementioned steps, the models from each stage will be added to the `generated_models` folder.
 
-- line 47: `start_epoch` change number of training iterations in the previous round.
-- line 48: `resume` change weight address that needs to be loaded.
+**XGen**
 
-## Result
+The steps to perform xgen compatibility test and the onnx latency check on android devices is provided by Dr. Shen [(link)](https://docs.google.com/document/d/1guld2E_q42j7scS2lIHnSwJW8pGnTwW1xgOK_QAdi88/edit).
 
-Source of original paper results: https://arxiv.org/pdf/1511.04587.pdf
+We perform the xgen checks on the server provided by Dr. Shen and on the generated onnx models. 
 
-In the following table, the value in `()` indicates the result of the project, and `-` indicates no test.
 
-| Dataset | Scale |       PSNR       |
-|:-------:|:-----:|:----------------:|
-|  Set5   |   2   | 37.53(**37.41**) |
-|  Set5   |   3   | 33.66(**33.44**) |
-|  Set5   |   4   | 31.35(**31.05**) |
+## Results
 
-Low Resolution / Super Resolution / High Resolution
-<span align="center"><img src="assets/result.png"/></span>
-
-### Credit
-
-#### Accurate Image Super-Resolution Using Very Deep Convolutional Networks
-
-_Jiwon Kim, Jung Kwon Lee, Kyoung Mu Lee_ <br>
-
-**Abstract** <br>
-We present a highly accurate single-image superresolution (SR) method. Our method uses a very deep convolutional network inspired by VGG-net used for
-ImageNet classification. We find increasing our network depth shows a significant improvement in accuracy. Our finalmodel uses 20 weight layers. By
-cascading small filters many times in a deep network structure, contextual information over large image regions is exploited in an efficient way. With
-very deep networks, however, convergence speed becomes a critical issue during training. We propose a simple yet effective training procedure. We
-learn residuals onlyb and use extremely high learning rates
-(104 times higher than SRCNN) enabled by adjustable gradient clipping. Our proposed method performs better than existing methods in accuracy and
-visual improvements in our results are easily noticeable.
-
-[[Paper]](https://arxiv.org/pdf/1511.04587) [[Author's implements(MATLAB)]](https://cv.snu.ac.kr/research/VDSR/VDSR_code.zip)
-
-```
-@inproceedings{vedaldi15matconvnet,
-  author    = {A. Vedaldi and K. Lenc},
-  title     = {MatConvNet -- Convolutional Neural Networks for MATLAB},
-  booktitle = {Proceeding of the {ACM} Int. Conf. on Multimedia},
-  year      = {2015},
-}
-```
+| Model | Stage	Quality (PSNR)	| Speed (RF8M21Y9MNR device) | Speed (R38M20BDTME device) | Size (KB) |
+| ---- | ---- | ---- | ---- | ---- |
+| Original Unpruned model | 31.05913811 | 204.961 | 204.047 | 2700 |
+| Optimal HPO model	| 29.87049103 | 204.928 | 204.578 | 2700 |
+| FPGMPruned model | 28.4406353 | 89.955 | 89.646 | 996 |
+| Knowledge Distilled Pruned model | 28.44063911 | 90.058 | 89.309 | 996 |

@@ -40,31 +40,28 @@ exp_name = "vdsr_baseline"
 
 if mode == "train":
     # Dataset
-    # train_image_dir = os.path.join('data', 'DIV2K', 'train')
-    # valid_image_dir = os.path.join('data', 'DIV2K', 'valid')
-    train_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/train_hpo'
-    valid_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/valid_hpo'
+    # train_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/train_hpo'
+    # valid_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/valid_hpo'
+
+    # Dataset for training
+    train_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/train_subset'
+    valid_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/valid_subset'
+    
     test_image_dir = '/ocean/projects/cis220070p/jshah2/Set5/GTmod12'
-    # test_image_dir = os.path.join('data', 'Set5')
 
     image_size = 41
-    # batch_size = 16
     num_workers = 4
 
     # Incremental training and migration training
     start_epoch = 0
     resume = ""
 
-    # Total num epochs
-    # epochs = 10
-
     # SGD optimizer parameter
-    # model_lr = 0.1
-    # model_momentum = 0.9
     model_weight_decay = 1e-4
     model_nesterov = False
 
     # StepLR scheduler parameter
+    epochs = 100
     lr_scheduler_step_size = epochs // 4
     lr_scheduler_gamma = 0.1
 
@@ -72,10 +69,3 @@ if mode == "train":
     clip_gradient = 0.01
 
     print_frequency = 200
-
-# if mode == "valid":
-    # Test data address
-    # sr_dir = os.path.join('results', 'test', '{}'.format(exp_name))
-    # hr_dir = os.path.join('data', 'Set5')
-
-    # model_path = os.path.join('results', '{}'.format(exp_name), 'best.pth.tar')
