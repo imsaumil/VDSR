@@ -13,7 +13,6 @@ def fine_tune(models, optimizer, kd_temperature, train_prefetcher,scaler):
     
     # Put the generator in training mode
     batches = len(train_prefetcher)
-   
 
     batch_index = 0
 
