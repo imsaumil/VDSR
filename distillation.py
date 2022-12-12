@@ -10,9 +10,10 @@ def fine_tune(models, optimizer, kd_temperature, train_prefetcher,scaler):
     # scaler = amp.GradScaler()
     # cri_cls = criterion
     # cri_kd = DistillKL(kd_temperature)
-
-    batches = len(train_prefetcher)
+    
     # Put the generator in training mode
+    batches = len(train_prefetcher)
+   
 
     batch_index = 0
 
