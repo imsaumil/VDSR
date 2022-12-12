@@ -1,5 +1,5 @@
 # Importing required libraries
-from nni.compression.pytorch.pruning import FPGMPruner
+from nni.compression.pytorch.pruning import FPGMPruner, LevelPruner
 from nni.compression.pytorch.speedup import ModelSpeedup
 from torch.utils.tensorboard import SummaryWriter
 
@@ -132,8 +132,8 @@ if __name__ == '__main__':
     }]
 
     # Wrapping the network with pruner
-    pruner = FPGMPruner(model, configuration_list)
-    print("PRUNER WRAPPED MODEL WITH {}: \n\n".format("FPGMPruner"), model, "\n\n")
+    pruner = LevelPruner(model, configuration_list)
+    print("PRUNER WRAPPED MODEL WITH {}: \n\n".format("LevelPruner"), model, "\n\n")
 
     # Next, compressing the model and generating masks
     _, masks = pruner.compress()
@@ -146,7 +146,7 @@ if __name__ == '__main__':
 
     ModelSpeedup(model, dummy_input.to(config.device), masks).speedup_model()
 
-    print("\nPRUNED MODEL WITH {}: \n\n".format("FPGMPruner"), model, "\n\n")
+    print("\nPRUNED MODEL WITH {}: \n\n".format("LevelPruner"), model, "\n\n")
 
     # Starting time for pruned model
     start_time = time.time()
