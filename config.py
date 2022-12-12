@@ -40,8 +40,13 @@ exp_name = "vdsr_baseline"
 
 if mode == "train":
     # Dataset
-    train_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/train_hpo'
-    valid_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/valid_hpo'
+    # train_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/train_hpo'
+    # valid_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/valid_hpo'
+
+    # Dataset for training
+    train_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/train_subset'
+    valid_image_dir = '/ocean/projects/cis220070p/jshah2/div2k/valid_subset'
+    
     test_image_dir = '/ocean/projects/cis220070p/jshah2/Set5/GTmod12'
 
     image_size = 41
@@ -56,6 +61,7 @@ if mode == "train":
     model_nesterov = False
 
     # StepLR scheduler parameter
+    epochs = 100
     lr_scheduler_step_size = epochs // 4
     lr_scheduler_gamma = 0.1
 
