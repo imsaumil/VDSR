@@ -1,0 +1,2102 @@
+Read lr dataset into memory:   0%|          | 0/20000 [00:00<?, ?image/s]Read lr dataset into memory:   0%|          | 4/20000 [00:00<09:18, 35.81image/s]Read lr dataset into memory:   0%|          | 15/20000 [00:00<04:47, 69.47image/s]Read lr dataset into memory:   0%|          | 24/20000 [00:00<04:29, 74.12image/s]Read lr dataset into memory:   0%|          | 32/20000 [00:00<04:51, 68.42image/s]Read lr dataset into memory:   0%|          | 39/20000 [00:00<05:17, 62.94image/s]Read lr dataset into memory:   0%|          | 57/20000 [00:00<03:28, 95.79image/s]Read lr dataset into memory:   0%|          | 68/20000 [00:00<04:56, 67.23image/s]Read lr dataset into memory:   0%|          | 77/20000 [00:01<04:36, 72.06image/s]Read lr dataset into memory:   0%|          | 91/20000 [00:01<03:47, 87.56image/s]Read lr dataset into memory:   1%|          | 101/20000 [00:01<04:50, 68.40image/s]Read lr dataset into memory:   1%|          | 110/20000 [00:01<06:05, 54.39image/s]Read lr dataset into memory:   1%|          | 120/20000 [00:01<05:18, 62.44image/s]Read lr dataset into memory:   1%|          | 128/20000 [00:01<05:53, 56.20image/s]Read lr dataset into memory:   1%|          | 136/20000 [00:02<05:37, 58.91image/s]Read lr dataset into memory:   1%|          | 150/20000 [00:02<04:19, 76.52image/s]Read lr dataset into memory:   1%|          | 161/20000 [00:02<03:55, 84.16image/s]Read lr dataset into memory:   1%|          | 171/20000 [00:02<03:49, 86.40image/s]Read lr dataset into memory:   1%|          | 186/20000 [00:02<03:16, 100.99image/s]Read lr dataset into memory:   1%|          | 198/20000 [00:02<03:06, 105.99image/s]Read lr dataset into memory:   1%|          | 210/20000 [00:02<03:32, 93.18image/s] Read lr dataset into memory:   1%|          | 220/20000 [00:02<04:17, 76.80image/s]Read lr dataset into memory:   1%|          | 239/20000 [00:03<03:15, 100.95image/s]Read lr dataset into memory:   1%|▏         | 251/20000 [00:03<03:15, 101.25image/s]Read lr dataset into memory:   1%|▏         | 278/20000 [00:03<02:19, 140.90image/s]Read lr dataset into memory:   1%|▏         | 296/20000 [00:03<02:14, 146.24image/s]Read lr dataset into memory:   2%|▏         | 325/20000 [00:03<01:46, 184.07image/s]Read lr dataset into memory:   2%|▏         | 352/20000 [00:03<01:40, 195.03image/s]Read lr dataset into memory:   2%|▏         | 388/20000 [00:03<01:27, 223.49image/s]Read lr dataset into memory:   2%|▏         | 416/20000 [00:03<01:22, 237.89image/s]Read lr dataset into memory:   2%|▏         | 456/20000 [00:03<01:12, 270.53image/s]Read lr dataset into memory:   2%|▏         | 484/20000 [00:04<01:12, 269.53image/s]Read lr dataset into memory:   3%|▎         | 512/20000 [00:04<01:35, 203.31image/s]Read lr dataset into memory:   3%|▎         | 535/20000 [00:04<01:34, 204.92image/s]Read lr dataset into memory:   3%|▎         | 558/20000 [00:04<01:36, 201.60image/s]Read lr dataset into memory:   3%|▎         | 591/20000 [00:04<01:26, 223.37image/s]Read lr dataset into memory:   3%|▎         | 615/20000 [00:04<01:29, 216.14image/s]Read lr dataset into memory:   3%|▎         | 638/20000 [00:04<01:52, 172.54image/s]Read lr dataset into memory:   3%|▎         | 671/20000 [00:05<01:34, 204.75image/s]Read lr dataset into memory:   3%|▎         | 694/20000 [00:05<01:52, 171.92image/s]Read lr dataset into memory:   4%|▎         | 714/20000 [00:05<02:22, 135.04image/s]Read lr dataset into memory:   4%|▎         | 735/20000 [00:05<02:12, 145.15image/s]Read lr dataset into memory:   4%|▍         | 752/20000 [00:05<02:11, 146.63image/s]Read lr dataset into memory:   4%|▍         | 770/20000 [00:05<02:05, 153.29image/s]Read lr dataset into memory:   4%|▍         | 789/20000 [00:05<01:58, 161.68image/s]Read lr dataset into memory:   4%|▍         | 828/20000 [00:06<01:32, 206.60image/s]Read lr dataset into memory:   4%|▍         | 861/20000 [00:06<01:21, 236.12image/s]Read lr dataset into memory:   4%|▍         | 886/20000 [00:06<01:24, 225.64image/s]Read lr dataset into memory:   5%|▍         | 931/20000 [00:06<01:07, 284.53image/s]Read lr dataset into memory:   5%|▍         | 961/20000 [00:06<01:09, 273.51image/s]Read lr dataset into memory:   5%|▍         | 990/20000 [00:06<01:08, 275.63image/s]Read lr dataset into memory:   5%|▌         | 1023/20000 [00:06<01:07, 282.54image/s]Read lr dataset into memory:   5%|▌         | 1052/20000 [00:06<01:35, 198.16image/s]Read lr dataset into memory:   6%|▌         | 1104/20000 [00:07<01:11, 266.04image/s]Read lr dataset into memory:   6%|▌         | 1136/20000 [00:07<01:32, 203.51image/s]Read lr dataset into memory:   6%|▌         | 1192/20000 [00:07<01:08, 273.20image/s]Read lr dataset into memory:   6%|▌         | 1231/20000 [00:07<01:02, 298.77image/s]Read lr dataset into memory:   6%|▋         | 1271/20000 [00:07<00:58, 322.87image/s]Read lr dataset into memory:   7%|▋         | 1314/20000 [00:07<00:53, 349.05image/s]Read lr dataset into memory:   7%|▋         | 1353/20000 [00:07<00:59, 315.26image/s]Read lr dataset into memory:   7%|▋         | 1391/20000 [00:08<00:57, 321.24image/s]Read lr dataset into memory:   7%|▋         | 1426/20000 [00:08<01:07, 273.61image/s]Read lr dataset into memory:   7%|▋         | 1457/20000 [00:08<01:19, 234.60image/s]Read lr dataset into memory:   7%|▋         | 1483/20000 [00:08<01:18, 237.05image/s]Read lr dataset into memory:   8%|▊         | 1509/20000 [00:08<01:27, 211.25image/s]Read lr dataset into memory:   8%|▊         | 1537/20000 [00:08<01:47, 172.35image/s]Read lr dataset into memory:   8%|▊         | 1577/20000 [00:08<01:24, 217.10image/s]Read lr dataset into memory:   8%|▊         | 1603/20000 [00:09<01:55, 159.74image/s]Read lr dataset into memory:   8%|▊         | 1624/20000 [00:09<02:41, 113.58image/s]Read lr dataset into memory:   8%|▊         | 1641/20000 [00:09<03:09, 97.13image/s] Read lr dataset into memory:   8%|▊         | 1679/20000 [00:10<02:13, 137.53image/s]Read lr dataset into memory:   9%|▊         | 1720/20000 [00:10<01:41, 180.60image/s]Read lr dataset into memory:   9%|▉         | 1767/20000 [00:10<01:17, 235.13image/s]Read lr dataset into memory:   9%|▉         | 1815/20000 [00:10<01:04, 281.19image/s]Read lr dataset into memory:   9%|▉         | 1850/20000 [00:10<01:01, 292.96image/s]Read lr dataset into memory:   9%|▉         | 1885/20000 [00:10<01:02, 291.41image/s]Read lr dataset into memory:  10%|▉         | 1918/20000 [00:10<01:47, 168.40image/s]Read lr dataset into memory:  10%|▉         | 1970/20000 [00:11<01:21, 222.12image/s]Read lr dataset into memory:  10%|█         | 2002/20000 [00:11<01:16, 233.86image/s]Read lr dataset into memory:  10%|█         | 2033/20000 [00:11<01:24, 211.90image/s]Read lr dataset into memory:  10%|█         | 2060/20000 [00:11<01:20, 222.37image/s]Read lr dataset into memory:  11%|█         | 2124/20000 [00:11<00:56, 314.78image/s]Read lr dataset into memory:  11%|█         | 2177/20000 [00:11<00:49, 362.71image/s]Read lr dataset into memory:  11%|█         | 2237/20000 [00:11<00:42, 421.60image/s]Read lr dataset into memory:  11%|█▏        | 2293/20000 [00:11<00:41, 428.24image/s]Read lr dataset into memory:  12%|█▏        | 2340/20000 [00:12<00:43, 407.00image/s]Read lr dataset into memory:  12%|█▏        | 2384/20000 [00:12<00:58, 301.80image/s]Read lr dataset into memory:  12%|█▏        | 2420/20000 [00:12<01:24, 207.50image/s]Read lr dataset into memory:  12%|█▏        | 2448/20000 [00:12<01:43, 168.88image/s]Read lr dataset into memory:  12%|█▏        | 2471/20000 [00:13<02:05, 139.64image/s]Read lr dataset into memory:  13%|█▎        | 2511/20000 [00:13<01:39, 175.79image/s]Read lr dataset into memory:  13%|█▎        | 2541/20000 [00:13<01:39, 175.02image/s]Read lr dataset into memory:  13%|█▎        | 2563/20000 [00:13<01:48, 160.86image/s]Read lr dataset into memory:  13%|█▎        | 2583/20000 [00:13<02:23, 121.27image/s]Read lr dataset into memory:  13%|█▎        | 2618/20000 [00:14<01:51, 155.63image/s]Read lr dataset into memory:  13%|█▎        | 2651/20000 [00:14<01:33, 185.16image/s]Read lr dataset into memory:  14%|█▎        | 2712/20000 [00:14<01:04, 267.74image/s]Read lr dataset into memory:  14%|█▎        | 2748/20000 [00:14<01:01, 282.26image/s]Read lr dataset into memory:  14%|█▍        | 2787/20000 [00:14<00:55, 307.45image/s]Read lr dataset into memory:  14%|█▍        | 2822/20000 [00:14<01:41, 169.37image/s]Read lr dataset into memory:  14%|█▍        | 2880/20000 [00:15<01:12, 235.50image/s]Read lr dataset into memory:  15%|█▍        | 2917/20000 [00:15<01:12, 235.98image/s]Read lr dataset into memory:  15%|█▍        | 2950/20000 [00:15<01:11, 239.40image/s]Read lr dataset into memory:  15%|█▍        | 2981/20000 [00:15<01:07, 253.84image/s]Read lr dataset into memory:  15%|█▌        | 3024/20000 [00:15<00:59, 285.56image/s]Read lr dataset into memory:  15%|█▌        | 3057/20000 [00:15<01:03, 265.99image/s]Read lr dataset into memory:  15%|█▌        | 3089/20000 [00:15<01:01, 274.90image/s]Read lr dataset into memory:  16%|█▌        | 3128/20000 [00:15<00:55, 303.28image/s]Read lr dataset into memory:  16%|█▌        | 3167/20000 [00:16<00:51, 325.46image/s]Read lr dataset into memory:  16%|█▌        | 3202/20000 [00:16<00:55, 301.36image/s]Read lr dataset into memory:  16%|█▌        | 3234/20000 [00:16<01:24, 199.48image/s]Read lr dataset into memory:  16%|█▋        | 3287/20000 [00:16<01:03, 261.50image/s]Read lr dataset into memory:  17%|█▋        | 3327/20000 [00:16<00:58, 286.36image/s]Read lr dataset into memory:  17%|█▋        | 3362/20000 [00:16<01:18, 212.58image/s]Read lr dataset into memory:  17%|█▋        | 3390/20000 [00:17<01:16, 218.52image/s]Read lr dataset into memory:  17%|█▋        | 3420/20000 [00:17<01:22, 201.14image/s]Read lr dataset into memory:  17%|█▋        | 3460/20000 [00:17<01:08, 241.45image/s]Read lr dataset into memory:  17%|█▋        | 3489/20000 [00:17<02:10, 126.25image/s]Read lr dataset into memory:  18%|█▊        | 3511/20000 [00:18<01:59, 138.47image/s]Read lr dataset into memory:  18%|█▊        | 3559/20000 [00:18<01:24, 194.33image/s]Read lr dataset into memory:  18%|█▊        | 3602/20000 [00:18<01:08, 238.77image/s]Read lr dataset into memory:  18%|█▊        | 3652/20000 [00:18<00:55, 294.42image/s]Read lr dataset into memory:  19%|█▊        | 3721/20000 [00:18<00:42, 383.96image/s]Read lr dataset into memory:  19%|█▉        | 3768/20000 [00:18<01:26, 187.59image/s]Read lr dataset into memory:  19%|█▉        | 3810/20000 [00:19<01:13, 219.56image/s]Read lr dataset into memory:  19%|█▉        | 3847/20000 [00:19<01:07, 239.44image/s]Read lr dataset into memory:  19%|█▉        | 3883/20000 [00:19<01:12, 223.34image/s]Read lr dataset into memory:  20%|█▉        | 3922/20000 [00:19<01:07, 239.28image/s]Read lr dataset into memory:  20%|█▉        | 3975/20000 [00:19<00:54, 292.73image/s]Read lr dataset into memory:  20%|██        | 4024/20000 [00:19<00:48, 330.93image/s]Read lr dataset into memory:  20%|██        | 4071/20000 [00:19<00:43, 363.72image/s]Read lr dataset into memory:  21%|██        | 4114/20000 [00:19<00:43, 365.22image/s]Read lr dataset into memory:  21%|██        | 4156/20000 [00:20<00:41, 379.17image/s]Read lr dataset into memory:  21%|██        | 4197/20000 [00:20<01:04, 245.77image/s]Read lr dataset into memory:  21%|██        | 4230/20000 [00:20<01:10, 224.99image/s]Read lr dataset into memory:  21%|██▏       | 4258/20000 [00:20<01:09, 226.56image/s]Read lr dataset into memory:  21%|██▏       | 4299/20000 [00:20<00:59, 264.84image/s]Read lr dataset into memory:  22%|██▏       | 4330/20000 [00:20<01:07, 230.59image/s]Read lr dataset into memory:  22%|██▏       | 4357/20000 [00:21<01:06, 234.15image/s]Read lr dataset into memory:  22%|██▏       | 4388/20000 [00:21<01:02, 249.44image/s]Read lr dataset into memory:  22%|██▏       | 4427/20000 [00:21<00:59, 259.80image/s]Read lr dataset into memory:  22%|██▏       | 4455/20000 [00:21<01:30, 172.24image/s]Read lr dataset into memory:  22%|██▏       | 4477/20000 [00:21<01:49, 141.95image/s]Read lr dataset into memory:  23%|██▎       | 4525/20000 [00:21<01:17, 199.63image/s]Read lr dataset into memory:  23%|██▎       | 4570/20000 [00:22<01:02, 248.68image/s]Read lr dataset into memory:  23%|██▎       | 4609/20000 [00:22<00:55, 275.42image/s]Read lr dataset into memory:  23%|██▎       | 4643/20000 [00:22<01:09, 220.99image/s]Read lr dataset into memory:  23%|██▎       | 4673/20000 [00:22<01:06, 228.83image/s]Read lr dataset into memory:  24%|██▎       | 4701/20000 [00:22<01:22, 185.45image/s]Read lr dataset into memory:  24%|██▍       | 4752/20000 [00:22<01:01, 248.66image/s]Read lr dataset into memory:  24%|██▍       | 4784/20000 [00:22<00:59, 254.94image/s]Read lr dataset into memory:  24%|██▍       | 4837/20000 [00:23<00:47, 318.43image/s]Read lr dataset into memory:  24%|██▍       | 4893/20000 [00:23<00:55, 273.85image/s]Read lr dataset into memory:  25%|██▍       | 4943/20000 [00:23<00:47, 319.33image/s]Read lr dataset into memory:  25%|██▍       | 4981/20000 [00:23<00:45, 332.48image/s]Read lr dataset into memory:  25%|██▌       | 5029/20000 [00:23<00:40, 367.86image/s]Read lr dataset into memory:  25%|██▌       | 5070/20000 [00:23<00:41, 363.63image/s]Read lr dataset into memory:  26%|██▌       | 5110/20000 [00:23<00:40, 370.31image/s]Read lr dataset into memory:  26%|██▌       | 5175/20000 [00:23<00:33, 436.79image/s]Read lr dataset into memory:  26%|██▌       | 5232/20000 [00:24<00:31, 464.83image/s]Read lr dataset into memory:  26%|██▋       | 5280/20000 [00:24<00:46, 319.88image/s]Read lr dataset into memory:  27%|██▋       | 5326/20000 [00:24<00:54, 269.29image/s]Read lr dataset into memory:  27%|██▋       | 5359/20000 [00:24<00:52, 278.15image/s]Read lr dataset into memory:  27%|██▋       | 5392/20000 [00:25<01:20, 180.95image/s]Read lr dataset into memory:  27%|██▋       | 5430/20000 [00:25<01:10, 206.37image/s]Read lr dataset into memory:  27%|██▋       | 5458/20000 [00:25<01:25, 170.21image/s]Read lr dataset into memory:  27%|██▋       | 5494/20000 [00:25<01:11, 201.76image/s]Read lr dataset into memory:  28%|██▊       | 5521/20000 [00:25<01:08, 210.92image/s]Read lr dataset into memory:  28%|██▊       | 5547/20000 [00:25<01:17, 187.11image/s]Read lr dataset into memory:  28%|██▊       | 5570/20000 [00:26<01:25, 169.63image/s]Read lr dataset into memory:  28%|██▊       | 5625/20000 [00:26<00:59, 242.52image/s]Read lr dataset into memory:  28%|██▊       | 5687/20000 [00:26<00:43, 325.48image/s]Read lr dataset into memory:  29%|██▉       | 5752/20000 [00:26<00:36, 389.21image/s]Read lr dataset into memory:  29%|██▉       | 5825/20000 [00:26<00:29, 473.05image/s]Read lr dataset into memory:  29%|██▉       | 5878/20000 [00:26<00:35, 402.60image/s]Read lr dataset into memory:  30%|██▉       | 5924/20000 [00:27<00:55, 251.97image/s]Read lr dataset into memory:  30%|██▉       | 5975/20000 [00:27<00:47, 294.93image/s]Read lr dataset into memory:  30%|███       | 6015/20000 [00:27<00:53, 260.43image/s]Read lr dataset into memory:  30%|███       | 6053/20000 [00:27<00:50, 276.35image/s]Read lr dataset into memory:  31%|███       | 6106/20000 [00:27<00:43, 320.71image/s]Read lr dataset into memory:  31%|███       | 6150/20000 [00:27<00:41, 337.69image/s]Read lr dataset into memory:  31%|███       | 6200/20000 [00:27<00:37, 369.80image/s]Read lr dataset into memory:  31%|███▏      | 6273/20000 [00:27<00:29, 458.76image/s]Read lr dataset into memory:  32%|███▏      | 6326/20000 [00:27<00:28, 477.01image/s]Read lr dataset into memory:  32%|███▏      | 6377/20000 [00:28<00:28, 470.83image/s]Read lr dataset into memory:  32%|███▏      | 6427/20000 [00:28<00:40, 335.99image/s]Read lr dataset into memory:  32%|███▏      | 6468/20000 [00:28<00:49, 272.62image/s]Read lr dataset into memory:  33%|███▎      | 6502/20000 [00:28<00:47, 282.01image/s]Read lr dataset into memory:  33%|███▎      | 6536/20000 [00:28<01:00, 221.28image/s]Read lr dataset into memory:  33%|███▎      | 6564/20000 [00:29<01:01, 218.04image/s]Read lr dataset into memory:  33%|███▎      | 6590/20000 [00:29<01:20, 166.06image/s]Read lr dataset into memory:  33%|███▎      | 6619/20000 [00:29<01:27, 153.14image/s]Read lr dataset into memory:  33%|███▎      | 6642/20000 [00:29<01:20, 166.01image/s]Read lr dataset into memory:  33%|███▎      | 6662/20000 [00:29<01:48, 123.36image/s]Read lr dataset into memory:  34%|███▎      | 6731/20000 [00:30<01:01, 214.32image/s]Read lr dataset into memory:  34%|███▍      | 6762/20000 [00:30<01:01, 215.79image/s]Read lr dataset into memory:  34%|███▍      | 6810/20000 [00:30<00:49, 266.26image/s]Read lr dataset into memory:  34%|███▍      | 6848/20000 [00:30<00:45, 286.05image/s]Read lr dataset into memory:  34%|███▍      | 6882/20000 [00:30<00:59, 219.69image/s]Read lr dataset into memory:  35%|███▍      | 6910/20000 [00:30<01:19, 164.80image/s]Read lr dataset into memory:  35%|███▍      | 6939/20000 [00:31<01:10, 185.84image/s]Read lr dataset into memory:  35%|███▍      | 6967/20000 [00:31<01:03, 203.97image/s]Read lr dataset into memory:  35%|███▌      | 7011/20000 [00:31<00:50, 254.73image/s]Read lr dataset into memory:  35%|███▌      | 7042/20000 [00:31<00:52, 247.14image/s]Read lr dataset into memory:  35%|███▌      | 7085/20000 [00:31<00:44, 287.23image/s]Read lr dataset into memory:  36%|███▌      | 7118/20000 [00:31<00:52, 247.57image/s]Read lr dataset into memory:  36%|███▌      | 7158/20000 [00:31<00:47, 269.24image/s]Read lr dataset into memory:  36%|███▌      | 7204/20000 [00:31<00:41, 310.51image/s]Read lr dataset into memory:  36%|███▌      | 7238/20000 [00:32<00:41, 306.70image/s]Read lr dataset into memory:  36%|███▋      | 7271/20000 [00:32<01:00, 210.86image/s]Read lr dataset into memory:  36%|███▋      | 7298/20000 [00:32<01:18, 161.82image/s]Read lr dataset into memory:  37%|███▋      | 7349/20000 [00:32<00:57, 218.48image/s]Read lr dataset into memory:  37%|███▋      | 7379/20000 [00:32<01:01, 206.77image/s]Read lr dataset into memory:  37%|███▋      | 7405/20000 [00:33<01:02, 202.36image/s]Read lr dataset into memory:  37%|███▋      | 7434/20000 [00:33<01:06, 190.32image/s]Read lr dataset into memory:  37%|███▋      | 7456/20000 [00:33<01:09, 180.66image/s]Read lr dataset into memory:  37%|███▋      | 7476/20000 [00:33<01:19, 157.64image/s]Read lr dataset into memory:  38%|███▊      | 7533/20000 [00:33<00:51, 239.98image/s]Read lr dataset into memory:  38%|███▊      | 7562/20000 [00:33<00:53, 233.71image/s]Read lr dataset into memory:  38%|███▊      | 7603/20000 [00:33<00:45, 273.81image/s]Read lr dataset into memory:  38%|███▊      | 7638/20000 [00:33<00:42, 292.53image/s]Read lr dataset into memory:  38%|███▊      | 7670/20000 [00:34<00:43, 282.80image/s]Read lr dataset into memory:  39%|███▉      | 7750/20000 [00:34<00:29, 415.76image/s]Read lr dataset into memory:  39%|███▉      | 7808/20000 [00:34<00:27, 451.07image/s]Read lr dataset into memory:  39%|███▉      | 7857/20000 [00:34<00:26, 459.15image/s]Read lr dataset into memory:  40%|███▉      | 7911/20000 [00:34<00:26, 464.92image/s]Read lr dataset into memory:  40%|███▉      | 7959/20000 [00:34<00:36, 325.76image/s]Read lr dataset into memory:  40%|███▉      | 7998/20000 [00:34<00:39, 305.26image/s]Read lr dataset into memory:  40%|████      | 8074/20000 [00:35<00:29, 404.04image/s]Read lr dataset into memory:  41%|████      | 8140/20000 [00:35<00:34, 342.02image/s]Read lr dataset into memory:  41%|████      | 8181/20000 [00:35<00:34, 346.03image/s]Read lr dataset into memory:  41%|████      | 8222/20000 [00:35<00:32, 358.76image/s]Read lr dataset into memory:  41%|████▏     | 8266/20000 [00:35<00:31, 377.13image/s]Read lr dataset into memory:  42%|████▏     | 8307/20000 [00:35<00:32, 359.40image/s]Read lr dataset into memory:  42%|████▏     | 8365/20000 [00:35<00:28, 408.31image/s]Read lr dataset into memory:  42%|████▏     | 8413/20000 [00:35<00:27, 426.62image/s]Read lr dataset into memory:  42%|████▏     | 8461/20000 [00:36<00:26, 440.77image/s]Read lr dataset into memory:  43%|████▎     | 8507/20000 [00:36<00:42, 273.37image/s]Read lr dataset into memory:  43%|████▎     | 8544/20000 [00:36<00:40, 284.62image/s]Read lr dataset into memory:  43%|████▎     | 8580/20000 [00:36<00:45, 250.17image/s]Read lr dataset into memory:  43%|████▎     | 8611/20000 [00:36<00:44, 258.59image/s]Read lr dataset into memory:  43%|████▎     | 8641/20000 [00:37<00:59, 189.72image/s]Read lr dataset into memory:  43%|████▎     | 8665/20000 [00:37<01:02, 180.05image/s]Read lr dataset into memory:  43%|████▎     | 8687/20000 [00:37<01:07, 167.08image/s]Read lr dataset into memory:  44%|████▎     | 8722/20000 [00:37<01:11, 158.81image/s]Read lr dataset into memory:  44%|████▎     | 8740/20000 [00:37<01:09, 161.34image/s]Read lr dataset into memory:  44%|████▍     | 8758/20000 [00:37<01:12, 155.28image/s]Read lr dataset into memory:  44%|████▍     | 8800/20000 [00:37<00:53, 210.25image/s]Read lr dataset into memory:  44%|████▍     | 8835/20000 [00:38<00:46, 242.54image/s]Read lr dataset into memory:  44%|████▍     | 8874/20000 [00:38<00:41, 269.86image/s]Read lr dataset into memory:  45%|████▍     | 8910/20000 [00:38<00:37, 292.92image/s]Read lr dataset into memory:  45%|████▍     | 8952/20000 [00:38<00:34, 316.24image/s]Read lr dataset into memory:  45%|████▍     | 8986/20000 [00:38<00:39, 279.42image/s]Read lr dataset into memory:  45%|████▌     | 9016/20000 [00:38<00:54, 200.58image/s]Read lr dataset into memory:  45%|████▌     | 9058/20000 [00:38<00:44, 244.02image/s]Read lr dataset into memory:  45%|████▌     | 9088/20000 [00:39<00:45, 239.85image/s]Read lr dataset into memory:  46%|████▌     | 9116/20000 [00:39<01:14, 145.62image/s]Read lr dataset into memory:  46%|████▌     | 9164/20000 [00:39<00:54, 199.27image/s]Read lr dataset into memory:  46%|████▌     | 9203/20000 [00:39<00:46, 234.45image/s]Read lr dataset into memory:  46%|████▌     | 9245/20000 [00:39<00:40, 264.30image/s]Read lr dataset into memory:  46%|████▋     | 9286/20000 [00:39<00:38, 279.22image/s]Read lr dataset into memory:  47%|████▋     | 9319/20000 [00:40<00:39, 271.28image/s]Read lr dataset into memory:  47%|████▋     | 9350/20000 [00:40<00:56, 188.09image/s]Read lr dataset into memory:  47%|████▋     | 9375/20000 [00:40<00:54, 194.70image/s]Read lr dataset into memory:  47%|████▋     | 9421/20000 [00:40<00:45, 230.82image/s]Read lr dataset into memory:  47%|████▋     | 9474/20000 [00:40<00:38, 271.64image/s]Read lr dataset into memory:  48%|████▊     | 9504/20000 [00:40<00:45, 231.96image/s]Read lr dataset into memory:  48%|████▊     | 9530/20000 [00:41<01:16, 136.96image/s]Read lr dataset into memory:  48%|████▊     | 9560/20000 [00:41<01:12, 144.92image/s]Read lr dataset into memory:  48%|████▊     | 9584/20000 [00:41<01:08, 151.78image/s]Read lr dataset into memory:  48%|████▊     | 9631/20000 [00:41<01:02, 166.49image/s]Read lr dataset into memory:  48%|████▊     | 9659/20000 [00:42<00:56, 181.80image/s]Read lr dataset into memory:  49%|████▊     | 9706/20000 [00:42<00:43, 236.06image/s]Read lr dataset into memory:  49%|████▉     | 9750/20000 [00:42<00:37, 273.05image/s]Read lr dataset into memory:  49%|████▉     | 9782/20000 [00:42<00:39, 258.13image/s]Read lr dataset into memory:  49%|████▉     | 9841/20000 [00:42<00:30, 333.68image/s]Read lr dataset into memory:  49%|████▉     | 9879/20000 [00:43<01:00, 166.01image/s]Read lr dataset into memory:  50%|████▉     | 9908/20000 [00:43<01:11, 141.97image/s]Read lr dataset into memory:  50%|████▉     | 9944/20000 [00:43<00:58, 171.83image/s]Read lr dataset into memory:  50%|█████     | 10006/20000 [00:43<00:42, 235.38image/s]Read lr dataset into memory:  50%|█████     | 10040/20000 [00:43<00:46, 214.37image/s]Read lr dataset into memory:  50%|█████     | 10069/20000 [00:43<00:44, 223.57image/s]Read lr dataset into memory:  51%|█████     | 10108/20000 [00:44<00:38, 254.96image/s]Read lr dataset into memory:  51%|█████     | 10139/20000 [00:44<00:41, 238.63image/s]Read lr dataset into memory:  51%|█████     | 10169/20000 [00:44<00:49, 198.68image/s]Read lr dataset into memory:  51%|█████     | 10193/20000 [00:44<00:49, 199.68image/s]Read lr dataset into memory:  51%|█████     | 10223/20000 [00:44<00:44, 218.26image/s]Read lr dataset into memory:  51%|█████▏    | 10265/20000 [00:44<00:36, 264.82image/s]Read lr dataset into memory:  52%|█████▏    | 10306/20000 [00:44<00:33, 287.72image/s]Read lr dataset into memory:  52%|█████▏    | 10337/20000 [00:45<00:55, 173.29image/s]Read lr dataset into memory:  52%|█████▏    | 10362/20000 [00:45<01:17, 124.50image/s]Read lr dataset into memory:  52%|█████▏    | 10381/20000 [00:45<01:15, 126.74image/s]Read lr dataset into memory:  52%|█████▏    | 10409/20000 [00:45<01:10, 136.63image/s]Read lr dataset into memory:  52%|█████▏    | 10443/20000 [00:46<00:57, 167.38image/s]Read lr dataset into memory:  52%|█████▏    | 10474/20000 [00:46<00:53, 177.85image/s]Read lr dataset into memory:  53%|█████▎    | 10506/20000 [00:46<00:46, 202.92image/s]Read lr dataset into memory:  53%|█████▎    | 10539/20000 [00:46<00:41, 228.67image/s]Read lr dataset into memory:  53%|█████▎    | 10568/20000 [00:46<00:38, 242.82image/s]Read lr dataset into memory:  53%|█████▎    | 10604/20000 [00:46<00:43, 217.43image/s]Read lr dataset into memory:  53%|█████▎    | 10629/20000 [00:46<00:49, 190.57image/s]Read lr dataset into memory:  53%|█████▎    | 10653/20000 [00:46<00:47, 198.56image/s]Read lr dataset into memory:  54%|█████▎    | 10700/20000 [00:47<00:35, 261.18image/s]Read lr dataset into memory:  54%|█████▎    | 10730/20000 [00:47<00:52, 175.85image/s]Read lr dataset into memory:  54%|█████▍    | 10754/20000 [00:47<00:50, 183.41image/s]Read lr dataset into memory:  54%|█████▍    | 10810/20000 [00:47<00:35, 260.79image/s]Read lr dataset into memory:  54%|█████▍    | 10869/20000 [00:47<00:27, 335.18image/s]Read lr dataset into memory:  55%|█████▍    | 10910/20000 [00:47<00:25, 350.60image/s]Read lr dataset into memory:  55%|█████▍    | 10951/20000 [00:47<00:26, 346.34image/s]Read lr dataset into memory:  55%|█████▍    | 10990/20000 [00:48<00:26, 343.18image/s]Read lr dataset into memory:  55%|█████▌    | 11054/20000 [00:48<00:31, 287.38image/s]Read lr dataset into memory:  55%|█████▌    | 11090/20000 [00:48<00:41, 213.45image/s]Read lr dataset into memory:  56%|█████▌    | 11144/20000 [00:48<00:33, 265.82image/s]Read lr dataset into memory:  56%|█████▌    | 11178/20000 [00:48<00:39, 223.65image/s]Read lr dataset into memory:  56%|█████▌    | 11206/20000 [00:49<00:40, 216.91image/s]Read lr dataset into memory:  56%|█████▌    | 11232/20000 [00:49<00:40, 217.86image/s]Read lr dataset into memory:  56%|█████▋    | 11257/20000 [00:49<00:50, 173.03image/s]Read lr dataset into memory:  56%|█████▋    | 11297/20000 [00:49<00:40, 215.00image/s]Read lr dataset into memory:  57%|█████▋    | 11350/20000 [00:49<00:32, 265.38image/s]Read lr dataset into memory:  57%|█████▋    | 11381/20000 [00:49<00:40, 213.36image/s]Read lr dataset into memory:  57%|█████▋    | 11428/20000 [00:50<00:32, 263.71image/s]Read lr dataset into memory:  57%|█████▋    | 11460/20000 [00:50<00:31, 274.25image/s]Read lr dataset into memory:  58%|█████▊    | 11522/20000 [00:50<00:23, 355.90image/s]Read lr dataset into memory:  58%|█████▊    | 11563/20000 [00:50<00:23, 359.05image/s]Read lr dataset into memory:  58%|█████▊    | 11603/20000 [00:50<00:27, 305.03image/s]Read lr dataset into memory:  58%|█████▊    | 11638/20000 [00:50<00:42, 195.77image/s]Read lr dataset into memory:  58%|█████▊    | 11676/20000 [00:50<00:36, 227.47image/s]Read lr dataset into memory:  59%|█████▊    | 11721/20000 [00:51<00:31, 266.00image/s]Read lr dataset into memory:  59%|█████▉    | 11755/20000 [00:51<00:31, 264.22image/s]Read lr dataset into memory:  59%|█████▉    | 11787/20000 [00:51<00:35, 230.23image/s]Read lr dataset into memory:  59%|█████▉    | 11844/20000 [00:51<00:28, 283.40image/s]Read lr dataset into memory:  59%|█████▉    | 11890/20000 [00:51<00:25, 317.65image/s]Read lr dataset into memory:  60%|█████▉    | 11933/20000 [00:51<00:23, 342.70image/s]Read lr dataset into memory:  60%|██████    | 12001/20000 [00:51<00:18, 423.36image/s]Read lr dataset into memory:  60%|██████    | 12053/20000 [00:51<00:18, 436.56image/s]Read lr dataset into memory:  61%|██████    | 12113/20000 [00:52<00:16, 480.12image/s]Read lr dataset into memory:  61%|██████    | 12164/20000 [00:52<00:17, 450.66image/s]Read lr dataset into memory:  61%|██████    | 12215/20000 [00:52<00:18, 415.07image/s]Read lr dataset into memory:  61%|██████▏   | 12259/20000 [00:52<00:35, 218.56image/s]Read lr dataset into memory:  61%|██████▏   | 12293/20000 [00:53<00:41, 186.51image/s]Read lr dataset into memory:  62%|██████▏   | 12323/20000 [00:53<00:37, 203.34image/s]Read lr dataset into memory:  62%|██████▏   | 12351/20000 [00:53<00:39, 194.85image/s]Read lr dataset into memory:  62%|██████▏   | 12378/20000 [00:53<00:46, 163.97image/s]Read lr dataset into memory:  62%|██████▏   | 12399/20000 [00:53<00:50, 150.53image/s]Read lr dataset into memory:  62%|██████▏   | 12417/20000 [00:53<00:52, 145.67image/s]Read lr dataset into memory:  62%|██████▏   | 12465/20000 [00:54<00:36, 207.96image/s]Read lr dataset into memory:  63%|██████▎   | 12516/20000 [00:54<00:27, 269.56image/s]Read lr dataset into memory:  63%|██████▎   | 12549/20000 [00:54<00:28, 260.59image/s]Read lr dataset into memory:  63%|██████▎   | 12585/20000 [00:54<00:26, 276.11image/s]Read lr dataset into memory:  63%|██████▎   | 12637/20000 [00:54<00:22, 331.22image/s]Read lr dataset into memory:  63%|██████▎   | 12674/20000 [00:54<00:30, 240.19image/s]Read lr dataset into memory:  64%|██████▎   | 12704/20000 [00:55<00:44, 165.19image/s]Read lr dataset into memory:  64%|██████▎   | 12728/20000 [00:55<00:41, 175.02image/s]Read lr dataset into memory:  64%|██████▍   | 12754/20000 [00:55<00:38, 188.78image/s]Read lr dataset into memory:  64%|██████▍   | 12790/20000 [00:55<00:32, 220.79image/s]Read lr dataset into memory:  64%|██████▍   | 12823/20000 [00:55<00:29, 245.18image/s]Read lr dataset into memory:  64%|██████▍   | 12852/20000 [00:55<00:34, 209.41image/s]Read lr dataset into memory:  64%|██████▍   | 12899/20000 [00:55<00:27, 261.26image/s]Read lr dataset into memory:  65%|██████▍   | 12945/20000 [00:55<00:23, 295.89image/s]Read lr dataset into memory:  65%|██████▍   | 12990/20000 [00:56<00:21, 333.21image/s]Read lr dataset into memory:  65%|██████▌   | 13030/20000 [00:56<00:20, 339.90image/s]Read lr dataset into memory:  65%|██████▌   | 13073/20000 [00:56<00:25, 266.63image/s]Read lr dataset into memory:  66%|██████▌   | 13104/20000 [00:56<00:30, 227.93image/s]Read lr dataset into memory:  66%|██████▌   | 13135/20000 [00:56<00:28, 240.72image/s]Read lr dataset into memory:  66%|██████▌   | 13162/20000 [00:57<00:46, 147.49image/s]Read lr dataset into memory:  66%|██████▌   | 13183/20000 [00:57<00:45, 148.95image/s]Read lr dataset into memory:  66%|██████▌   | 13206/20000 [00:57<00:52, 128.46image/s]Read lr dataset into memory:  66%|██████▌   | 13231/20000 [00:57<00:45, 147.72image/s]Read lr dataset into memory:  66%|██████▋   | 13251/20000 [00:57<00:48, 139.30image/s]Read lr dataset into memory:  66%|██████▋   | 13296/20000 [00:57<00:33, 198.67image/s]Read lr dataset into memory:  67%|██████▋   | 13349/20000 [00:57<00:25, 265.95image/s]Read lr dataset into memory:  67%|██████▋   | 13400/20000 [00:58<00:20, 314.29image/s]Read lr dataset into memory:  67%|██████▋   | 13451/20000 [00:58<00:19, 343.71image/s]Read lr dataset into memory:  67%|██████▋   | 13491/20000 [00:58<00:18, 351.61image/s]Read lr dataset into memory:  68%|██████▊   | 13539/20000 [00:58<00:16, 383.92image/s]Read lr dataset into memory:  68%|██████▊   | 13589/20000 [00:58<00:15, 414.56image/s]Read lr dataset into memory:  68%|██████▊   | 13633/20000 [00:58<00:15, 408.12image/s]Read lr dataset into memory:  68%|██████▊   | 13676/20000 [00:58<00:25, 252.36image/s]Read lr dataset into memory:  69%|██████▊   | 13745/20000 [00:59<00:18, 336.67image/s]Read lr dataset into memory:  69%|██████▉   | 13789/20000 [00:59<00:17, 354.08image/s]Read lr dataset into memory:  69%|██████▉   | 13833/20000 [00:59<00:22, 272.17image/s]Read lr dataset into memory:  69%|██████▉   | 13885/20000 [00:59<00:19, 320.58image/s]Read lr dataset into memory:  70%|██████▉   | 13926/20000 [00:59<00:18, 329.05image/s]Read lr dataset into memory:  70%|██████▉   | 13966/20000 [00:59<00:17, 345.25image/s]Read lr dataset into memory:  70%|███████   | 14006/20000 [00:59<00:16, 356.29image/s]Read lr dataset into memory:  70%|███████   | 14048/20000 [00:59<00:16, 354.06image/s]Read lr dataset into memory:  71%|███████   | 14114/20000 [01:00<00:13, 433.11image/s]Read lr dataset into memory:  71%|███████   | 14161/20000 [01:00<00:17, 329.27image/s]Read lr dataset into memory:  71%|███████   | 14205/20000 [01:00<00:16, 353.76image/s]Read lr dataset into memory:  71%|███████   | 14246/20000 [01:00<00:22, 260.70image/s]Read lr dataset into memory:  71%|███████▏  | 14279/20000 [01:00<00:29, 193.99image/s]Read lr dataset into memory:  72%|███████▏  | 14306/20000 [01:01<00:33, 167.65image/s]Read lr dataset into memory:  72%|███████▏  | 14328/20000 [01:01<00:36, 155.90image/s]Read lr dataset into memory:  72%|███████▏  | 14347/20000 [01:01<00:35, 158.25image/s]Read lr dataset into memory:  72%|███████▏  | 14407/20000 [01:01<00:23, 242.68image/s]Read lr dataset into memory:  72%|███████▏  | 14438/20000 [01:01<00:30, 181.33image/s]Read lr dataset into memory:  72%|███████▏  | 14463/20000 [01:02<00:29, 189.47image/s]Read lr dataset into memory:  73%|███████▎  | 14527/20000 [01:02<00:19, 278.75image/s]Read lr dataset into memory:  73%|███████▎  | 14572/20000 [01:02<00:17, 308.36image/s]Read lr dataset into memory:  73%|███████▎  | 14615/20000 [01:02<00:16, 330.87image/s]Read lr dataset into memory:  73%|███████▎  | 14697/20000 [01:02<00:12, 437.73image/s]Read lr dataset into memory:  74%|███████▎  | 14746/20000 [01:02<00:12, 426.55image/s]Read lr dataset into memory:  74%|███████▍  | 14809/20000 [01:02<00:15, 344.21image/s]Read lr dataset into memory:  74%|███████▍  | 14865/20000 [01:02<00:13, 388.85image/s]Read lr dataset into memory:  75%|███████▍  | 14910/20000 [01:03<00:14, 344.13image/s]Read lr dataset into memory:  75%|███████▍  | 14949/20000 [01:03<00:22, 220.77image/s]Read lr dataset into memory:  75%|███████▌  | 15002/20000 [01:03<00:18, 265.71image/s]Read lr dataset into memory:  75%|███████▌  | 15044/20000 [01:03<00:17, 281.00image/s]Read lr dataset into memory:  75%|███████▌  | 15085/20000 [01:03<00:16, 306.77image/s]Read lr dataset into memory:  76%|███████▌  | 15130/20000 [01:03<00:14, 338.56image/s]Read lr dataset into memory:  76%|███████▌  | 15170/20000 [01:04<00:15, 320.41image/s]Read lr dataset into memory:  76%|███████▌  | 15222/20000 [01:04<00:18, 256.08image/s]Read lr dataset into memory:  76%|███████▋  | 15277/20000 [01:04<00:15, 311.70image/s]Read lr dataset into memory:  77%|███████▋  | 15315/20000 [01:04<00:17, 267.09image/s]Read lr dataset into memory:  77%|███████▋  | 15347/20000 [01:04<00:17, 268.97image/s]Read lr dataset into memory:  77%|███████▋  | 15378/20000 [01:04<00:19, 238.16image/s]Read lr dataset into memory:  77%|███████▋  | 15411/20000 [01:05<00:17, 257.17image/s]Read lr dataset into memory:  77%|███████▋  | 15440/20000 [01:05<00:37, 122.62image/s]Read lr dataset into memory:  77%|███████▋  | 15462/20000 [01:05<00:41, 110.43image/s]Read lr dataset into memory:  78%|███████▊  | 15501/20000 [01:06<00:30, 147.76image/s]Read lr dataset into memory:  78%|███████▊  | 15569/20000 [01:06<00:19, 233.03image/s]Read lr dataset into memory:  78%|███████▊  | 15634/20000 [01:06<00:14, 310.59image/s]Read lr dataset into memory:  78%|███████▊  | 15684/20000 [01:06<00:12, 345.31image/s]Read lr dataset into memory:  79%|███████▊  | 15730/20000 [01:06<00:12, 331.32image/s]Read lr dataset into memory:  79%|███████▉  | 15772/20000 [01:06<00:12, 342.31image/s]Read lr dataset into memory:  79%|███████▉  | 15833/20000 [01:06<00:10, 389.75image/s]Read lr dataset into memory:  79%|███████▉  | 15877/20000 [01:06<00:12, 336.49image/s]Read lr dataset into memory:  80%|███████▉  | 15915/20000 [01:07<00:14, 290.99image/s]Read lr dataset into memory:  80%|███████▉  | 15953/20000 [01:07<00:17, 227.46image/s]Read lr dataset into memory:  80%|████████  | 16021/20000 [01:07<00:12, 310.37image/s]Read lr dataset into memory:  80%|████████  | 16076/20000 [01:07<00:10, 359.65image/s]Read lr dataset into memory:  81%|████████  | 16121/20000 [01:07<00:10, 380.07image/s]Read lr dataset into memory:  81%|████████  | 16166/20000 [01:07<00:10, 379.74image/s]Read lr dataset into memory:  81%|████████  | 16224/20000 [01:07<00:08, 424.38image/s]Read lr dataset into memory:  81%|████████▏ | 16285/20000 [01:07<00:07, 469.99image/s]Read lr dataset into memory:  82%|████████▏ | 16336/20000 [01:08<00:07, 474.86image/s]Read lr dataset into memory:  82%|████████▏ | 16386/20000 [01:08<00:11, 311.87image/s]Read lr dataset into memory:  82%|████████▏ | 16426/20000 [01:08<00:13, 260.62image/s]Read lr dataset into memory:  82%|████████▏ | 16463/20000 [01:08<00:12, 280.99image/s]Read lr dataset into memory:  82%|████████▏ | 16498/20000 [01:08<00:14, 242.13image/s]Read lr dataset into memory:  83%|████████▎ | 16528/20000 [01:09<00:15, 220.62image/s]Read lr dataset into memory:  83%|████████▎ | 16554/20000 [01:09<00:21, 161.05image/s]Read lr dataset into memory:  83%|████████▎ | 16575/20000 [01:09<00:25, 134.52image/s]Read lr dataset into memory:  83%|████████▎ | 16613/20000 [01:09<00:20, 169.13image/s]Read lr dataset into memory:  83%|████████▎ | 16635/20000 [01:09<00:22, 152.31image/s]Read lr dataset into memory:  83%|████████▎ | 16693/20000 [01:10<00:14, 229.19image/s]Read lr dataset into memory:  84%|████████▎ | 16725/20000 [01:10<00:13, 247.33image/s]Read lr dataset into memory:  84%|████████▍ | 16757/20000 [01:10<00:12, 263.50image/s]Read lr dataset into memory:  84%|████████▍ | 16789/20000 [01:10<00:11, 268.28image/s]Read lr dataset into memory:  84%|████████▍ | 16850/20000 [01:10<00:09, 343.75image/s]Read lr dataset into memory:  84%|████████▍ | 16888/20000 [01:10<00:09, 321.27image/s]Read lr dataset into memory:  85%|████████▍ | 16945/20000 [01:10<00:07, 383.18image/s]Read lr dataset into memory:  85%|████████▍ | 16987/20000 [01:10<00:10, 277.04image/s]Read lr dataset into memory:  85%|████████▌ | 17035/20000 [01:11<00:09, 312.40image/s]Read lr dataset into memory:  85%|████████▌ | 17082/20000 [01:11<00:08, 347.42image/s]Read lr dataset into memory:  86%|████████▌ | 17122/20000 [01:11<00:11, 257.62image/s]Read lr dataset into memory:  86%|████████▌ | 17170/20000 [01:11<00:09, 294.42image/s]Read lr dataset into memory:  86%|████████▌ | 17206/20000 [01:11<00:09, 290.30image/s]Read lr dataset into memory:  86%|████████▋ | 17250/20000 [01:11<00:08, 323.94image/s]Read lr dataset into memory:  86%|████████▋ | 17292/20000 [01:11<00:08, 337.63image/s]Read lr dataset into memory:  87%|████████▋ | 17352/20000 [01:11<00:06, 402.98image/s]Read lr dataset into memory:  87%|████████▋ | 17397/20000 [01:12<00:06, 402.09image/s]Read lr dataset into memory:  87%|████████▋ | 17440/20000 [01:12<00:07, 359.71image/s]Read lr dataset into memory:  87%|████████▋ | 17491/20000 [01:12<00:06, 393.53image/s]Read lr dataset into memory:  88%|████████▊ | 17533/20000 [01:12<00:09, 264.08image/s]Read lr dataset into memory:  88%|████████▊ | 17584/20000 [01:12<00:09, 267.75image/s]Read lr dataset into memory:  88%|████████▊ | 17619/20000 [01:12<00:08, 278.39image/s]Read lr dataset into memory:  88%|████████▊ | 17651/20000 [01:13<00:11, 210.40image/s]Read lr dataset into memory:  88%|████████▊ | 17677/20000 [01:13<00:10, 217.17image/s]Read lr dataset into memory:  89%|████████▊ | 17703/20000 [01:13<00:15, 153.10image/s]Read lr dataset into memory:  89%|████████▊ | 17724/20000 [01:13<00:15, 147.61image/s]Read lr dataset into memory:  89%|████████▉ | 17770/20000 [01:13<00:11, 202.73image/s]Read lr dataset into memory:  89%|████████▉ | 17810/20000 [01:14<00:09, 237.29image/s]Read lr dataset into memory:  89%|████████▉ | 17854/20000 [01:14<00:07, 281.90image/s]Read lr dataset into memory:  90%|████████▉ | 17900/20000 [01:14<00:06, 323.80image/s]Read lr dataset into memory:  90%|████████▉ | 17938/20000 [01:14<00:06, 330.59image/s]Read lr dataset into memory:  90%|████████▉ | 17975/20000 [01:14<00:06, 326.52image/s]Read lr dataset into memory:  90%|█████████ | 18015/20000 [01:14<00:05, 345.41image/s]Read lr dataset into memory:  90%|█████████ | 18052/20000 [01:14<00:08, 233.79image/s]Read lr dataset into memory:  90%|█████████ | 18082/20000 [01:14<00:08, 227.56image/s]Read lr dataset into memory:  91%|█████████ | 18122/20000 [01:15<00:07, 264.15image/s]Read lr dataset into memory:  91%|█████████ | 18153/20000 [01:15<00:09, 199.89image/s]Read lr dataset into memory:  91%|█████████ | 18193/20000 [01:15<00:07, 236.34image/s]Read lr dataset into memory:  91%|█████████▏| 18256/20000 [01:15<00:05, 311.55image/s]Read lr dataset into memory:  92%|█████████▏| 18300/20000 [01:15<00:05, 333.41image/s]Read lr dataset into memory:  92%|█████████▏| 18338/20000 [01:15<00:05, 280.42image/s]Read lr dataset into memory:  92%|█████████▏| 18371/20000 [01:15<00:05, 286.35image/s]Read lr dataset into memory:  92%|█████████▏| 18403/20000 [01:16<00:05, 293.73image/s]Read lr dataset into memory:  92%|█████████▏| 18435/20000 [01:16<00:06, 232.88image/s]Read lr dataset into memory:  92%|█████████▏| 18469/20000 [01:16<00:06, 253.32image/s]Read lr dataset into memory:  92%|█████████▏| 18498/20000 [01:16<00:07, 195.32image/s]Read lr dataset into memory:  93%|█████████▎| 18549/20000 [01:16<00:05, 252.12image/s]Read lr dataset into memory:  93%|█████████▎| 18579/20000 [01:16<00:05, 250.91image/s]Read lr dataset into memory:  93%|█████████▎| 18608/20000 [01:17<00:05, 246.33image/s]Read lr dataset into memory:  93%|█████████▎| 18635/20000 [01:17<00:09, 146.86image/s]Read lr dataset into memory:  93%|█████████▎| 18662/20000 [01:17<00:08, 163.15image/s]Read lr dataset into memory:  93%|█████████▎| 18691/20000 [01:17<00:07, 175.34image/s]Read lr dataset into memory:  94%|█████████▎| 18718/20000 [01:17<00:06, 188.62image/s]Read lr dataset into memory:  94%|█████████▍| 18755/20000 [01:17<00:05, 228.01image/s]Read lr dataset into memory:  94%|█████████▍| 18790/20000 [01:17<00:04, 256.74image/s]Read lr dataset into memory:  94%|█████████▍| 18825/20000 [01:18<00:04, 279.91image/s]Read lr dataset into memory:  94%|█████████▍| 18878/20000 [01:18<00:03, 345.49image/s]Read lr dataset into memory:  95%|█████████▍| 18937/20000 [01:18<00:02, 407.31image/s]Read lr dataset into memory:  95%|█████████▌| 19022/20000 [01:18<00:01, 522.89image/s]Read lr dataset into memory:  95%|█████████▌| 19077/20000 [01:18<00:02, 445.74image/s]Read lr dataset into memory:  96%|█████████▌| 19125/20000 [01:19<00:03, 229.77image/s]Read lr dataset into memory:  96%|█████████▌| 19162/20000 [01:19<00:04, 190.85image/s]Read lr dataset into memory:  96%|█████████▌| 19193/20000 [01:19<00:03, 206.92image/s]Read lr dataset into memory:  96%|█████████▌| 19224/20000 [01:19<00:03, 222.61image/s]Read lr dataset into memory:  96%|█████████▋| 19270/20000 [01:19<00:02, 265.25image/s]Read lr dataset into memory:  97%|█████████▋| 19304/20000 [01:19<00:02, 267.61image/s]Read lr dataset into memory:  97%|█████████▋| 19336/20000 [01:19<00:02, 254.34image/s]Read lr dataset into memory:  97%|█████████▋| 19365/20000 [01:20<00:02, 251.86image/s]Read lr dataset into memory:  97%|█████████▋| 19416/20000 [01:20<00:02, 280.26image/s]Read lr dataset into memory:  97%|█████████▋| 19471/20000 [01:20<00:01, 342.69image/s]Read lr dataset into memory:  98%|█████████▊| 19509/20000 [01:20<00:01, 349.71image/s]Read lr dataset into memory:  98%|█████████▊| 19547/20000 [01:20<00:01, 231.83image/s]Read lr dataset into memory:  98%|█████████▊| 19579/20000 [01:20<00:01, 248.24image/s]Read lr dataset into memory:  98%|█████████▊| 19610/20000 [01:21<00:01, 212.26image/s]Read lr dataset into memory:  98%|█████████▊| 19649/20000 [01:21<00:01, 245.12image/s]Read lr dataset into memory:  98%|█████████▊| 19693/20000 [01:21<00:01, 267.66image/s]Read lr dataset into memory:  99%|█████████▊| 19740/20000 [01:21<00:01, 234.96image/s]Read lr dataset into memory:  99%|█████████▉| 19767/20000 [01:21<00:01, 180.37image/s]Read lr dataset into memory:  99%|█████████▉| 19789/20000 [01:21<00:01, 174.05image/s]Read lr dataset into memory:  99%|█████████▉| 19874/20000 [01:22<00:00, 293.64image/s]Read lr dataset into memory: 100%|█████████▉| 19916/20000 [01:22<00:00, 319.75image/s]Read lr dataset into memory: 100%|█████████▉| 19955/20000 [01:22<00:00, 290.87image/s]Read lr dataset into memory: 100%|██████████| 20000/20000 [01:22<00:00, 318.34image/s]Read lr dataset into memory: 100%|██████████| 20000/20000 [01:22<00:00, 242.68image/s]
+Read hr dataset into memory:   0%|          | 0/20000 [00:00<?, ?image/s]Read hr dataset into memory:   0%|          | 6/20000 [00:00<06:39, 50.04image/s]Read hr dataset into memory:   0%|          | 20/20000 [00:00<03:31, 94.32image/s]Read hr dataset into memory:   0%|          | 31/20000 [00:00<03:30, 94.84image/s]Read hr dataset into memory:   0%|          | 43/20000 [00:00<03:35, 92.63image/s]Read hr dataset into memory:   0%|          | 57/20000 [00:00<03:07, 106.16image/s]Read hr dataset into memory:   0%|          | 69/20000 [00:00<03:03, 108.49image/s]Read hr dataset into memory:   0%|          | 80/20000 [00:00<04:48, 69.01image/s] Read hr dataset into memory:   0%|          | 93/20000 [00:01<04:04, 81.38image/s]Read hr dataset into memory:   1%|          | 107/20000 [00:01<03:30, 94.32image/s]Read hr dataset into memory:   1%|          | 119/20000 [00:01<03:45, 88.10image/s]Read hr dataset into memory:   1%|          | 129/20000 [00:01<04:12, 78.60image/s]Read hr dataset into memory:   1%|          | 138/20000 [00:01<04:09, 79.76image/s]Read hr dataset into memory:   1%|          | 149/20000 [00:01<03:56, 83.91image/s]Read hr dataset into memory:   1%|          | 160/20000 [00:01<03:40, 89.85image/s]Read hr dataset into memory:   1%|          | 172/20000 [00:01<03:23, 97.50image/s]Read hr dataset into memory:   1%|          | 183/20000 [00:02<05:09, 64.08image/s]Read hr dataset into memory:   1%|          | 197/20000 [00:02<04:16, 77.10image/s]Read hr dataset into memory:   1%|          | 208/20000 [00:02<04:40, 70.46image/s]Read hr dataset into memory:   1%|          | 222/20000 [00:02<03:53, 84.72image/s]Read hr dataset into memory:   1%|          | 241/20000 [00:02<03:02, 108.26image/s]Read hr dataset into memory:   1%|▏         | 266/20000 [00:02<02:22, 138.81image/s]Read hr dataset into memory:   1%|▏         | 282/20000 [00:03<02:48, 117.23image/s]Read hr dataset into memory:   2%|▏         | 308/20000 [00:03<02:20, 139.90image/s]Read hr dataset into memory:   2%|▏         | 324/20000 [00:03<03:34, 91.86image/s] Read hr dataset into memory:   2%|▏         | 337/20000 [00:03<03:22, 97.09image/s]Read hr dataset into memory:   2%|▏         | 374/20000 [00:03<02:11, 149.18image/s]Read hr dataset into memory:   2%|▏         | 393/20000 [00:03<02:12, 147.70image/s]Read hr dataset into memory:   2%|▏         | 440/20000 [00:03<01:28, 219.99image/s]Read hr dataset into memory:   2%|▏         | 467/20000 [00:04<01:26, 227.01image/s]Read hr dataset into memory:   3%|▎         | 501/20000 [00:04<01:16, 255.35image/s]Read hr dataset into memory:   3%|▎         | 530/20000 [00:04<02:11, 147.65image/s]Read hr dataset into memory:   3%|▎         | 552/20000 [00:04<02:03, 157.27image/s]Read hr dataset into memory:   3%|▎         | 574/20000 [00:04<02:30, 129.22image/s]Read hr dataset into memory:   3%|▎         | 613/20000 [00:05<01:50, 175.16image/s]Read hr dataset into memory:   3%|▎         | 641/20000 [00:05<01:42, 188.69image/s]Read hr dataset into memory:   3%|▎         | 665/20000 [00:05<01:38, 196.94image/s]Read hr dataset into memory:   4%|▎         | 703/20000 [00:05<01:23, 231.64image/s]Read hr dataset into memory:   4%|▎         | 735/20000 [00:05<01:18, 244.34image/s]Read hr dataset into memory:   4%|▍         | 762/20000 [00:05<01:24, 227.27image/s]Read hr dataset into memory:   4%|▍         | 787/20000 [00:05<01:31, 210.93image/s]Read hr dataset into memory:   4%|▍         | 810/20000 [00:06<01:53, 169.77image/s]Read hr dataset into memory:   4%|▍         | 830/20000 [00:06<01:53, 169.38image/s]Read hr dataset into memory:   4%|▍         | 849/20000 [00:06<01:59, 159.92image/s]Read hr dataset into memory:   4%|▍         | 866/20000 [00:06<03:00, 106.07image/s]Read hr dataset into memory:   4%|▍         | 880/20000 [00:06<02:53, 110.34image/s]Read hr dataset into memory:   5%|▍         | 905/20000 [00:07<03:16, 97.11image/s] Read hr dataset into memory:   5%|▍         | 919/20000 [00:07<03:22, 94.20image/s]Read hr dataset into memory:   5%|▍         | 940/20000 [00:07<03:00, 105.41image/s]Read hr dataset into memory:   5%|▍         | 958/20000 [00:07<02:42, 116.93image/s]Read hr dataset into memory:   5%|▍         | 974/20000 [00:07<02:32, 125.01image/s]Read hr dataset into memory:   5%|▌         | 1020/20000 [00:07<01:35, 199.42image/s]Read hr dataset into memory:   5%|▌         | 1067/20000 [00:07<01:11, 265.32image/s]Read hr dataset into memory:   6%|▌         | 1110/20000 [00:07<01:02, 301.67image/s]Read hr dataset into memory:   6%|▌         | 1143/20000 [00:07<01:04, 294.17image/s]Read hr dataset into memory:   6%|▌         | 1182/20000 [00:08<00:58, 319.36image/s]Read hr dataset into memory:   6%|▌         | 1216/20000 [00:08<01:37, 193.13image/s]Read hr dataset into memory:   6%|▌         | 1243/20000 [00:08<01:34, 198.51image/s]Read hr dataset into memory:   6%|▋         | 1269/20000 [00:08<01:32, 201.73image/s]Read hr dataset into memory:   7%|▋         | 1315/20000 [00:08<01:13, 254.21image/s]Read hr dataset into memory:   7%|▋         | 1345/20000 [00:08<01:27, 212.65image/s]Read hr dataset into memory:   7%|▋         | 1371/20000 [00:09<01:24, 221.18image/s]Read hr dataset into memory:   7%|▋         | 1409/20000 [00:09<01:12, 257.70image/s]Read hr dataset into memory:   7%|▋         | 1438/20000 [00:09<01:12, 255.70image/s]Read hr dataset into memory:   7%|▋         | 1486/20000 [00:09<00:59, 310.29image/s]Read hr dataset into memory:   8%|▊         | 1520/20000 [00:09<00:58, 318.14image/s]Read hr dataset into memory:   8%|▊         | 1554/20000 [00:09<01:05, 282.85image/s]Read hr dataset into memory:   8%|▊         | 1593/20000 [00:09<01:04, 283.78image/s]Read hr dataset into memory:   8%|▊         | 1623/20000 [00:09<01:09, 262.90image/s]Read hr dataset into memory:   8%|▊         | 1651/20000 [00:10<02:49, 108.04image/s]Read hr dataset into memory:   8%|▊         | 1686/20000 [00:10<02:12, 138.11image/s]Read hr dataset into memory:   9%|▊         | 1711/20000 [00:10<02:05, 145.47image/s]Read hr dataset into memory:   9%|▊         | 1734/20000 [00:11<02:45, 110.18image/s]Read hr dataset into memory:   9%|▉         | 1752/20000 [00:11<02:59, 101.44image/s]Read hr dataset into memory:   9%|▉         | 1776/20000 [00:11<02:29, 121.65image/s]Read hr dataset into memory:   9%|▉         | 1817/20000 [00:11<01:46, 171.20image/s]Read hr dataset into memory:   9%|▉         | 1868/20000 [00:11<01:16, 237.76image/s]Read hr dataset into memory:  10%|▉         | 1901/20000 [00:11<01:17, 234.04image/s]Read hr dataset into memory:  10%|▉         | 1952/20000 [00:12<01:02, 289.84image/s]Read hr dataset into memory:  10%|█         | 2003/20000 [00:12<00:53, 336.01image/s]Read hr dataset into memory:  10%|█         | 2046/20000 [00:12<00:50, 353.91image/s]Read hr dataset into memory:  10%|█         | 2086/20000 [00:12<01:20, 222.19image/s]Read hr dataset into memory:  11%|█         | 2135/20000 [00:12<01:06, 268.93image/s]Read hr dataset into memory:  11%|█         | 2171/20000 [00:12<01:16, 231.87image/s]Read hr dataset into memory:  11%|█         | 2203/20000 [00:13<01:14, 240.23image/s]Read hr dataset into memory:  11%|█         | 2240/20000 [00:13<01:06, 265.88image/s]Read hr dataset into memory:  11%|█▏        | 2272/20000 [00:13<01:04, 273.31image/s]Read hr dataset into memory:  12%|█▏        | 2303/20000 [00:13<01:02, 281.18image/s]Read hr dataset into memory:  12%|█▏        | 2342/20000 [00:13<00:58, 303.71image/s]Read hr dataset into memory:  12%|█▏        | 2377/20000 [00:13<00:55, 315.96image/s]Read hr dataset into memory:  12%|█▏        | 2422/20000 [00:13<00:49, 352.12image/s]Read hr dataset into memory:  12%|█▏        | 2459/20000 [00:13<01:16, 228.95image/s]Read hr dataset into memory:  12%|█▏        | 2489/20000 [00:14<01:14, 236.27image/s]Read hr dataset into memory:  13%|█▎        | 2530/20000 [00:14<01:07, 257.73image/s]Read hr dataset into memory:  13%|█▎        | 2589/20000 [00:14<00:52, 333.26image/s]Read hr dataset into memory:  13%|█▎        | 2628/20000 [00:14<01:12, 238.10image/s]Read hr dataset into memory:  13%|█▎        | 2659/20000 [00:15<01:56, 148.94image/s]Read hr dataset into memory:  13%|█▎        | 2683/20000 [00:15<02:01, 142.53image/s]Read hr dataset into memory:  14%|█▎        | 2704/20000 [00:15<02:13, 129.41image/s]Read hr dataset into memory:  14%|█▍        | 2753/20000 [00:15<01:34, 182.40image/s]Read hr dataset into memory:  14%|█▍        | 2805/20000 [00:15<01:11, 239.98image/s]Read hr dataset into memory:  14%|█▍        | 2840/20000 [00:15<01:05, 260.01image/s]Read hr dataset into memory:  14%|█▍        | 2873/20000 [00:15<01:10, 243.88image/s]Read hr dataset into memory:  15%|█▍        | 2919/20000 [00:16<00:59, 286.18image/s]Read hr dataset into memory:  15%|█▍        | 2961/20000 [00:16<00:57, 297.96image/s]Read hr dataset into memory:  15%|█▍        | 2995/20000 [00:16<01:28, 193.18image/s]Read hr dataset into memory:  15%|█▌        | 3042/20000 [00:16<01:10, 242.09image/s]Read hr dataset into memory:  15%|█▌        | 3078/20000 [00:16<01:03, 265.59image/s]Read hr dataset into memory:  16%|█▌        | 3116/20000 [00:16<00:58, 287.16image/s]Read hr dataset into memory:  16%|█▌        | 3151/20000 [00:17<01:14, 226.88image/s]Read hr dataset into memory:  16%|█▌        | 3181/20000 [00:17<01:10, 236.99image/s]Read hr dataset into memory:  16%|█▌        | 3214/20000 [00:17<01:05, 255.25image/s]Read hr dataset into memory:  16%|█▌        | 3249/20000 [00:17<01:01, 270.89image/s]Read hr dataset into memory:  16%|█▋        | 3279/20000 [00:17<01:02, 267.22image/s]Read hr dataset into memory:  17%|█▋        | 3321/20000 [00:17<00:55, 302.24image/s]Read hr dataset into memory:  17%|█▋        | 3367/20000 [00:17<00:48, 343.22image/s]Read hr dataset into memory:  17%|█▋        | 3404/20000 [00:17<00:54, 305.36image/s]Read hr dataset into memory:  17%|█▋        | 3455/20000 [00:17<00:46, 357.18image/s]Read hr dataset into memory:  17%|█▋        | 3493/20000 [00:18<01:13, 224.18image/s]Read hr dataset into memory:  18%|█▊        | 3524/20000 [00:18<01:42, 160.23image/s]Read hr dataset into memory:  18%|█▊        | 3548/20000 [00:18<01:47, 152.85image/s]Read hr dataset into memory:  18%|█▊        | 3569/20000 [00:19<02:18, 118.59image/s]Read hr dataset into memory:  18%|█▊        | 3601/20000 [00:19<01:51, 147.49image/s]Read hr dataset into memory:  18%|█▊        | 3622/20000 [00:19<02:09, 126.43image/s]Read hr dataset into memory:  18%|█▊        | 3661/20000 [00:19<01:38, 166.07image/s]Read hr dataset into memory:  19%|█▊        | 3727/20000 [00:19<01:03, 257.99image/s]Read hr dataset into memory:  19%|█▉        | 3793/20000 [00:19<00:47, 341.94image/s]Read hr dataset into memory:  19%|█▉        | 3838/20000 [00:19<00:44, 360.14image/s]Read hr dataset into memory:  19%|█▉        | 3885/20000 [00:20<00:43, 366.34image/s]Read hr dataset into memory:  20%|█▉        | 3941/20000 [00:20<00:42, 378.56image/s]Read hr dataset into memory:  20%|█▉        | 3983/20000 [00:20<01:11, 225.27image/s]Read hr dataset into memory:  20%|██        | 4016/20000 [00:20<01:06, 238.95image/s]Read hr dataset into memory:  20%|██        | 4061/20000 [00:20<00:57, 279.21image/s]Read hr dataset into memory:  20%|██        | 4097/20000 [00:20<01:03, 251.12image/s]Read hr dataset into memory:  21%|██        | 4140/20000 [00:21<00:55, 287.38image/s]Read hr dataset into memory:  21%|██        | 4183/20000 [00:21<00:52, 301.80image/s]Read hr dataset into memory:  21%|██        | 4249/20000 [00:21<00:40, 385.11image/s]Read hr dataset into memory:  22%|██▏       | 4313/20000 [00:21<00:35, 445.36image/s]Read hr dataset into memory:  22%|██▏       | 4363/20000 [00:21<00:38, 406.12image/s]Read hr dataset into memory:  22%|██▏       | 4408/20000 [00:21<00:37, 415.88image/s]Read hr dataset into memory:  22%|██▏       | 4458/20000 [00:21<00:35, 436.52image/s]Read hr dataset into memory:  23%|██▎       | 4504/20000 [00:21<00:45, 342.81image/s]Read hr dataset into memory:  23%|██▎       | 4543/20000 [00:22<00:45, 343.05image/s]Read hr dataset into memory:  23%|██▎       | 4581/20000 [00:22<00:48, 317.18image/s]Read hr dataset into memory:  23%|██▎       | 4616/20000 [00:22<01:24, 182.09image/s]Read hr dataset into memory:  23%|██▎       | 4643/20000 [00:22<01:25, 179.49image/s]Read hr dataset into memory:  23%|██▎       | 4667/20000 [00:23<01:42, 150.06image/s]Read hr dataset into memory:  23%|██▎       | 4687/20000 [00:23<01:37, 157.86image/s]Read hr dataset into memory:  24%|██▎       | 4720/20000 [00:23<01:24, 181.71image/s]Read hr dataset into memory:  24%|██▍       | 4753/20000 [00:23<01:15, 201.53image/s]Read hr dataset into memory:  24%|██▍       | 4776/20000 [00:23<01:26, 176.69image/s]Read hr dataset into memory:  24%|██▍       | 4811/20000 [00:23<01:12, 210.43image/s]Read hr dataset into memory:  24%|██▍       | 4855/20000 [00:23<00:58, 259.84image/s]Read hr dataset into memory:  25%|██▍       | 4912/20000 [00:23<00:45, 334.81image/s]Read hr dataset into memory:  25%|██▍       | 4968/20000 [00:24<00:39, 382.43image/s]Read hr dataset into memory:  25%|██▌       | 5010/20000 [00:24<00:40, 372.57image/s]Read hr dataset into memory:  25%|██▌       | 5050/20000 [00:24<00:59, 250.60image/s]Read hr dataset into memory:  25%|██▌       | 5092/20000 [00:24<00:52, 282.99image/s]Read hr dataset into memory:  26%|██▌       | 5165/20000 [00:24<00:39, 375.48image/s]Read hr dataset into memory:  26%|██▌       | 5210/20000 [00:24<00:39, 371.20image/s]Read hr dataset into memory:  26%|██▋       | 5252/20000 [00:25<00:51, 284.77image/s]Read hr dataset into memory:  27%|██▋       | 5309/20000 [00:25<00:42, 342.23image/s]Read hr dataset into memory:  27%|██▋       | 5354/20000 [00:25<00:40, 365.77image/s]Read hr dataset into memory:  27%|██▋       | 5409/20000 [00:25<00:36, 404.81image/s]Read hr dataset into memory:  27%|██▋       | 5455/20000 [00:25<00:38, 373.72image/s]Read hr dataset into memory:  27%|██▋       | 5496/20000 [00:25<00:44, 326.46image/s]Read hr dataset into memory:  28%|██▊       | 5534/20000 [00:25<00:44, 323.89image/s]Read hr dataset into memory:  28%|██▊       | 5569/20000 [00:26<00:55, 257.80image/s]Read hr dataset into memory:  28%|██▊       | 5599/20000 [00:26<01:09, 207.04image/s]Read hr dataset into memory:  28%|██▊       | 5625/20000 [00:26<01:17, 184.38image/s]Read hr dataset into memory:  28%|██▊       | 5646/20000 [00:26<01:18, 182.15image/s]Read hr dataset into memory:  29%|██▊       | 5728/20000 [00:26<00:45, 311.92image/s]Read hr dataset into memory:  29%|██▉       | 5767/20000 [00:26<00:52, 270.24image/s]Read hr dataset into memory:  29%|██▉       | 5800/20000 [00:27<01:48, 130.29image/s]Read hr dataset into memory:  29%|██▉       | 5845/20000 [00:27<01:23, 168.97image/s]Read hr dataset into memory:  29%|██▉       | 5891/20000 [00:27<01:06, 211.43image/s]Read hr dataset into memory:  30%|██▉       | 5953/20000 [00:27<00:49, 282.07image/s]Read hr dataset into memory:  30%|███       | 6027/20000 [00:27<00:37, 368.38image/s]Read hr dataset into memory:  30%|███       | 6078/20000 [00:28<00:38, 358.56image/s]Read hr dataset into memory:  31%|███       | 6124/20000 [00:28<00:54, 254.27image/s]Read hr dataset into memory:  31%|███       | 6161/20000 [00:28<01:02, 220.59image/s]Read hr dataset into memory:  31%|███       | 6200/20000 [00:28<00:58, 237.17image/s]Read hr dataset into memory:  31%|███       | 6231/20000 [00:29<01:12, 190.34image/s]Read hr dataset into memory:  31%|███▏      | 6275/20000 [00:29<01:01, 224.61image/s]Read hr dataset into memory:  32%|███▏      | 6309/20000 [00:29<00:56, 244.40image/s]Read hr dataset into memory:  32%|███▏      | 6375/20000 [00:29<00:41, 331.07image/s]Read hr dataset into memory:  32%|███▏      | 6416/20000 [00:29<00:43, 309.60image/s]Read hr dataset into memory:  32%|███▏      | 6453/20000 [00:29<00:43, 313.50image/s]Read hr dataset into memory:  32%|███▏      | 6494/20000 [00:29<00:41, 323.32image/s]Read hr dataset into memory:  33%|███▎      | 6530/20000 [00:30<00:55, 242.36image/s]Read hr dataset into memory:  33%|███▎      | 6559/20000 [00:30<01:09, 194.36image/s]Read hr dataset into memory:  33%|███▎      | 6617/20000 [00:30<00:50, 265.08image/s]Read hr dataset into memory:  33%|███▎      | 6670/20000 [00:30<00:41, 320.05image/s]Read hr dataset into memory:  34%|███▎      | 6710/20000 [00:30<01:13, 180.32image/s]Read hr dataset into memory:  34%|███▎      | 6741/20000 [00:31<01:24, 156.77image/s]Read hr dataset into memory:  34%|███▍      | 6771/20000 [00:31<01:33, 141.26image/s]Read hr dataset into memory:  34%|███▍      | 6807/20000 [00:31<01:16, 171.61image/s]Read hr dataset into memory:  34%|███▍      | 6852/20000 [00:31<01:00, 217.57image/s]Read hr dataset into memory:  35%|███▍      | 6907/20000 [00:31<00:46, 280.79image/s]Read hr dataset into memory:  35%|███▍      | 6981/20000 [00:31<00:34, 378.72image/s]Read hr dataset into memory:  35%|███▌      | 7030/20000 [00:32<00:33, 382.47image/s]Read hr dataset into memory:  35%|███▌      | 7076/20000 [00:32<00:33, 386.52image/s]Read hr dataset into memory:  36%|███▌      | 7120/20000 [00:32<00:36, 354.45image/s]Read hr dataset into memory:  36%|███▌      | 7160/20000 [00:32<01:02, 206.91image/s]Read hr dataset into memory:  36%|███▌      | 7191/20000 [00:33<01:18, 163.31image/s]Read hr dataset into memory:  36%|███▌      | 7220/20000 [00:33<01:13, 173.15image/s]Read hr dataset into memory:  36%|███▋      | 7257/20000 [00:33<01:03, 201.94image/s]Read hr dataset into memory:  37%|███▋      | 7305/20000 [00:33<00:50, 252.44image/s]Read hr dataset into memory:  37%|███▋      | 7338/20000 [00:33<00:49, 257.13image/s]Read hr dataset into memory:  37%|███▋      | 7373/20000 [00:33<00:45, 275.18image/s]Read hr dataset into memory:  37%|███▋      | 7420/20000 [00:33<00:39, 317.09image/s]Read hr dataset into memory:  37%|███▋      | 7456/20000 [00:34<01:05, 192.86image/s]Read hr dataset into memory:  37%|███▋      | 7484/20000 [00:34<01:07, 184.32image/s]Read hr dataset into memory:  38%|███▊      | 7511/20000 [00:34<01:03, 198.16image/s]Read hr dataset into memory:  38%|███▊      | 7536/20000 [00:34<01:17, 160.12image/s]Read hr dataset into memory:  38%|███▊      | 7567/20000 [00:34<01:09, 179.47image/s]Read hr dataset into memory:  38%|███▊      | 7593/20000 [00:34<01:22, 150.18image/s]Read hr dataset into memory:  38%|███▊      | 7641/20000 [00:35<00:59, 207.91image/s]Read hr dataset into memory:  39%|███▊      | 7705/20000 [00:35<00:43, 283.23image/s]Read hr dataset into memory:  39%|███▊      | 7740/20000 [00:35<00:58, 211.30image/s]Read hr dataset into memory:  39%|███▉      | 7796/20000 [00:35<00:44, 274.12image/s]Read hr dataset into memory:  39%|███▉      | 7847/20000 [00:35<00:37, 322.26image/s]Read hr dataset into memory:  39%|███▉      | 7888/20000 [00:35<00:36, 334.92image/s]Read hr dataset into memory:  40%|███▉      | 7928/20000 [00:35<00:38, 311.17image/s]Read hr dataset into memory:  40%|███▉      | 7964/20000 [00:36<00:41, 291.84image/s]Read hr dataset into memory:  40%|████      | 8022/20000 [00:36<00:33, 356.74image/s]Read hr dataset into memory:  40%|████      | 8062/20000 [00:36<00:50, 234.90image/s]Read hr dataset into memory:  41%|████      | 8112/20000 [00:36<00:42, 277.14image/s]Read hr dataset into memory:  41%|████      | 8150/20000 [00:36<00:48, 242.41image/s]Read hr dataset into memory:  41%|████      | 8196/20000 [00:36<00:42, 277.63image/s]Read hr dataset into memory:  41%|████      | 8231/20000 [00:37<00:41, 285.96image/s]Read hr dataset into memory:  41%|████▏     | 8264/20000 [00:37<00:44, 265.59image/s]Read hr dataset into memory:  42%|████▏     | 8309/20000 [00:37<00:38, 304.38image/s]Read hr dataset into memory:  42%|████▏     | 8354/20000 [00:37<00:34, 339.37image/s]Read hr dataset into memory:  42%|████▏     | 8398/20000 [00:37<00:33, 345.29image/s]Read hr dataset into memory:  42%|████▏     | 8435/20000 [00:37<00:34, 338.15image/s]Read hr dataset into memory:  42%|████▏     | 8471/20000 [00:37<00:36, 313.27image/s]Read hr dataset into memory:  43%|████▎     | 8504/20000 [00:38<01:05, 176.71image/s]Read hr dataset into memory:  43%|████▎     | 8557/20000 [00:38<01:03, 181.20image/s]Read hr dataset into memory:  43%|████▎     | 8606/20000 [00:38<00:49, 228.91image/s]Read hr dataset into memory:  43%|████▎     | 8648/20000 [00:38<00:51, 221.75image/s]Read hr dataset into memory:  43%|████▎     | 8676/20000 [00:39<01:04, 174.94image/s]Read hr dataset into memory:  44%|████▎     | 8703/20000 [00:39<01:03, 178.69image/s]Read hr dataset into memory:  44%|████▎     | 8725/20000 [00:39<01:25, 131.18image/s]Read hr dataset into memory:  44%|████▍     | 8795/20000 [00:39<00:51, 217.68image/s]Read hr dataset into memory:  44%|████▍     | 8834/20000 [00:39<00:45, 248.06image/s]Read hr dataset into memory:  44%|████▍     | 8881/20000 [00:39<00:38, 287.67image/s]Read hr dataset into memory:  45%|████▍     | 8919/20000 [00:40<00:38, 290.30image/s]Read hr dataset into memory:  45%|████▍     | 8972/20000 [00:40<00:31, 345.08image/s]Read hr dataset into memory:  45%|████▌     | 9016/20000 [00:40<00:29, 366.68image/s]Read hr dataset into memory:  45%|████▌     | 9058/20000 [00:40<00:52, 207.84image/s]Read hr dataset into memory:  46%|████▌     | 9104/20000 [00:40<00:43, 249.96image/s]Read hr dataset into memory:  46%|████▌     | 9140/20000 [00:40<00:40, 268.42image/s]Read hr dataset into memory:  46%|████▌     | 9176/20000 [00:41<00:41, 260.20image/s]Read hr dataset into memory:  46%|████▌     | 9231/20000 [00:41<00:34, 316.52image/s]Read hr dataset into memory:  46%|████▋     | 9293/20000 [00:41<00:27, 387.07image/s]Read hr dataset into memory:  47%|████▋     | 9373/20000 [00:41<00:21, 490.14image/s]Read hr dataset into memory:  47%|████▋     | 9439/20000 [00:41<00:19, 533.91image/s]Read hr dataset into memory:  47%|████▋     | 9498/20000 [00:41<00:19, 537.96image/s]Read hr dataset into memory:  48%|████▊     | 9556/20000 [00:41<00:20, 508.77image/s]Read hr dataset into memory:  48%|████▊     | 9610/20000 [00:41<00:32, 315.40image/s]Read hr dataset into memory:  48%|████▊     | 9666/20000 [00:42<00:30, 338.87image/s]Read hr dataset into memory:  49%|████▊     | 9718/20000 [00:42<00:27, 375.06image/s]Read hr dataset into memory:  49%|████▉     | 9768/20000 [00:42<00:35, 285.09image/s]Read hr dataset into memory:  49%|████▉     | 9828/20000 [00:42<00:31, 323.03image/s]Read hr dataset into memory:  49%|████▉     | 9868/20000 [00:43<00:54, 187.20image/s]Read hr dataset into memory:  50%|████▉     | 9924/20000 [00:43<00:42, 237.68image/s]Read hr dataset into memory:  50%|████▉     | 9962/20000 [00:43<00:49, 204.09image/s]Read hr dataset into memory:  50%|█████     | 10005/20000 [00:43<00:41, 238.49image/s]Read hr dataset into memory:  50%|█████     | 10040/20000 [00:43<00:38, 256.17image/s]Read hr dataset into memory:  50%|█████     | 10076/20000 [00:43<00:35, 276.89image/s]Read hr dataset into memory:  51%|█████     | 10111/20000 [00:43<00:33, 293.21image/s]Read hr dataset into memory:  51%|█████     | 10173/20000 [00:44<00:26, 368.29image/s]Read hr dataset into memory:  51%|█████     | 10225/20000 [00:44<00:24, 394.01image/s]Read hr dataset into memory:  51%|█████▏    | 10269/20000 [00:44<00:38, 251.74image/s]Read hr dataset into memory:  52%|█████▏    | 10304/20000 [00:44<00:41, 234.45image/s]Read hr dataset into memory:  52%|█████▏    | 10334/20000 [00:44<00:40, 238.80image/s]Read hr dataset into memory:  52%|█████▏    | 10363/20000 [00:45<00:51, 187.40image/s]Read hr dataset into memory:  52%|█████▏    | 10436/20000 [00:45<00:33, 285.77image/s]Read hr dataset into memory:  52%|█████▏    | 10491/20000 [00:45<00:27, 339.81image/s]Read hr dataset into memory:  53%|█████▎    | 10535/20000 [00:45<00:26, 351.90image/s]Read hr dataset into memory:  53%|█████▎    | 10587/20000 [00:45<00:24, 391.43image/s]Read hr dataset into memory:  53%|█████▎    | 10632/20000 [00:45<00:25, 365.23image/s]Read hr dataset into memory:  53%|█████▎    | 10689/20000 [00:45<00:23, 402.25image/s]Read hr dataset into memory:  54%|█████▎    | 10733/20000 [00:45<00:33, 280.64image/s]Read hr dataset into memory:  54%|█████▍    | 10769/20000 [00:46<00:39, 232.65image/s]Read hr dataset into memory:  54%|█████▍    | 10799/20000 [00:46<01:00, 152.93image/s]Read hr dataset into memory:  54%|█████▍    | 10832/20000 [00:46<01:03, 145.51image/s]Read hr dataset into memory:  54%|█████▍    | 10852/20000 [00:47<01:18, 116.52image/s]Read hr dataset into memory:  54%|█████▍    | 10887/20000 [00:47<01:01, 147.29image/s]Read hr dataset into memory:  55%|█████▍    | 10909/20000 [00:47<01:04, 141.77image/s]Read hr dataset into memory:  55%|█████▍    | 10948/20000 [00:47<00:50, 177.65image/s]Read hr dataset into memory:  55%|█████▍    | 10983/20000 [00:47<00:43, 207.25image/s]Read hr dataset into memory:  55%|█████▌    | 11020/20000 [00:47<00:37, 241.25image/s]Read hr dataset into memory:  55%|█████▌    | 11073/20000 [00:47<00:29, 306.89image/s]Read hr dataset into memory:  56%|█████▌    | 11121/20000 [00:48<00:26, 336.26image/s]Read hr dataset into memory:  56%|█████▌    | 11162/20000 [00:48<00:24, 354.40image/s]Read hr dataset into memory:  56%|█████▌    | 11201/20000 [00:48<00:26, 332.79image/s]Read hr dataset into memory:  56%|█████▌    | 11243/20000 [00:48<00:34, 253.00image/s]Read hr dataset into memory:  56%|█████▋    | 11296/20000 [00:48<00:28, 310.47image/s]Read hr dataset into memory:  57%|█████▋    | 11333/20000 [00:49<00:41, 206.41image/s]Read hr dataset into memory:  57%|█████▋    | 11383/20000 [00:49<00:33, 256.97image/s]Read hr dataset into memory:  57%|█████▋    | 11430/20000 [00:49<00:29, 294.92image/s]Read hr dataset into memory:  57%|█████▋    | 11481/20000 [00:49<00:24, 341.17image/s]Read hr dataset into memory:  58%|█████▊    | 11529/20000 [00:49<00:22, 373.82image/s]Read hr dataset into memory:  58%|█████▊    | 11573/20000 [00:49<00:22, 377.07image/s]Read hr dataset into memory:  58%|█████▊    | 11628/20000 [00:49<00:19, 421.44image/s]Read hr dataset into memory:  58%|█████▊    | 11687/20000 [00:49<00:18, 456.70image/s]Read hr dataset into memory:  59%|█████▊    | 11736/20000 [00:50<00:36, 223.61image/s]Read hr dataset into memory:  59%|█████▉    | 11773/20000 [00:50<00:36, 224.97image/s]Read hr dataset into memory:  59%|█████▉    | 11806/20000 [00:50<00:44, 182.57image/s]Read hr dataset into memory:  59%|█████▉    | 11834/20000 [00:51<00:55, 147.84image/s]Read hr dataset into memory:  59%|█████▉    | 11871/20000 [00:51<00:45, 177.14image/s]Read hr dataset into memory:  59%|█████▉    | 11896/20000 [00:51<00:44, 182.62image/s]Read hr dataset into memory:  60%|█████▉    | 11920/20000 [00:51<00:47, 169.08image/s]Read hr dataset into memory:  60%|█████▉    | 11951/20000 [00:51<00:41, 193.61image/s]Read hr dataset into memory:  60%|█████▉    | 11988/20000 [00:51<00:34, 230.64image/s]Read hr dataset into memory:  60%|██████    | 12025/20000 [00:51<00:31, 251.21image/s]Read hr dataset into memory:  60%|██████    | 12054/20000 [00:51<00:32, 241.46image/s]Read hr dataset into memory:  60%|██████    | 12085/20000 [00:51<00:31, 253.52image/s]Read hr dataset into memory:  61%|██████    | 12113/20000 [00:52<00:32, 243.66image/s]Read hr dataset into memory:  61%|██████    | 12147/20000 [00:52<00:29, 267.61image/s]Read hr dataset into memory:  61%|██████    | 12176/20000 [00:52<00:32, 243.57image/s]Read hr dataset into memory:  61%|██████    | 12202/20000 [00:52<00:43, 179.62image/s]Read hr dataset into memory:  61%|██████    | 12224/20000 [00:52<01:05, 119.10image/s]Read hr dataset into memory:  61%|██████    | 12249/20000 [00:53<00:55, 139.72image/s]Read hr dataset into memory:  62%|██████▏   | 12310/20000 [00:53<00:34, 222.52image/s]Read hr dataset into memory:  62%|██████▏   | 12341/20000 [00:53<00:32, 234.34image/s]Read hr dataset into memory:  62%|██████▏   | 12374/20000 [00:53<00:30, 251.86image/s]Read hr dataset into memory:  62%|██████▏   | 12408/20000 [00:53<00:27, 272.42image/s]Read hr dataset into memory:  62%|██████▏   | 12452/20000 [00:53<00:24, 307.65image/s]Read hr dataset into memory:  62%|██████▏   | 12491/20000 [00:53<00:22, 327.52image/s]Read hr dataset into memory:  63%|██████▎   | 12527/20000 [00:54<00:49, 151.39image/s]Read hr dataset into memory:  63%|██████▎   | 12554/20000 [00:54<01:06, 112.35image/s]Read hr dataset into memory:  63%|██████▎   | 12593/20000 [00:54<01:01, 119.76image/s]Read hr dataset into memory:  63%|██████▎   | 12612/20000 [00:55<01:11, 103.02image/s]Read hr dataset into memory:  63%|██████▎   | 12627/20000 [00:55<01:18, 93.91image/s] Read hr dataset into memory:  63%|██████▎   | 12669/20000 [00:55<00:53, 137.57image/s]Read hr dataset into memory:  63%|██████▎   | 12693/20000 [00:55<00:48, 152.03image/s]Read hr dataset into memory:  64%|██████▎   | 12715/20000 [00:55<00:44, 162.38image/s]Read hr dataset into memory:  64%|██████▍   | 12752/20000 [00:55<00:35, 203.07image/s]Read hr dataset into memory:  64%|██████▍   | 12806/20000 [00:56<00:26, 270.22image/s]Read hr dataset into memory:  64%|██████▍   | 12849/20000 [00:56<00:23, 302.31image/s]Read hr dataset into memory:  64%|██████▍   | 12884/20000 [00:56<00:40, 174.75image/s]Read hr dataset into memory:  65%|██████▍   | 12928/20000 [00:56<00:32, 218.71image/s]Read hr dataset into memory:  65%|██████▍   | 12960/20000 [00:56<00:38, 182.08image/s]Read hr dataset into memory:  65%|██████▌   | 13002/20000 [00:57<00:31, 223.15image/s]Read hr dataset into memory:  65%|██████▌   | 13041/20000 [00:57<00:28, 245.73image/s]Read hr dataset into memory:  65%|██████▌   | 13073/20000 [00:57<00:27, 249.06image/s]Read hr dataset into memory:  66%|██████▌   | 13114/20000 [00:57<00:24, 283.34image/s]Read hr dataset into memory:  66%|██████▌   | 13147/20000 [00:57<00:23, 287.13image/s]Read hr dataset into memory:  66%|██████▌   | 13194/20000 [00:57<00:21, 319.44image/s]Read hr dataset into memory:  66%|██████▌   | 13229/20000 [00:57<00:22, 304.60image/s]Read hr dataset into memory:  66%|██████▋   | 13262/20000 [00:57<00:24, 280.18image/s]Read hr dataset into memory:  66%|██████▋   | 13292/20000 [00:58<00:25, 264.69image/s]Read hr dataset into memory:  67%|██████▋   | 13320/20000 [00:58<00:35, 190.26image/s]Read hr dataset into memory:  67%|██████▋   | 13343/20000 [00:58<00:37, 176.42image/s]Read hr dataset into memory:  67%|██████▋   | 13372/20000 [00:58<00:40, 162.97image/s]Read hr dataset into memory:  67%|██████▋   | 13391/20000 [00:59<00:57, 114.51image/s]Read hr dataset into memory:  67%|██████▋   | 13425/20000 [00:59<00:44, 147.17image/s]Read hr dataset into memory:  67%|██████▋   | 13446/20000 [00:59<00:41, 158.41image/s]Read hr dataset into memory:  67%|██████▋   | 13490/20000 [00:59<00:33, 196.25image/s]Read hr dataset into memory:  68%|██████▊   | 13513/20000 [00:59<00:36, 176.39image/s]Read hr dataset into memory:  68%|██████▊   | 13559/20000 [00:59<00:28, 229.82image/s]Read hr dataset into memory:  68%|██████▊   | 13601/20000 [00:59<00:23, 267.34image/s]Read hr dataset into memory:  68%|██████▊   | 13632/20000 [00:59<00:26, 239.42image/s]Read hr dataset into memory:  68%|██████▊   | 13677/20000 [01:00<00:22, 285.36image/s]Read hr dataset into memory:  69%|██████▊   | 13727/20000 [01:00<00:18, 333.67image/s]Read hr dataset into memory:  69%|██████▉   | 13764/20000 [01:00<00:21, 286.59image/s]Read hr dataset into memory:  69%|██████▉   | 13796/20000 [01:00<00:22, 275.01image/s]Read hr dataset into memory:  69%|██████▉   | 13846/20000 [01:00<00:18, 324.69image/s]Read hr dataset into memory:  69%|██████▉   | 13882/20000 [01:00<00:19, 314.16image/s]Read hr dataset into memory:  70%|██████▉   | 13916/20000 [01:01<00:29, 203.20image/s]Read hr dataset into memory:  70%|██████▉   | 13956/20000 [01:01<00:25, 239.33image/s]Read hr dataset into memory:  70%|███████   | 14006/20000 [01:01<00:20, 293.49image/s]Read hr dataset into memory:  70%|███████   | 14043/20000 [01:01<00:20, 287.04image/s]Read hr dataset into memory:  71%|███████   | 14104/20000 [01:01<00:16, 362.01image/s]Read hr dataset into memory:  71%|███████   | 14146/20000 [01:01<00:15, 369.57image/s]Read hr dataset into memory:  71%|███████   | 14187/20000 [01:01<00:15, 364.09image/s]Read hr dataset into memory:  71%|███████   | 14227/20000 [01:01<00:23, 242.03image/s]Read hr dataset into memory:  71%|███████▏  | 14264/20000 [01:02<00:21, 266.79image/s]Read hr dataset into memory:  71%|███████▏  | 14297/20000 [01:02<00:24, 231.37image/s]Read hr dataset into memory:  72%|███████▏  | 14326/20000 [01:02<00:33, 170.96image/s]Read hr dataset into memory:  72%|███████▏  | 14349/20000 [01:02<00:31, 178.22image/s]Read hr dataset into memory:  72%|███████▏  | 14372/20000 [01:02<00:31, 180.40image/s]Read hr dataset into memory:  72%|███████▏  | 14394/20000 [01:03<00:44, 127.11image/s]Read hr dataset into memory:  72%|███████▏  | 14447/20000 [01:03<00:28, 192.51image/s]Read hr dataset into memory:  72%|███████▏  | 14486/20000 [01:03<00:23, 230.10image/s]Read hr dataset into memory:  73%|███████▎  | 14517/20000 [01:03<00:28, 191.77image/s]Read hr dataset into memory:  73%|███████▎  | 14565/20000 [01:03<00:22, 246.93image/s]Read hr dataset into memory:  73%|███████▎  | 14597/20000 [01:03<00:21, 249.74image/s]Read hr dataset into memory:  73%|███████▎  | 14640/20000 [01:03<00:18, 289.75image/s]Read hr dataset into memory:  73%|███████▎  | 14696/20000 [01:04<00:14, 354.70image/s]Read hr dataset into memory:  74%|███████▎  | 14737/20000 [01:04<00:15, 329.16image/s]Read hr dataset into memory:  74%|███████▍  | 14780/20000 [01:04<00:19, 266.39image/s]Read hr dataset into memory:  74%|███████▍  | 14812/20000 [01:04<00:23, 216.84image/s]Read hr dataset into memory:  74%|███████▍  | 14857/20000 [01:04<00:20, 254.14image/s]Read hr dataset into memory:  74%|███████▍  | 14887/20000 [01:04<00:24, 209.21image/s]Read hr dataset into memory:  75%|███████▍  | 14921/20000 [01:05<00:21, 233.62image/s]Read hr dataset into memory:  75%|███████▍  | 14951/20000 [01:05<00:21, 239.72image/s]Read hr dataset into memory:  75%|███████▍  | 14997/20000 [01:05<00:17, 289.41image/s]Read hr dataset into memory:  75%|███████▌  | 15036/20000 [01:05<00:15, 313.98image/s]Read hr dataset into memory:  75%|███████▌  | 15071/20000 [01:05<00:15, 314.78image/s]Read hr dataset into memory:  76%|███████▌  | 15105/20000 [01:05<00:17, 279.63image/s]Read hr dataset into memory:  76%|███████▌  | 15140/20000 [01:05<00:25, 188.77image/s]Read hr dataset into memory:  76%|███████▌  | 15165/20000 [01:06<00:32, 148.28image/s]Read hr dataset into memory:  76%|███████▌  | 15209/20000 [01:06<00:31, 153.68image/s]Read hr dataset into memory:  76%|███████▌  | 15241/20000 [01:06<00:27, 176.10image/s]Read hr dataset into memory:  76%|███████▋  | 15263/20000 [01:06<00:28, 164.38image/s]Read hr dataset into memory:  76%|███████▋  | 15283/20000 [01:07<00:43, 108.25image/s]Read hr dataset into memory:  77%|███████▋  | 15329/20000 [01:07<00:29, 158.27image/s]Read hr dataset into memory:  77%|███████▋  | 15353/20000 [01:07<00:33, 137.91image/s]Read hr dataset into memory:  77%|███████▋  | 15381/20000 [01:07<00:28, 160.90image/s]Read hr dataset into memory:  77%|███████▋  | 15441/20000 [01:07<00:18, 243.54image/s]Read hr dataset into memory:  77%|███████▋  | 15493/20000 [01:07<00:14, 301.56image/s]Read hr dataset into memory:  78%|███████▊  | 15533/20000 [01:07<00:13, 323.98image/s]Read hr dataset into memory:  78%|███████▊  | 15573/20000 [01:08<00:13, 324.13image/s]Read hr dataset into memory:  78%|███████▊  | 15615/20000 [01:08<00:13, 333.77image/s]Read hr dataset into memory:  78%|███████▊  | 15652/20000 [01:08<00:17, 251.36image/s]Read hr dataset into memory:  79%|███████▊  | 15707/20000 [01:08<00:13, 310.60image/s]Read hr dataset into memory:  79%|███████▉  | 15754/20000 [01:08<00:12, 347.01image/s]Read hr dataset into memory:  79%|███████▉  | 15794/20000 [01:08<00:17, 237.15image/s]Read hr dataset into memory:  79%|███████▉  | 15836/20000 [01:09<00:15, 270.15image/s]Read hr dataset into memory:  79%|███████▉  | 15871/20000 [01:09<00:15, 266.34image/s]Read hr dataset into memory:  80%|███████▉  | 15903/20000 [01:09<00:15, 267.12image/s]Read hr dataset into memory:  80%|███████▉  | 15949/20000 [01:09<00:13, 308.82image/s]Read hr dataset into memory:  80%|███████▉  | 15984/20000 [01:09<00:13, 299.95image/s]Read hr dataset into memory:  80%|████████  | 16034/20000 [01:09<00:11, 348.95image/s]Read hr dataset into memory:  80%|████████  | 16072/20000 [01:09<00:15, 260.98image/s]Read hr dataset into memory:  81%|████████  | 16116/20000 [01:10<00:13, 298.66image/s]Read hr dataset into memory:  81%|████████  | 16151/20000 [01:10<00:24, 156.40image/s]Read hr dataset into memory:  81%|████████  | 16197/20000 [01:10<00:19, 198.70image/s]Read hr dataset into memory:  81%|████████  | 16229/20000 [01:10<00:19, 195.62image/s]Read hr dataset into memory:  81%|████████▏ | 16257/20000 [01:11<00:21, 176.33image/s]Read hr dataset into memory:  81%|████████▏ | 16294/20000 [01:11<00:20, 179.93image/s]Read hr dataset into memory:  82%|████████▏ | 16317/20000 [01:11<00:21, 171.77image/s]Read hr dataset into memory:  82%|████████▏ | 16341/20000 [01:11<00:20, 175.33image/s]Read hr dataset into memory:  82%|████████▏ | 16370/20000 [01:11<00:18, 198.38image/s]Read hr dataset into memory:  82%|████████▏ | 16429/20000 [01:11<00:12, 277.25image/s]Read hr dataset into memory:  82%|████████▏ | 16481/20000 [01:11<00:10, 324.38image/s]Read hr dataset into memory:  83%|████████▎ | 16517/20000 [01:11<00:11, 315.16image/s]Read hr dataset into memory:  83%|████████▎ | 16564/20000 [01:12<00:09, 353.08image/s]Read hr dataset into memory:  83%|████████▎ | 16608/20000 [01:12<00:09, 374.93image/s]Read hr dataset into memory:  83%|████████▎ | 16661/20000 [01:12<00:08, 389.57image/s]Read hr dataset into memory:  84%|████████▎ | 16702/20000 [01:12<00:12, 262.21image/s]Read hr dataset into memory:  84%|████████▍ | 16757/20000 [01:12<00:10, 319.94image/s]Read hr dataset into memory:  84%|████████▍ | 16805/20000 [01:12<00:12, 247.07image/s]Read hr dataset into memory:  84%|████████▍ | 16842/20000 [01:13<00:11, 267.53image/s]Read hr dataset into memory:  84%|████████▍ | 16888/20000 [01:13<00:10, 306.55image/s]Read hr dataset into memory:  85%|████████▍ | 16943/20000 [01:13<00:08, 351.81image/s]Read hr dataset into memory:  85%|████████▍ | 16992/20000 [01:13<00:08, 375.25image/s]Read hr dataset into memory:  85%|████████▌ | 17034/20000 [01:13<00:07, 374.12image/s]Read hr dataset into memory:  86%|████████▌ | 17101/20000 [01:13<00:06, 449.93image/s]Read hr dataset into memory:  86%|████████▌ | 17150/20000 [01:13<00:10, 278.16image/s]Read hr dataset into memory:  86%|████████▌ | 17189/20000 [01:14<00:09, 296.91image/s]Read hr dataset into memory:  86%|████████▌ | 17229/20000 [01:14<00:08, 314.92image/s]Read hr dataset into memory:  86%|████████▋ | 17267/20000 [01:14<00:09, 275.97image/s]Read hr dataset into memory:  86%|████████▋ | 17300/20000 [01:14<00:13, 199.45image/s]Read hr dataset into memory:  87%|████████▋ | 17327/20000 [01:14<00:16, 166.97image/s]Read hr dataset into memory:  87%|████████▋ | 17349/20000 [01:15<00:18, 145.52image/s]Read hr dataset into memory:  87%|████████▋ | 17367/20000 [01:15<00:18, 141.65image/s]Read hr dataset into memory:  87%|████████▋ | 17387/20000 [01:15<00:17, 151.25image/s]Read hr dataset into memory:  87%|████████▋ | 17405/20000 [01:15<00:18, 143.43image/s]Read hr dataset into memory:  87%|████████▋ | 17452/20000 [01:15<00:12, 209.13image/s]Read hr dataset into memory:  88%|████████▊ | 17508/20000 [01:15<00:08, 278.78image/s]Read hr dataset into memory:  88%|████████▊ | 17566/20000 [01:15<00:07, 339.60image/s]Read hr dataset into memory:  88%|████████▊ | 17604/20000 [01:16<00:07, 309.53image/s]Read hr dataset into memory:  88%|████████▊ | 17638/20000 [01:16<00:07, 310.95image/s]Read hr dataset into memory:  88%|████████▊ | 17682/20000 [01:16<00:06, 342.68image/s]Read hr dataset into memory:  89%|████████▊ | 17719/20000 [01:16<00:10, 207.42image/s]Read hr dataset into memory:  89%|████████▊ | 17749/20000 [01:16<00:10, 222.15image/s]Read hr dataset into memory:  89%|████████▉ | 17780/20000 [01:16<00:09, 235.90image/s]Read hr dataset into memory:  89%|████████▉ | 17833/20000 [01:16<00:07, 295.84image/s]Read hr dataset into memory:  89%|████████▉ | 17868/20000 [01:17<00:07, 285.00image/s]Read hr dataset into memory:  90%|████████▉ | 17916/20000 [01:17<00:06, 331.33image/s]Read hr dataset into memory:  90%|████████▉ | 17953/20000 [01:17<00:06, 337.55image/s]Read hr dataset into memory:  90%|████████▉ | 17998/20000 [01:17<00:05, 353.52image/s]Read hr dataset into memory:  90%|█████████ | 18036/20000 [01:17<00:06, 317.19image/s]Read hr dataset into memory:  90%|█████████ | 18070/20000 [01:17<00:06, 294.04image/s]Read hr dataset into memory:  91%|█████████ | 18122/20000 [01:17<00:05, 349.20image/s]Read hr dataset into memory:  91%|█████████ | 18160/20000 [01:18<00:09, 203.40image/s]Read hr dataset into memory:  91%|█████████ | 18194/20000 [01:18<00:08, 224.64image/s]Read hr dataset into memory:  91%|█████████ | 18224/20000 [01:18<00:13, 133.55image/s]Read hr dataset into memory:  91%|█████████ | 18247/20000 [01:19<00:14, 117.24image/s]Read hr dataset into memory:  91%|█████████▏| 18266/20000 [01:19<00:16, 103.26image/s]Read hr dataset into memory:  91%|█████████▏| 18283/20000 [01:19<00:19, 88.62image/s] Read hr dataset into memory:  92%|█████████▏| 18316/20000 [01:19<00:13, 120.46image/s]Read hr dataset into memory:  92%|█████████▏| 18342/20000 [01:19<00:11, 141.33image/s]Read hr dataset into memory:  92%|█████████▏| 18388/20000 [01:19<00:08, 199.55image/s]Read hr dataset into memory:  92%|█████████▏| 18427/20000 [01:20<00:06, 238.86image/s]Read hr dataset into memory:  92%|█████████▏| 18483/20000 [01:20<00:04, 311.23image/s]Read hr dataset into memory:  93%|█████████▎| 18535/20000 [01:20<00:04, 359.35image/s]Read hr dataset into memory:  93%|█████████▎| 18577/20000 [01:20<00:04, 354.55image/s]Read hr dataset into memory:  93%|█████████▎| 18617/20000 [01:20<00:03, 354.72image/s]Read hr dataset into memory:  93%|█████████▎| 18656/20000 [01:20<00:04, 270.43image/s]Read hr dataset into memory:  93%|█████████▎| 18691/20000 [01:20<00:05, 243.62image/s]Read hr dataset into memory:  94%|█████████▎| 18720/20000 [01:20<00:05, 242.19image/s]Read hr dataset into memory:  94%|█████████▍| 18766/20000 [01:21<00:04, 286.66image/s]Read hr dataset into memory:  94%|█████████▍| 18819/20000 [01:21<00:03, 330.99image/s]Read hr dataset into memory:  94%|█████████▍| 18855/20000 [01:21<00:03, 306.25image/s]Read hr dataset into memory:  94%|█████████▍| 18896/20000 [01:21<00:03, 330.69image/s]Read hr dataset into memory:  95%|█████████▍| 18932/20000 [01:21<00:03, 310.32image/s]Read hr dataset into memory:  95%|█████████▍| 18967/20000 [01:21<00:03, 313.95image/s]Read hr dataset into memory:  95%|█████████▌| 19008/20000 [01:21<00:03, 261.71image/s]Read hr dataset into memory:  95%|█████████▌| 19037/20000 [01:22<00:03, 251.67image/s]Read hr dataset into memory:  95%|█████████▌| 19072/20000 [01:22<00:03, 272.14image/s]Read hr dataset into memory:  96%|█████████▌| 19108/20000 [01:22<00:03, 293.27image/s]Read hr dataset into memory:  96%|█████████▌| 19139/20000 [01:22<00:05, 166.34image/s]Read hr dataset into memory:  96%|█████████▌| 19163/20000 [01:22<00:06, 130.36image/s]Read hr dataset into memory:  96%|█████████▌| 19185/20000 [01:23<00:05, 137.39image/s]Read hr dataset into memory:  96%|█████████▌| 19204/20000 [01:23<00:06, 131.85image/s]Read hr dataset into memory:  96%|█████████▌| 19221/20000 [01:23<00:05, 131.50image/s]Read hr dataset into memory:  96%|█████████▋| 19260/20000 [01:23<00:04, 179.55image/s]Read hr dataset into memory:  96%|█████████▋| 19296/20000 [01:23<00:03, 218.62image/s]Read hr dataset into memory:  97%|█████████▋| 19322/20000 [01:23<00:03, 222.69image/s]Read hr dataset into memory:  97%|█████████▋| 19366/20000 [01:23<00:02, 243.20image/s]Read hr dataset into memory:  97%|█████████▋| 19400/20000 [01:23<00:02, 264.01image/s]Read hr dataset into memory:  97%|█████████▋| 19448/20000 [01:24<00:01, 316.02image/s]Read hr dataset into memory:  97%|█████████▋| 19490/20000 [01:24<00:01, 339.50image/s]Read hr dataset into memory:  98%|█████████▊| 19526/20000 [01:24<00:01, 277.43image/s]Read hr dataset into memory:  98%|█████████▊| 19557/20000 [01:24<00:01, 237.51image/s]Read hr dataset into memory:  98%|█████████▊| 19600/20000 [01:24<00:01, 276.18image/s]Read hr dataset into memory:  98%|█████████▊| 19642/20000 [01:24<00:01, 309.76image/s]Read hr dataset into memory:  98%|█████████▊| 19686/20000 [01:24<00:00, 340.41image/s]Read hr dataset into memory:  99%|█████████▊| 19723/20000 [01:24<00:00, 315.59image/s]Read hr dataset into memory:  99%|█████████▉| 19757/20000 [01:25<00:00, 321.05image/s]Read hr dataset into memory:  99%|█████████▉| 19806/20000 [01:25<00:00, 365.63image/s]Read hr dataset into memory:  99%|█████████▉| 19845/20000 [01:25<00:00, 338.25image/s]Read hr dataset into memory:  99%|█████████▉| 19898/20000 [01:25<00:00, 387.82image/s]Read hr dataset into memory: 100%|█████████▉| 19939/20000 [01:25<00:00, 383.04image/s]Read hr dataset into memory: 100%|█████████▉| 19979/20000 [01:25<00:00, 380.75image/s]Read hr dataset into memory: 100%|██████████| 20000/20000 [01:25<00:00, 233.41image/s]
+Read lr dataset into memory:   0%|          | 0/2000 [00:00<?, ?image/s]Read lr dataset into memory:   0%|          | 6/2000 [00:00<02:00, 16.50image/s]Read lr dataset into memory:   1%|          | 14/2000 [00:00<00:59, 33.37image/s]Read lr dataset into memory:   1%|          | 22/2000 [00:00<00:43, 45.97image/s]Read lr dataset into memory:   1%|▏         | 29/2000 [00:01<01:31, 21.61image/s]Read lr dataset into memory:   2%|▏         | 37/2000 [00:01<01:06, 29.47image/s]Read lr dataset into memory:   2%|▏         | 45/2000 [00:01<00:52, 37.39image/s]Read lr dataset into memory:   3%|▎         | 52/2000 [00:01<00:52, 37.01image/s]Read lr dataset into memory:   3%|▎         | 61/2000 [00:01<00:43, 45.04image/s]Read lr dataset into memory:   4%|▍         | 75/2000 [00:01<00:29, 64.45image/s]Read lr dataset into memory:   4%|▍         | 86/2000 [00:01<00:25, 74.34image/s]Read lr dataset into memory:   5%|▍         | 96/2000 [00:02<00:26, 72.30image/s]Read lr dataset into memory:   5%|▌         | 105/2000 [00:02<00:26, 70.29image/s]Read lr dataset into memory:   6%|▌         | 115/2000 [00:02<00:25, 75.04image/s]Read lr dataset into memory:   6%|▋         | 126/2000 [00:02<00:22, 81.51image/s]Read lr dataset into memory:   7%|▋         | 138/2000 [00:02<00:20, 90.08image/s]Read lr dataset into memory:   7%|▋         | 148/2000 [00:02<00:28, 64.25image/s]Read lr dataset into memory:   8%|▊         | 156/2000 [00:02<00:27, 65.86image/s]Read lr dataset into memory:   8%|▊         | 164/2000 [00:03<00:27, 67.20image/s]Read lr dataset into memory:   9%|▉         | 181/2000 [00:03<00:20, 87.29image/s]Read lr dataset into memory:  10%|▉         | 196/2000 [00:03<00:17, 102.11image/s]Read lr dataset into memory:  10%|█         | 208/2000 [00:03<00:17, 102.95image/s]Read lr dataset into memory:  11%|█         | 219/2000 [00:03<00:17, 103.83image/s]Read lr dataset into memory:  12%|█▏        | 230/2000 [00:03<00:19, 93.03image/s] Read lr dataset into memory:  12%|█▏        | 244/2000 [00:03<00:16, 104.84image/s]Read lr dataset into memory:  13%|█▎        | 259/2000 [00:03<00:15, 114.37image/s]Read lr dataset into memory:  14%|█▎        | 273/2000 [00:03<00:14, 117.87image/s]Read lr dataset into memory:  14%|█▍        | 286/2000 [00:04<00:16, 101.70image/s]Read lr dataset into memory:  15%|█▍        | 297/2000 [00:04<00:20, 83.56image/s] Read lr dataset into memory:  16%|█▌        | 312/2000 [00:04<00:17, 95.20image/s]Read lr dataset into memory:  16%|█▌        | 323/2000 [00:04<00:19, 83.86image/s]Read lr dataset into memory:  17%|█▋        | 337/2000 [00:04<00:17, 95.91image/s]Read lr dataset into memory:  17%|█▋        | 348/2000 [00:05<00:28, 58.50image/s]Read lr dataset into memory:  18%|█▊        | 357/2000 [00:05<00:32, 50.44image/s]Read lr dataset into memory:  18%|█▊        | 364/2000 [00:05<00:38, 42.27image/s]Read lr dataset into memory:  19%|█▉        | 380/2000 [00:05<00:27, 59.73image/s]Read lr dataset into memory:  20%|█▉        | 396/2000 [00:05<00:20, 76.87image/s]Read lr dataset into memory:  20%|██        | 409/2000 [00:05<00:18, 84.91image/s]Read lr dataset into memory:  21%|██        | 421/2000 [00:06<00:17, 92.14image/s]Read lr dataset into memory:  22%|██▏       | 436/2000 [00:06<00:15, 101.54image/s]Read lr dataset into memory:  23%|██▎       | 453/2000 [00:06<00:13, 116.79image/s]Read lr dataset into memory:  23%|██▎       | 467/2000 [00:06<00:13, 117.35image/s]Read lr dataset into memory:  24%|██▍       | 480/2000 [00:06<00:13, 115.26image/s]Read lr dataset into memory:  25%|██▍       | 493/2000 [00:06<00:20, 73.53image/s] Read lr dataset into memory:  25%|██▌       | 504/2000 [00:06<00:19, 78.66image/s]Read lr dataset into memory:  26%|██▌       | 514/2000 [00:07<00:18, 80.05image/s]Read lr dataset into memory:  26%|██▌       | 524/2000 [00:07<00:19, 76.92image/s]Read lr dataset into memory:  27%|██▋       | 534/2000 [00:07<00:17, 82.06image/s]Read lr dataset into memory:  27%|██▋       | 546/2000 [00:07<00:16, 86.25image/s]Read lr dataset into memory:  28%|██▊       | 557/2000 [00:07<00:16, 89.18image/s]Read lr dataset into memory:  28%|██▊       | 567/2000 [00:07<00:15, 89.81image/s]Read lr dataset into memory:  29%|██▉       | 577/2000 [00:07<00:16, 88.67image/s]Read lr dataset into memory:  30%|██▉       | 598/2000 [00:07<00:11, 120.29image/s]Read lr dataset into memory:  31%|███       | 611/2000 [00:07<00:11, 120.27image/s]Read lr dataset into memory:  31%|███       | 624/2000 [00:08<00:12, 112.97image/s]Read lr dataset into memory:  32%|███▏      | 638/2000 [00:08<00:11, 119.07image/s]Read lr dataset into memory:  33%|███▎      | 651/2000 [00:08<00:11, 118.61image/s]Read lr dataset into memory:  33%|███▎      | 664/2000 [00:08<00:11, 117.97image/s]Read lr dataset into memory:  34%|███▍      | 676/2000 [00:08<00:13, 101.09image/s]Read lr dataset into memory:  34%|███▍      | 687/2000 [00:08<00:13, 96.66image/s] Read lr dataset into memory:  35%|███▍      | 697/2000 [00:08<00:14, 89.98image/s]Read lr dataset into memory:  35%|███▌      | 707/2000 [00:08<00:15, 85.53image/s]Read lr dataset into memory:  36%|███▌      | 722/2000 [00:09<00:12, 100.12image/s]Read lr dataset into memory:  37%|███▋      | 733/2000 [00:09<00:18, 68.84image/s] Read lr dataset into memory:  38%|███▊      | 750/2000 [00:09<00:14, 84.39image/s]Read lr dataset into memory:  38%|███▊      | 761/2000 [00:09<00:14, 87.47image/s]Read lr dataset into memory:  39%|███▊      | 774/2000 [00:09<00:14, 82.39image/s]Read lr dataset into memory:  39%|███▉      | 789/2000 [00:09<00:12, 97.01image/s]Read lr dataset into memory:  40%|████      | 801/2000 [00:10<00:14, 85.40image/s]Read lr dataset into memory:  41%|████      | 811/2000 [00:10<00:13, 88.21image/s]Read lr dataset into memory:  42%|████▏     | 836/2000 [00:10<00:09, 125.10image/s]Read lr dataset into memory:  42%|████▎     | 850/2000 [00:10<00:10, 105.43image/s]Read lr dataset into memory:  43%|████▎     | 864/2000 [00:10<00:10, 112.90image/s]Read lr dataset into memory:  44%|████▍     | 883/2000 [00:10<00:08, 131.43image/s]Read lr dataset into memory:  45%|████▌     | 902/2000 [00:10<00:10, 100.21image/s]Read lr dataset into memory:  46%|████▌     | 915/2000 [00:11<00:11, 91.12image/s] Read lr dataset into memory:  47%|████▋     | 932/2000 [00:11<00:10, 105.47image/s]Read lr dataset into memory:  48%|████▊     | 955/2000 [00:11<00:08, 129.64image/s]Read lr dataset into memory:  49%|████▉     | 983/2000 [00:11<00:06, 162.70image/s]Read lr dataset into memory:  50%|█████     | 1002/2000 [00:11<00:06, 150.21image/s]Read lr dataset into memory:  51%|█████     | 1019/2000 [00:11<00:06, 152.94image/s]Read lr dataset into memory:  52%|█████▏    | 1036/2000 [00:11<00:06, 156.79image/s]Read lr dataset into memory:  53%|█████▎    | 1053/2000 [00:11<00:06, 151.27image/s]Read lr dataset into memory:  53%|█████▎    | 1069/2000 [00:12<00:06, 140.76image/s]Read lr dataset into memory:  54%|█████▍    | 1084/2000 [00:12<00:06, 135.25image/s]Read lr dataset into memory:  55%|█████▍    | 1098/2000 [00:12<00:06, 130.47image/s]Read lr dataset into memory:  56%|█████▌    | 1112/2000 [00:12<00:08, 98.78image/s] Read lr dataset into memory:  56%|█████▌    | 1124/2000 [00:12<00:13, 63.67image/s]Read lr dataset into memory:  57%|█████▋    | 1149/2000 [00:13<00:09, 89.93image/s]Read lr dataset into memory:  58%|█████▊    | 1162/2000 [00:13<00:11, 72.67image/s]Read lr dataset into memory:  59%|█████▊    | 1172/2000 [00:13<00:13, 61.52image/s]Read lr dataset into memory:  59%|█████▉    | 1184/2000 [00:13<00:13, 60.57image/s]Read lr dataset into memory:  60%|██████    | 1201/2000 [00:13<00:10, 77.91image/s]Read lr dataset into memory:  61%|██████    | 1220/2000 [00:14<00:08, 97.20image/s]Read lr dataset into memory:  62%|██████▏   | 1234/2000 [00:14<00:07, 104.13image/s]Read lr dataset into memory:  62%|██████▏   | 1247/2000 [00:14<00:07, 103.90image/s]Read lr dataset into memory:  63%|██████▎   | 1259/2000 [00:14<00:07, 104.90image/s]Read lr dataset into memory:  64%|██████▎   | 1274/2000 [00:14<00:06, 112.79image/s]Read lr dataset into memory:  65%|██████▍   | 1294/2000 [00:14<00:05, 131.33image/s]Read lr dataset into memory:  65%|██████▌   | 1308/2000 [00:14<00:06, 105.96image/s]Read lr dataset into memory:  66%|██████▌   | 1323/2000 [00:14<00:05, 114.25image/s]Read lr dataset into memory:  67%|██████▋   | 1341/2000 [00:15<00:05, 130.17image/s]Read lr dataset into memory:  68%|██████▊   | 1357/2000 [00:15<00:04, 133.58image/s]Read lr dataset into memory:  69%|██████▉   | 1375/2000 [00:15<00:04, 144.38image/s]Read lr dataset into memory:  70%|██████▉   | 1391/2000 [00:15<00:04, 144.81image/s]Read lr dataset into memory:  71%|███████   | 1413/2000 [00:15<00:03, 165.04image/s]Read lr dataset into memory:  72%|███████▏  | 1437/2000 [00:15<00:03, 183.56image/s]Read lr dataset into memory:  73%|███████▎  | 1456/2000 [00:15<00:03, 180.27image/s]Read lr dataset into memory:  74%|███████▍  | 1480/2000 [00:15<00:02, 196.96image/s]Read lr dataset into memory:  76%|███████▌  | 1510/2000 [00:15<00:02, 221.92image/s]Read lr dataset into memory:  77%|███████▋  | 1533/2000 [00:16<00:02, 195.52image/s]Read lr dataset into memory:  78%|███████▊  | 1554/2000 [00:16<00:02, 176.76image/s]Read lr dataset into memory:  79%|███████▊  | 1573/2000 [00:16<00:02, 163.67image/s]Read lr dataset into memory:  80%|███████▉  | 1590/2000 [00:16<00:02, 143.02image/s]Read lr dataset into memory:  80%|████████  | 1605/2000 [00:16<00:02, 136.64image/s]Read lr dataset into memory:  81%|████████  | 1624/2000 [00:16<00:02, 138.03image/s]Read lr dataset into memory:  82%|████████▏ | 1641/2000 [00:17<00:03, 103.04image/s]Read lr dataset into memory:  83%|████████▎ | 1653/2000 [00:17<00:04, 84.38image/s] Read lr dataset into memory:  83%|████████▎ | 1663/2000 [00:17<00:03, 86.86image/s]Read lr dataset into memory:  84%|████████▎ | 1673/2000 [00:17<00:05, 64.40image/s]Read lr dataset into memory:  84%|████████▍ | 1681/2000 [00:17<00:05, 56.84image/s]Read lr dataset into memory:  85%|████████▌ | 1700/2000 [00:17<00:03, 79.23image/s]Read lr dataset into memory:  86%|████████▌ | 1720/2000 [00:18<00:02, 102.87image/s]Read lr dataset into memory:  87%|████████▋ | 1734/2000 [00:18<00:02, 107.48image/s]Read lr dataset into memory:  87%|████████▋ | 1748/2000 [00:18<00:02, 114.57image/s]Read lr dataset into memory:  89%|████████▊ | 1772/2000 [00:18<00:01, 141.66image/s]Read lr dataset into memory:  89%|████████▉ | 1788/2000 [00:18<00:01, 144.81image/s]Read lr dataset into memory:  91%|█████████ | 1813/2000 [00:18<00:01, 172.63image/s]Read lr dataset into memory:  92%|█████████▏| 1832/2000 [00:18<00:01, 131.39image/s]Read lr dataset into memory:  92%|█████████▏| 1848/2000 [00:18<00:01, 123.40image/s]Read lr dataset into memory:  93%|█████████▎| 1863/2000 [00:19<00:01, 123.04image/s]Read lr dataset into memory:  94%|█████████▍| 1877/2000 [00:19<00:01, 92.29image/s] Read lr dataset into memory:  95%|█████████▌| 1904/2000 [00:19<00:00, 119.11image/s]Read lr dataset into memory:  96%|█████████▌| 1918/2000 [00:19<00:00, 114.15image/s]Read lr dataset into memory:  97%|█████████▋| 1936/2000 [00:19<00:00, 128.03image/s]Read lr dataset into memory:  98%|█████████▊| 1951/2000 [00:19<00:00, 131.26image/s]Read lr dataset into memory:  98%|█████████▊| 1970/2000 [00:19<00:00, 134.98image/s]Read lr dataset into memory: 100%|█████████▉| 1990/2000 [00:20<00:00, 150.99image/s]Read lr dataset into memory: 100%|██████████| 2000/2000 [00:20<00:00, 99.49image/s] 
+Read hr dataset into memory:   0%|          | 0/2000 [00:00<?, ?image/s]Read hr dataset into memory:   0%|          | 9/2000 [00:00<00:33, 59.62image/s]Read hr dataset into memory:   2%|▏         | 35/2000 [00:00<00:12, 156.90image/s]Read hr dataset into memory:   3%|▎         | 60/2000 [00:00<00:10, 193.56image/s]Read hr dataset into memory:   4%|▍         | 81/2000 [00:00<00:10, 180.90image/s]Read hr dataset into memory:   5%|▌         | 101/2000 [00:00<00:13, 145.76image/s]Read hr dataset into memory:   6%|▌         | 118/2000 [00:00<00:12, 151.97image/s]Read hr dataset into memory:   7%|▋         | 135/2000 [00:01<00:18, 100.76image/s]Read hr dataset into memory:   7%|▋         | 148/2000 [00:01<00:23, 79.24image/s] Read hr dataset into memory:   8%|▊         | 166/2000 [00:01<00:19, 96.40image/s]Read hr dataset into memory:   9%|▉         | 179/2000 [00:01<00:18, 96.16image/s]Read hr dataset into memory:  10%|▉         | 195/2000 [00:01<00:16, 109.44image/s]Read hr dataset into memory:  11%|█         | 215/2000 [00:01<00:13, 129.29image/s]Read hr dataset into memory:  12%|█▏        | 231/2000 [00:01<00:12, 136.78image/s]Read hr dataset into memory:  13%|█▎        | 251/2000 [00:01<00:11, 152.91image/s]Read hr dataset into memory:  13%|█▎        | 268/2000 [00:02<00:11, 149.15image/s]Read hr dataset into memory:  14%|█▍        | 284/2000 [00:02<00:11, 146.28image/s]Read hr dataset into memory:  15%|█▌        | 300/2000 [00:02<00:11, 148.53image/s]Read hr dataset into memory:  16%|█▌        | 318/2000 [00:02<00:10, 154.81image/s]Read hr dataset into memory:  17%|█▋        | 334/2000 [00:02<00:10, 155.25image/s]Read hr dataset into memory:  18%|█▊        | 350/2000 [00:02<00:18, 86.85image/s] Read hr dataset into memory:  18%|█▊        | 365/2000 [00:03<00:16, 97.89image/s]Read hr dataset into memory:  19%|█▉        | 378/2000 [00:03<00:16, 99.58image/s]Read hr dataset into memory:  20%|██        | 400/2000 [00:03<00:12, 125.86image/s]Read hr dataset into memory:  21%|██        | 416/2000 [00:03<00:12, 126.26image/s]Read hr dataset into memory:  22%|██▏       | 431/2000 [00:03<00:12, 124.64image/s]Read hr dataset into memory:  23%|██▎       | 456/2000 [00:03<00:10, 154.20image/s]Read hr dataset into memory:  24%|██▎       | 473/2000 [00:03<00:10, 139.68image/s]Read hr dataset into memory:  25%|██▍       | 497/2000 [00:03<00:09, 159.34image/s]Read hr dataset into memory:  26%|██▋       | 526/2000 [00:03<00:07, 191.87image/s]Read hr dataset into memory:  27%|██▋       | 547/2000 [00:04<00:09, 161.00image/s]Read hr dataset into memory:  28%|██▊       | 565/2000 [00:04<00:09, 156.44image/s]Read hr dataset into memory:  29%|██▉       | 582/2000 [00:04<00:09, 145.43image/s]Read hr dataset into memory:  30%|██▉       | 598/2000 [00:04<00:10, 130.01image/s]Read hr dataset into memory:  31%|███       | 617/2000 [00:04<00:10, 134.68image/s]Read hr dataset into memory:  32%|███▏      | 642/2000 [00:04<00:08, 157.29image/s]Read hr dataset into memory:  33%|███▎      | 659/2000 [00:04<00:08, 151.23image/s]Read hr dataset into memory:  34%|███▍      | 675/2000 [00:05<00:15, 85.76image/s] Read hr dataset into memory:  35%|███▌      | 702/2000 [00:05<00:11, 110.21image/s]Read hr dataset into memory:  36%|███▌      | 717/2000 [00:05<00:10, 117.44image/s]Read hr dataset into memory:  37%|███▋      | 742/2000 [00:05<00:08, 142.65image/s]Read hr dataset into memory:  38%|███▊      | 760/2000 [00:05<00:08, 142.12image/s]Read hr dataset into memory:  39%|███▉      | 779/2000 [00:05<00:09, 132.73image/s]Read hr dataset into memory:  40%|███▉      | 798/2000 [00:06<00:08, 141.97image/s]Read hr dataset into memory:  41%|████      | 816/2000 [00:06<00:08, 146.22image/s]Read hr dataset into memory:  42%|████▏     | 832/2000 [00:06<00:07, 146.20image/s]Read hr dataset into memory:  43%|████▎     | 856/2000 [00:06<00:06, 166.99image/s]Read hr dataset into memory:  44%|████▍     | 879/2000 [00:06<00:06, 172.06image/s]Read hr dataset into memory:  45%|████▍     | 897/2000 [00:06<00:08, 127.37image/s]Read hr dataset into memory:  46%|████▌     | 912/2000 [00:06<00:08, 125.88image/s]Read hr dataset into memory:  47%|████▋     | 939/2000 [00:07<00:06, 158.23image/s]Read hr dataset into memory:  48%|████▊     | 957/2000 [00:07<00:10, 101.19image/s]Read hr dataset into memory:  49%|████▉     | 985/2000 [00:07<00:07, 131.83image/s]Read hr dataset into memory:  50%|█████     | 1006/2000 [00:07<00:06, 146.55image/s]Read hr dataset into memory:  51%|█████▏    | 1028/2000 [00:07<00:06, 161.55image/s]Read hr dataset into memory:  52%|█████▏    | 1048/2000 [00:07<00:06, 147.97image/s]Read hr dataset into memory:  53%|█████▎    | 1066/2000 [00:08<00:06, 140.29image/s]Read hr dataset into memory:  54%|█████▍    | 1082/2000 [00:08<00:07, 115.78image/s]Read hr dataset into memory:  55%|█████▍    | 1096/2000 [00:08<00:09, 90.76image/s] Read hr dataset into memory:  56%|█████▌    | 1115/2000 [00:08<00:08, 108.31image/s]Read hr dataset into memory:  57%|█████▋    | 1147/2000 [00:08<00:05, 151.56image/s]Read hr dataset into memory:  58%|█████▊    | 1166/2000 [00:08<00:07, 108.21image/s]Read hr dataset into memory:  59%|█████▉    | 1181/2000 [00:09<00:09, 87.98image/s] Read hr dataset into memory:  60%|█████▉    | 1194/2000 [00:09<00:12, 64.28image/s]Read hr dataset into memory:  60%|██████    | 1204/2000 [00:09<00:11, 68.29image/s]Read hr dataset into memory:  61%|██████    | 1219/2000 [00:09<00:09, 81.39image/s]Read hr dataset into memory:  62%|██████▏   | 1245/2000 [00:09<00:06, 114.78image/s]Read hr dataset into memory:  63%|██████▎   | 1266/2000 [00:10<00:05, 133.96image/s]Read hr dataset into memory:  64%|██████▍   | 1283/2000 [00:10<00:05, 121.39image/s]Read hr dataset into memory:  65%|██████▍   | 1298/2000 [00:10<00:05, 122.93image/s]Read hr dataset into memory:  67%|██████▋   | 1331/2000 [00:10<00:04, 167.15image/s]Read hr dataset into memory:  68%|██████▊   | 1350/2000 [00:10<00:05, 109.02image/s]Read hr dataset into memory:  69%|██████▊   | 1372/2000 [00:10<00:04, 126.04image/s]Read hr dataset into memory:  69%|██████▉   | 1389/2000 [00:11<00:04, 123.51image/s]Read hr dataset into memory:  70%|███████   | 1404/2000 [00:11<00:05, 110.01image/s]Read hr dataset into memory:  71%|███████▏  | 1425/2000 [00:11<00:04, 130.20image/s]Read hr dataset into memory:  72%|███████▏  | 1443/2000 [00:11<00:04, 137.33image/s]Read hr dataset into memory:  73%|███████▎  | 1465/2000 [00:11<00:03, 156.81image/s]Read hr dataset into memory:  74%|███████▍  | 1485/2000 [00:11<00:03, 160.62image/s]Read hr dataset into memory:  75%|███████▌  | 1503/2000 [00:11<00:03, 158.12image/s]Read hr dataset into memory:  76%|███████▌  | 1522/2000 [00:11<00:02, 162.66image/s]Read hr dataset into memory:  77%|███████▋  | 1541/2000 [00:12<00:02, 169.88image/s]Read hr dataset into memory:  78%|███████▊  | 1559/2000 [00:12<00:02, 155.75image/s]Read hr dataset into memory:  79%|███████▉  | 1578/2000 [00:12<00:02, 162.98image/s]Read hr dataset into memory:  80%|███████▉  | 1597/2000 [00:12<00:02, 170.23image/s]Read hr dataset into memory:  81%|████████▏ | 1628/2000 [00:12<00:01, 202.79image/s]Read hr dataset into memory:  82%|████████▏ | 1649/2000 [00:12<00:01, 202.46image/s]Read hr dataset into memory:  84%|████████▎ | 1670/2000 [00:12<00:02, 127.73image/s]Read hr dataset into memory:  84%|████████▍ | 1687/2000 [00:13<00:03, 84.61image/s] Read hr dataset into memory:  85%|████████▌ | 1700/2000 [00:13<00:04, 67.57image/s]Read hr dataset into memory:  86%|████████▌ | 1724/2000 [00:13<00:03, 91.19image/s]Read hr dataset into memory:  87%|████████▋ | 1740/2000 [00:13<00:02, 101.22image/s]Read hr dataset into memory:  88%|████████▊ | 1755/2000 [00:13<00:02, 104.51image/s]Read hr dataset into memory:  89%|████████▊ | 1773/2000 [00:14<00:01, 118.06image/s]Read hr dataset into memory:  90%|████████▉ | 1793/2000 [00:14<00:01, 135.46image/s]Read hr dataset into memory:  91%|█████████ | 1815/2000 [00:14<00:01, 155.68image/s]Read hr dataset into memory:  92%|█████████▏| 1833/2000 [00:14<00:01, 148.78image/s]Read hr dataset into memory:  92%|█████████▎| 1850/2000 [00:14<00:01, 140.91image/s]Read hr dataset into memory:  93%|█████████▎| 1866/2000 [00:14<00:01, 103.33image/s]Read hr dataset into memory:  95%|█████████▌| 1902/2000 [00:14<00:00, 154.42image/s]Read hr dataset into memory:  96%|█████████▌| 1924/2000 [00:15<00:00, 168.67image/s]Read hr dataset into memory:  97%|█████████▋| 1945/2000 [00:15<00:00, 161.54image/s]Read hr dataset into memory:  98%|█████████▊| 1967/2000 [00:15<00:00, 174.93image/s]Read hr dataset into memory:  99%|█████████▉| 1987/2000 [00:15<00:00, 158.53image/s]Read hr dataset into memory: 100%|██████████| 2000/2000 [00:15<00:00, 129.56image/s]
+Read test dataset into memory:   0%|          | 0/5 [00:00<?, ?image/s]Read test dataset into memory:  20%|██        | 1/5 [00:00<00:00,  5.33image/s]Read test dataset into memory:  40%|████      | 2/5 [00:00<00:00,  6.88image/s]Read test dataset into memory:  60%|██████    | 3/5 [00:00<00:00,  8.02image/s]Read test dataset into memory: 100%|██████████| 5/5 [00:00<00:00, 10.46image/s]Read test dataset into memory: 100%|██████████| 5/5 [00:00<00:00,  9.09image/s]
+Load train dataset and valid dataset successfully.
+Build VDSR model successfully.
+
+ORIGINAL UN-PRUNED MODEL: 
+ VDSR(
+  (conv1): Sequential(
+    (0): Conv2d(1, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+    (1): ReLU(inplace=True)
+  )
+  (trunk): Sequential(
+    (0): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (1): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (2): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (3): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (4): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (5): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (6): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (7): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (8): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (9): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (10): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (11): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (12): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (13): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (14): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (15): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (16): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (17): ConvReLU(
+      (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+  )
+  (conv2): Conv2d(64, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+) 
+
+
+Defined all loss functions successfully.
+Defined optimizer functions successfully.
+Defined all optimizer scheduler successfully.
+Checking and reading the pre-trained model.
+CHKPT:  dict_keys(['epoch', 'best_psnr', 'state_dict', 'optimizer', 'scheduler'])
+Loaded pretrained model weights.
+Test: [0/5]	Time  2.675 ( 2.675)	PSNR 33.42 (33.42)
+ *  PSNR 31.06
+
+THE PSNR OF VANILLA MODEL:  31.059138107299805 
+
+
+Epoch: [1][ 0/19]	Time  1.534 ( 1.534)	Data  0.099 ( 0.099)	Loss 7367.501953 (7367.501953)	PSNR 23.70 (23.70)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 28.79 (28.79)
+ *  PSNR 28.67
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 33.21 (33.21)
+ *  PSNR 30.84
+
+
+Epoch: [2][ 0/19]	Time  0.278 ( 0.278)	Data  0.099 ( 0.099)	Loss 6976.969727 (6976.969727)	PSNR 23.94 (23.94)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 28.21 (28.21)
+ *  PSNR 28.12
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 32.75 (32.75)
+ *  PSNR 30.66
+
+
+Epoch: [3][ 0/19]	Time  0.362 ( 0.362)	Data  0.182 ( 0.182)	Loss 6403.361328 (6403.361328)	PSNR 24.31 (24.31)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 28.18 (28.18)
+ *  PSNR 28.09
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 32.85 (32.85)
+ *  PSNR 30.64
+
+
+Epoch: [4][ 0/19]	Time  0.265 ( 0.265)	Data  0.086 ( 0.086)	Loss 6752.614258 (6752.614258)	PSNR 24.08 (24.08)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 28.24 (28.24)
+ *  PSNR 28.13
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 32.92 (32.92)
+ *  PSNR 30.58
+
+
+Epoch: [5][ 0/19]	Time  0.268 ( 0.268)	Data  0.089 ( 0.089)	Loss 6783.870117 (6783.870117)	PSNR 24.06 (24.06)
+Valid: [0/2]	Time  0.105 ( 0.105)	PSNR 27.86 (27.86)
+ *  PSNR 27.77
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 32.52 (32.52)
+ *  PSNR 30.35
+
+
+Epoch: [6][ 0/19]	Time  0.270 ( 0.270)	Data  0.090 ( 0.090)	Loss 6389.313965 (6389.313965)	PSNR 24.32 (24.32)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.84 (27.84)
+ *  PSNR 27.75
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 32.46 (32.46)
+ *  PSNR 30.24
+
+
+Epoch: [7][ 0/19]	Time  0.271 ( 0.271)	Data  0.092 ( 0.092)	Loss 6657.324219 (6657.324219)	PSNR 24.14 (24.14)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.95 (27.95)
+ *  PSNR 27.85
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 32.56 (32.56)
+ *  PSNR 30.23
+
+
+Epoch: [8][ 0/19]	Time  0.271 ( 0.271)	Data  0.090 ( 0.090)	Loss 7032.694824 (7032.694824)	PSNR 23.90 (23.90)
+Valid: [0/2]	Time  0.106 ( 0.106)	PSNR 28.03 (28.03)
+ *  PSNR 27.92
+Test: [0/5]	Time  0.060 ( 0.060)	PSNR 32.48 (32.48)
+ *  PSNR 30.07
+
+
+Epoch: [9][ 0/19]	Time  0.271 ( 0.271)	Data  0.091 ( 0.091)	Loss 6413.587891 (6413.587891)	PSNR 24.30 (24.30)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.83 (27.83)
+ *  PSNR 27.74
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 32.35 (32.35)
+ *  PSNR 29.99
+
+
+Epoch: [10][ 0/19]	Time  0.266 ( 0.266)	Data  0.087 ( 0.087)	Loss 6313.758789 (6313.758789)	PSNR 24.37 (24.37)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.82 (27.82)
+ *  PSNR 27.72
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 32.33 (32.33)
+ *  PSNR 29.87
+
+
+Epoch: [11][ 0/19]	Time  0.273 ( 0.273)	Data  0.092 ( 0.092)	Loss 6897.957520 (6897.957520)	PSNR 23.99 (23.99)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.43 (27.43)
+ *  PSNR 27.36
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.84 (31.84)
+ *  PSNR 29.70
+
+
+Epoch: [12][ 0/19]	Time  0.273 ( 0.273)	Data  0.093 ( 0.093)	Loss 6410.509277 (6410.509277)	PSNR 24.31 (24.31)
+Valid: [0/2]	Time  0.210 ( 0.210)	PSNR 27.58 (27.58)
+ *  PSNR 27.50
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.95 (31.95)
+ *  PSNR 29.57
+
+
+Epoch: [13][ 0/19]	Time  0.274 ( 0.274)	Data  0.094 ( 0.094)	Loss 6624.119141 (6624.119141)	PSNR 24.16 (24.16)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.34 (27.34)
+ *  PSNR 27.27
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.59 (31.59)
+ *  PSNR 29.45
+
+
+Epoch: [14][ 0/19]	Time  0.271 ( 0.271)	Data  0.091 ( 0.091)	Loss 6384.104004 (6384.104004)	PSNR 24.32 (24.32)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.60 (27.60)
+ *  PSNR 27.51
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 32.11 (32.11)
+ *  PSNR 29.52
+
+
+Epoch: [15][ 0/19]	Time  0.261 ( 0.261)	Data  0.081 ( 0.081)	Loss 5942.123047 (5942.123047)	PSNR 24.64 (24.64)
+Valid: [0/2]	Time  0.107 ( 0.107)	PSNR 27.75 (27.75)
+ *  PSNR 27.65
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 32.04 (32.04)
+ *  PSNR 29.37
+
+
+Epoch: [16][ 0/19]	Time  0.275 ( 0.275)	Data  0.095 ( 0.095)	Loss 6235.604492 (6235.604492)	PSNR 24.43 (24.43)
+Valid: [0/2]	Time  0.100 ( 0.100)	PSNR 27.51 (27.51)
+ *  PSNR 27.43
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.83 (31.83)
+ *  PSNR 29.26
+
+
+Epoch: [17][ 0/19]	Time  0.271 ( 0.271)	Data  0.091 ( 0.091)	Loss 5999.943848 (5999.943848)	PSNR 24.59 (24.59)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.81 (27.81)
+ *  PSNR 27.71
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 32.18 (32.18)
+ *  PSNR 29.40
+
+
+Epoch: [18][ 0/19]	Time  0.274 ( 0.274)	Data  0.095 ( 0.095)	Loss 6552.835938 (6552.835938)	PSNR 24.21 (24.21)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.32 (27.32)
+ *  PSNR 27.25
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.70 (31.70)
+ *  PSNR 29.14
+
+
+Epoch: [19][ 0/19]	Time  0.265 ( 0.265)	Data  0.086 ( 0.086)	Loss 5496.709961 (5496.709961)	PSNR 24.97 (24.97)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.77 (27.77)
+ *  PSNR 27.67
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 31.99 (31.99)
+ *  PSNR 29.21
+
+
+Epoch: [20][ 0/19]	Time  0.272 ( 0.272)	Data  0.093 ( 0.093)	Loss 5550.608398 (5550.608398)	PSNR 24.93 (24.93)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.78 (27.78)
+ *  PSNR 27.68
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.95 (31.95)
+ *  PSNR 29.17
+
+
+Epoch: [21][ 0/19]	Time  0.276 ( 0.276)	Data  0.096 ( 0.096)	Loss 6000.154297 (6000.154297)	PSNR 24.59 (24.59)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.40 (27.40)
+ *  PSNR 27.32
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 31.77 (31.77)
+ *  PSNR 29.00
+
+
+Epoch: [22][ 0/19]	Time  0.275 ( 0.275)	Data  0.095 ( 0.095)	Loss 5888.875977 (5888.875977)	PSNR 24.68 (24.68)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.70 (27.70)
+ *  PSNR 27.61
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 31.88 (31.88)
+ *  PSNR 28.99
+
+
+Epoch: [23][ 0/19]	Time  0.261 ( 0.261)	Data  0.081 ( 0.081)	Loss 6536.825195 (6536.825195)	PSNR 24.22 (24.22)
+Valid: [0/2]	Time  0.105 ( 0.105)	PSNR 27.82 (27.82)
+ *  PSNR 27.72
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 32.06 (32.06)
+ *  PSNR 29.06
+
+
+Epoch: [24][ 0/19]	Time  0.274 ( 0.274)	Data  0.093 ( 0.093)	Loss 6136.232422 (6136.232422)	PSNR 24.50 (24.50)
+Valid: [0/2]	Time  0.106 ( 0.106)	PSNR 27.73 (27.73)
+ *  PSNR 27.63
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 31.84 (31.84)
+ *  PSNR 28.93
+
+
+Epoch: [25][ 0/19]	Time  0.268 ( 0.268)	Data  0.089 ( 0.089)	Loss 6304.748535 (6304.748535)	PSNR 24.38 (24.38)
+Valid: [0/2]	Time  0.104 ( 0.104)	PSNR 27.14 (27.14)
+ *  PSNR 27.07
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.41 (31.41)
+ *  PSNR 28.70
+
+
+Epoch: [26][ 0/19]	Time  0.287 ( 0.287)	Data  0.107 ( 0.107)	Loss 5705.532715 (5705.532715)	PSNR 24.81 (24.81)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.72 (27.72)
+ *  PSNR 27.63
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.80 (31.80)
+ *  PSNR 28.87
+
+
+Epoch: [27][ 0/19]	Time  0.267 ( 0.267)	Data  0.086 ( 0.086)	Loss 6491.671875 (6491.671875)	PSNR 24.25 (24.25)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.85 (27.85)
+ *  PSNR 27.75
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.95 (31.95)
+ *  PSNR 28.92
+
+
+Epoch: [28][ 0/19]	Time  0.275 ( 0.275)	Data  0.094 ( 0.094)	Loss 5977.572266 (5977.572266)	PSNR 24.61 (24.61)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.86 (27.86)
+ *  PSNR 27.75
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.87 (31.87)
+ *  PSNR 28.84
+
+
+Epoch: [29][ 0/19]	Time  0.277 ( 0.277)	Data  0.097 ( 0.097)	Loss 5732.371094 (5732.371094)	PSNR 24.79 (24.79)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.37 (27.37)
+ *  PSNR 27.29
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.40 (31.40)
+ *  PSNR 28.50
+
+
+Epoch: [30][ 0/19]	Time  0.270 ( 0.270)	Data  0.090 ( 0.090)	Loss 6336.541992 (6336.541992)	PSNR 24.36 (24.36)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.53 (27.53)
+ *  PSNR 27.44
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.64 (31.64)
+ *  PSNR 28.70
+
+
+Epoch: [31][ 0/19]	Time  0.277 ( 0.277)	Data  0.097 ( 0.097)	Loss 5728.682129 (5728.682129)	PSNR 24.80 (24.80)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.73 (27.73)
+ *  PSNR 27.63
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.67 (31.67)
+ *  PSNR 28.71
+
+
+Epoch: [32][ 0/19]	Time  0.276 ( 0.276)	Data  0.095 ( 0.095)	Loss 5977.125000 (5977.125000)	PSNR 24.61 (24.61)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.05 (27.05)
+ *  PSNR 26.99
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.10 (31.10)
+ *  PSNR 28.33
+
+
+Epoch: [33][ 0/19]	Time  0.272 ( 0.272)	Data  0.093 ( 0.093)	Loss 6633.263184 (6633.263184)	PSNR 24.16 (24.16)
+Valid: [0/2]	Time  0.104 ( 0.104)	PSNR 27.79 (27.79)
+ *  PSNR 27.70
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.84 (31.84)
+ *  PSNR 28.84
+
+
+Epoch: [34][ 0/19]	Time  0.273 ( 0.273)	Data  0.093 ( 0.093)	Loss 6280.059082 (6280.059082)	PSNR 24.40 (24.40)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.57 (27.57)
+ *  PSNR 27.48
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.66 (31.66)
+ *  PSNR 28.48
+
+
+Epoch: [35][ 0/19]	Time  0.269 ( 0.269)	Data  0.089 ( 0.089)	Loss 6430.106445 (6430.106445)	PSNR 24.29 (24.29)
+Valid: [0/2]	Time  0.100 ( 0.100)	PSNR 27.70 (27.70)
+ *  PSNR 27.61
+Test: [0/5]	Time  0.059 ( 0.059)	PSNR 31.74 (31.74)
+ *  PSNR 28.55
+
+
+Epoch: [36][ 0/19]	Time  0.261 ( 0.261)	Data  0.080 ( 0.080)	Loss 6342.785645 (6342.785645)	PSNR 24.35 (24.35)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.81 (27.81)
+ *  PSNR 27.71
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.78 (31.78)
+ *  PSNR 28.59
+
+
+Epoch: [37][ 0/19]	Time  0.272 ( 0.272)	Data  0.093 ( 0.093)	Loss 5994.380859 (5994.380859)	PSNR 24.60 (24.60)
+Valid: [0/2]	Time  0.100 ( 0.100)	PSNR 27.22 (27.22)
+ *  PSNR 27.15
+Test: [0/5]	Time  0.060 ( 0.060)	PSNR 31.38 (31.38)
+ *  PSNR 28.35
+
+
+Epoch: [38][ 0/19]	Time  0.281 ( 0.281)	Data  0.101 ( 0.101)	Loss 6198.164062 (6198.164062)	PSNR 24.45 (24.45)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.65 (27.65)
+ *  PSNR 27.55
+Test: [0/5]	Time  0.060 ( 0.060)	PSNR 31.58 (31.58)
+ *  PSNR 28.41
+
+
+Epoch: [39][ 0/19]	Time  0.337 ( 0.337)	Data  0.157 ( 0.157)	Loss 5812.375977 (5812.375977)	PSNR 24.73 (24.73)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.43 (27.43)
+ *  PSNR 27.34
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 31.59 (31.59)
+ *  PSNR 28.41
+
+
+Epoch: [40][ 0/19]	Time  0.275 ( 0.275)	Data  0.096 ( 0.096)	Loss 6089.579102 (6089.579102)	PSNR 24.53 (24.53)
+Valid: [0/2]	Time  0.099 ( 0.099)	PSNR 27.65 (27.65)
+ *  PSNR 27.56
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 31.62 (31.62)
+ *  PSNR 28.43
+
+
+Epoch: [41][ 0/19]	Time  0.271 ( 0.271)	Data  0.090 ( 0.090)	Loss 5681.224121 (5681.224121)	PSNR 24.83 (24.83)
+Valid: [0/2]	Time  0.099 ( 0.099)	PSNR 27.63 (27.63)
+ *  PSNR 27.54
+Test: [0/5]	Time  0.060 ( 0.060)	PSNR 31.50 (31.50)
+ *  PSNR 28.44
+
+
+Epoch: [42][ 0/19]	Time  0.273 ( 0.273)	Data  0.092 ( 0.092)	Loss 5829.754883 (5829.754883)	PSNR 24.72 (24.72)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.43 (27.43)
+ *  PSNR 27.35
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.39 (31.39)
+ *  PSNR 28.31
+
+
+Epoch: [43][ 0/19]	Time  0.270 ( 0.270)	Data  0.089 ( 0.089)	Loss 5890.597656 (5890.597656)	PSNR 24.67 (24.67)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.95 (27.95)
+ *  PSNR 27.84
+Test: [0/5]	Time  0.059 ( 0.059)	PSNR 31.85 (31.85)
+ *  PSNR 28.60
+
+
+Epoch: [44][ 0/19]	Time  0.268 ( 0.268)	Data  0.087 ( 0.087)	Loss 5523.706055 (5523.706055)	PSNR 24.95 (24.95)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.19 (27.19)
+ *  PSNR 27.11
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.13 (31.13)
+ *  PSNR 28.25
+
+
+Epoch: [45][ 0/19]	Time  0.267 ( 0.267)	Data  0.087 ( 0.087)	Loss 6313.231445 (6313.231445)	PSNR 24.37 (24.37)
+Valid: [0/2]	Time  0.100 ( 0.100)	PSNR 27.73 (27.73)
+ *  PSNR 27.63
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.59 (31.59)
+ *  PSNR 28.53
+
+
+Epoch: [46][ 0/19]	Time  0.272 ( 0.272)	Data  0.090 ( 0.090)	Loss 5575.101562 (5575.101562)	PSNR 24.91 (24.91)
+Valid: [0/2]	Time  0.100 ( 0.100)	PSNR 27.76 (27.76)
+ *  PSNR 27.65
+Test: [0/5]	Time  0.059 ( 0.059)	PSNR 31.58 (31.58)
+ *  PSNR 28.35
+
+
+Epoch: [47][ 0/19]	Time  0.266 ( 0.266)	Data  0.086 ( 0.086)	Loss 6016.980469 (6016.980469)	PSNR 24.58 (24.58)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.37 (27.37)
+ *  PSNR 27.28
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.33 (31.33)
+ *  PSNR 28.37
+
+
+Epoch: [48][ 0/19]	Time  0.270 ( 0.270)	Data  0.089 ( 0.089)	Loss 5405.858887 (5405.858887)	PSNR 25.05 (25.05)
+Valid: [0/2]	Time  0.099 ( 0.099)	PSNR 27.37 (27.37)
+ *  PSNR 27.28
+Test: [0/5]	Time  0.060 ( 0.060)	PSNR 31.35 (31.35)
+ *  PSNR 28.30
+
+
+Epoch: [49][ 0/19]	Time  0.271 ( 0.271)	Data  0.089 ( 0.089)	Loss 5916.311523 (5916.311523)	PSNR 24.66 (24.66)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.12 (27.12)
+ *  PSNR 27.05
+Test: [0/5]	Time  0.059 ( 0.059)	PSNR 31.03 (31.03)
+ *  PSNR 28.14
+
+
+Epoch: [50][ 0/19]	Time  0.273 ( 0.273)	Data  0.093 ( 0.093)	Loss 5349.588867 (5349.588867)	PSNR 25.09 (25.09)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.04 (27.04)
+ *  PSNR 26.97
+Test: [0/5]	Time  0.060 ( 0.060)	PSNR 30.92 (30.92)
+ *  PSNR 27.94
+
+
+Epoch: [51][ 0/19]	Time  0.284 ( 0.284)	Data  0.103 ( 0.103)	Loss 5883.536621 (5883.536621)	PSNR 24.68 (24.68)
+Valid: [0/2]	Time  0.106 ( 0.106)	PSNR 27.64 (27.64)
+ *  PSNR 27.54
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.55 (31.55)
+ *  PSNR 28.39
+
+
+Epoch: [52][ 0/19]	Time  0.268 ( 0.268)	Data  0.087 ( 0.087)	Loss 5866.745605 (5866.745605)	PSNR 24.69 (24.69)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.22 (27.22)
+ *  PSNR 27.14
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.85 (30.85)
+ *  PSNR 28.07
+
+
+Epoch: [53][ 0/19]	Time  0.274 ( 0.274)	Data  0.092 ( 0.092)	Loss 5656.202148 (5656.202148)	PSNR 24.85 (24.85)
+Valid: [0/2]	Time  0.104 ( 0.104)	PSNR 27.34 (27.34)
+ *  PSNR 27.26
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 30.99 (30.99)
+ *  PSNR 28.06
+
+
+Epoch: [54][ 0/19]	Time  0.266 ( 0.266)	Data  0.085 ( 0.085)	Loss 5631.355469 (5631.355469)	PSNR 24.87 (24.87)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.22 (27.22)
+ *  PSNR 27.14
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 30.93 (30.93)
+ *  PSNR 28.12
+
+
+Epoch: [55][ 0/19]	Time  0.272 ( 0.272)	Data  0.092 ( 0.092)	Loss 6091.348145 (6091.348145)	PSNR 24.53 (24.53)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.06 (27.06)
+ *  PSNR 26.99
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.84 (30.84)
+ *  PSNR 28.04
+
+
+Epoch: [56][ 0/19]	Time  0.272 ( 0.272)	Data  0.091 ( 0.091)	Loss 6355.549805 (6355.549805)	PSNR 24.34 (24.34)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.21 (27.21)
+ *  PSNR 27.14
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.75 (30.75)
+ *  PSNR 28.10
+
+
+Epoch: [57][ 0/19]	Time  0.274 ( 0.274)	Data  0.093 ( 0.093)	Loss 6092.442383 (6092.442383)	PSNR 24.53 (24.53)
+Valid: [0/2]	Time  0.100 ( 0.100)	PSNR 26.95 (26.95)
+ *  PSNR 26.88
+Test: [0/5]	Time  0.059 ( 0.059)	PSNR 30.60 (30.60)
+ *  PSNR 27.83
+
+
+Epoch: [58][ 0/19]	Time  0.271 ( 0.271)	Data  0.089 ( 0.089)	Loss 6070.103027 (6070.103027)	PSNR 24.54 (24.54)
+Valid: [0/2]	Time  0.100 ( 0.100)	PSNR 27.50 (27.50)
+ *  PSNR 27.41
+Test: [0/5]	Time  0.059 ( 0.059)	PSNR 31.22 (31.22)
+ *  PSNR 28.31
+
+
+Epoch: [59][ 0/19]	Time  0.336 ( 0.336)	Data  0.155 ( 0.155)	Loss 6211.953125 (6211.953125)	PSNR 24.44 (24.44)
+Valid: [0/2]	Time  0.104 ( 0.104)	PSNR 27.19 (27.19)
+ *  PSNR 27.11
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 30.83 (30.83)
+ *  PSNR 27.87
+
+
+Epoch: [60][ 0/19]	Time  0.271 ( 0.271)	Data  0.090 ( 0.090)	Loss 6002.008789 (6002.008789)	PSNR 24.59 (24.59)
+Valid: [0/2]	Time  0.108 ( 0.108)	PSNR 27.78 (27.78)
+ *  PSNR 27.67
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.39 (31.39)
+ *  PSNR 28.35
+
+
+Epoch: [61][ 0/19]	Time  0.273 ( 0.273)	Data  0.092 ( 0.092)	Loss 5605.274902 (5605.274902)	PSNR 24.89 (24.89)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.70 (27.70)
+ *  PSNR 27.60
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.38 (31.38)
+ *  PSNR 28.36
+
+
+Epoch: [62][ 0/19]	Time  0.266 ( 0.266)	Data  0.085 ( 0.085)	Loss 5760.117676 (5760.117676)	PSNR 24.77 (24.77)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.08 (27.08)
+ *  PSNR 27.00
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 30.66 (30.66)
+ *  PSNR 27.99
+
+
+Epoch: [63][ 0/19]	Time  0.271 ( 0.271)	Data  0.089 ( 0.089)	Loss 5958.980957 (5958.980957)	PSNR 24.62 (24.62)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.16 (27.16)
+ *  PSNR 27.08
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 30.82 (30.82)
+ *  PSNR 27.94
+
+
+Epoch: [64][ 0/19]	Time  0.273 ( 0.273)	Data  0.092 ( 0.092)	Loss 6012.678711 (6012.678711)	PSNR 24.58 (24.58)
+Valid: [0/2]	Time  0.173 ( 0.173)	PSNR 27.48 (27.48)
+ *  PSNR 27.39
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.02 (31.02)
+ *  PSNR 28.07
+
+
+Epoch: [65][ 0/19]	Time  0.278 ( 0.278)	Data  0.097 ( 0.097)	Loss 5679.840820 (5679.840820)	PSNR 24.83 (24.83)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.44 (27.44)
+ *  PSNR 27.35
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.90 (30.90)
+ *  PSNR 28.11
+
+
+Epoch: [66][ 0/19]	Time  0.276 ( 0.276)	Data  0.095 ( 0.095)	Loss 6364.751953 (6364.751953)	PSNR 24.34 (24.34)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.39 (27.39)
+ *  PSNR 27.30
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 30.89 (30.89)
+ *  PSNR 27.95
+
+
+Epoch: [67][ 0/19]	Time  0.276 ( 0.276)	Data  0.095 ( 0.095)	Loss 5573.329590 (5573.329590)	PSNR 24.91 (24.91)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.40 (27.40)
+ *  PSNR 27.31
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 30.93 (30.93)
+ *  PSNR 28.04
+
+
+Epoch: [68][ 0/19]	Time  0.272 ( 0.272)	Data  0.091 ( 0.091)	Loss 5877.333984 (5877.333984)	PSNR 24.68 (24.68)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.46 (27.46)
+ *  PSNR 27.37
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 30.93 (30.93)
+ *  PSNR 28.01
+
+
+Epoch: [69][ 0/19]	Time  0.272 ( 0.272)	Data  0.089 ( 0.089)	Loss 6377.447266 (6377.447266)	PSNR 24.33 (24.33)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.24 (27.24)
+ *  PSNR 27.15
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 30.63 (30.63)
+ *  PSNR 27.80
+
+
+Epoch: [70][ 0/19]	Time  0.270 ( 0.270)	Data  0.089 ( 0.089)	Loss 5800.020508 (5800.020508)	PSNR 24.74 (24.74)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.26 (27.26)
+ *  PSNR 27.18
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.69 (30.69)
+ *  PSNR 27.87
+
+
+Epoch: [71][ 0/19]	Time  0.273 ( 0.273)	Data  0.093 ( 0.093)	Loss 6041.993164 (6041.993164)	PSNR 24.56 (24.56)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.37 (27.37)
+ *  PSNR 27.28
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 30.79 (30.79)
+ *  PSNR 27.92
+
+
+Epoch: [72][ 0/19]	Time  0.275 ( 0.275)	Data  0.093 ( 0.093)	Loss 5747.766602 (5747.766602)	PSNR 24.78 (24.78)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.18 (27.18)
+ *  PSNR 27.10
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 30.58 (30.58)
+ *  PSNR 27.81
+
+
+Epoch: [73][ 0/19]	Time  0.274 ( 0.274)	Data  0.093 ( 0.093)	Loss 5673.259766 (5673.259766)	PSNR 24.84 (24.84)
+Valid: [0/2]	Time  0.104 ( 0.104)	PSNR 27.34 (27.34)
+ *  PSNR 27.25
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 30.78 (30.78)
+ *  PSNR 27.84
+
+
+Epoch: [74][ 0/19]	Time  0.276 ( 0.276)	Data  0.095 ( 0.095)	Loss 5583.506836 (5583.506836)	PSNR 24.91 (24.91)
+Valid: [0/2]	Time  0.104 ( 0.104)	PSNR 27.29 (27.29)
+ *  PSNR 27.20
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.72 (30.72)
+ *  PSNR 27.89
+
+
+Epoch: [75][ 0/19]	Time  0.277 ( 0.277)	Data  0.096 ( 0.096)	Loss 6264.154785 (6264.154785)	PSNR 24.41 (24.41)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.41 (27.41)
+ *  PSNR 27.32
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 30.87 (30.87)
+ *  PSNR 27.92
+
+
+Epoch: [76][ 0/19]	Time  0.282 ( 0.282)	Data  0.101 ( 0.101)	Loss 5584.737305 (5584.737305)	PSNR 24.91 (24.91)
+Valid: [0/2]	Time  0.105 ( 0.105)	PSNR 27.30 (27.30)
+ *  PSNR 27.22
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 30.69 (30.69)
+ *  PSNR 27.91
+
+
+Epoch: [77][ 0/19]	Time  0.277 ( 0.277)	Data  0.095 ( 0.095)	Loss 5710.369141 (5710.369141)	PSNR 24.81 (24.81)
+Valid: [0/2]	Time  0.105 ( 0.105)	PSNR 27.40 (27.40)
+ *  PSNR 27.32
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 30.79 (30.79)
+ *  PSNR 27.98
+
+
+Epoch: [78][ 0/19]	Time  0.286 ( 0.286)	Data  0.104 ( 0.104)	Loss 5752.616211 (5752.616211)	PSNR 24.78 (24.78)
+Valid: [0/2]	Time  0.104 ( 0.104)	PSNR 27.33 (27.33)
+ *  PSNR 27.25
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 30.74 (30.74)
+ *  PSNR 27.94
+
+
+Epoch: [79][ 0/19]	Time  0.276 ( 0.276)	Data  0.094 ( 0.094)	Loss 5747.346680 (5747.346680)	PSNR 24.78 (24.78)
+Valid: [0/2]	Time  0.107 ( 0.107)	PSNR 27.32 (27.32)
+ *  PSNR 27.24
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 30.74 (30.74)
+ *  PSNR 27.90
+
+
+Epoch: [80][ 0/19]	Time  0.272 ( 0.272)	Data  0.091 ( 0.091)	Loss 5524.478516 (5524.478516)	PSNR 24.95 (24.95)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.32 (27.32)
+ *  PSNR 27.23
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 30.66 (30.66)
+ *  PSNR 27.84
+
+
+Epoch: [81][ 0/19]	Time  0.282 ( 0.282)	Data  0.101 ( 0.101)	Loss 5825.076660 (5825.076660)	PSNR 24.72 (24.72)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.29 (27.29)
+ *  PSNR 27.20
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.72 (30.72)
+ *  PSNR 27.82
+
+
+Epoch: [82][ 0/19]	Time  0.264 ( 0.264)	Data  0.081 ( 0.081)	Loss 5572.135742 (5572.135742)	PSNR 24.92 (24.92)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.44 (27.44)
+ *  PSNR 27.35
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.79 (30.79)
+ *  PSNR 27.93
+
+
+Epoch: [83][ 0/19]	Time  0.332 ( 0.332)	Data  0.151 ( 0.151)	Loss 5707.319336 (5707.319336)	PSNR 24.81 (24.81)
+Valid: [0/2]	Time  0.109 ( 0.109)	PSNR 27.17 (27.17)
+ *  PSNR 27.09
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.45 (30.45)
+ *  PSNR 27.73
+
+
+Epoch: [84][ 0/19]	Time  0.269 ( 0.269)	Data  0.087 ( 0.087)	Loss 5930.919434 (5930.919434)	PSNR 24.64 (24.64)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.36 (27.36)
+ *  PSNR 27.28
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 30.63 (30.63)
+ *  PSNR 27.93
+
+
+Epoch: [85][ 0/19]	Time  0.270 ( 0.270)	Data  0.088 ( 0.088)	Loss 5577.487305 (5577.487305)	PSNR 24.91 (24.91)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.02 (27.02)
+ *  PSNR 26.95
+Test: [0/5]	Time  0.060 ( 0.060)	PSNR 30.23 (30.23)
+ *  PSNR 27.72
+
+
+Epoch: [86][ 0/19]	Time  0.276 ( 0.276)	Data  0.094 ( 0.094)	Loss 5365.397461 (5365.397461)	PSNR 25.08 (25.08)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.29 (27.29)
+ *  PSNR 27.20
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.62 (30.62)
+ *  PSNR 27.86
+
+
+Epoch: [87][ 0/19]	Time  0.269 ( 0.269)	Data  0.086 ( 0.086)	Loss 5793.800781 (5793.800781)	PSNR 24.75 (24.75)
+Valid: [0/2]	Time  0.104 ( 0.104)	PSNR 27.28 (27.28)
+ *  PSNR 27.20
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 30.58 (30.58)
+ *  PSNR 27.86
+
+
+Epoch: [88][ 0/19]	Time  0.276 ( 0.276)	Data  0.094 ( 0.094)	Loss 5977.708984 (5977.708984)	PSNR 24.61 (24.61)
+Valid: [0/2]	Time  0.105 ( 0.105)	PSNR 27.28 (27.28)
+ *  PSNR 27.20
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 30.60 (30.60)
+ *  PSNR 27.84
+
+
+Epoch: [89][ 0/19]	Time  0.270 ( 0.270)	Data  0.089 ( 0.089)	Loss 5703.296875 (5703.296875)	PSNR 24.81 (24.81)
+Valid: [0/2]	Time  0.104 ( 0.104)	PSNR 27.28 (27.28)
+ *  PSNR 27.19
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.62 (30.62)
+ *  PSNR 27.86
+
+
+Epoch: [90][ 0/19]	Time  0.274 ( 0.274)	Data  0.092 ( 0.092)	Loss 5840.814453 (5840.814453)	PSNR 24.71 (24.71)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.27 (27.27)
+ *  PSNR 27.19
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.58 (30.58)
+ *  PSNR 27.85
+
+
+Epoch: [91][ 0/19]	Time  0.268 ( 0.268)	Data  0.087 ( 0.087)	Loss 5911.097168 (5911.097168)	PSNR 24.66 (24.66)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.28 (27.28)
+ *  PSNR 27.19
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.55 (30.55)
+ *  PSNR 27.84
+
+
+Epoch: [92][ 0/19]	Time  0.276 ( 0.276)	Data  0.094 ( 0.094)	Loss 6223.878906 (6223.878906)	PSNR 24.43 (24.43)
+Valid: [0/2]	Time  0.100 ( 0.100)	PSNR 27.30 (27.30)
+ *  PSNR 27.22
+Test: [0/5]	Time  0.059 ( 0.059)	PSNR 30.62 (30.62)
+ *  PSNR 27.88
+
+
+Epoch: [93][ 0/19]	Time  0.265 ( 0.265)	Data  0.084 ( 0.084)	Loss 5884.291016 (5884.291016)	PSNR 24.68 (24.68)
+Valid: [0/2]	Time  0.100 ( 0.100)	PSNR 27.32 (27.32)
+ *  PSNR 27.23
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.64 (30.64)
+ *  PSNR 27.88
+
+
+Epoch: [94][ 0/19]	Time  0.271 ( 0.271)	Data  0.089 ( 0.089)	Loss 6140.743164 (6140.743164)	PSNR 24.49 (24.49)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.29 (27.29)
+ *  PSNR 27.21
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 30.61 (30.61)
+ *  PSNR 27.87
+
+
+Epoch: [95][ 0/19]	Time  0.276 ( 0.276)	Data  0.095 ( 0.095)	Loss 5768.254883 (5768.254883)	PSNR 24.77 (24.77)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.29 (27.29)
+ *  PSNR 27.20
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.57 (30.57)
+ *  PSNR 27.87
+
+
+Epoch: [96][ 0/19]	Time  0.274 ( 0.274)	Data  0.092 ( 0.092)	Loss 5629.498047 (5629.498047)	PSNR 24.87 (24.87)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.28 (27.28)
+ *  PSNR 27.19
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.56 (30.56)
+ *  PSNR 27.84
+
+
+Epoch: [97][ 0/19]	Time  0.276 ( 0.276)	Data  0.095 ( 0.095)	Loss 5622.756348 (5622.756348)	PSNR 24.88 (24.88)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.26 (27.26)
+ *  PSNR 27.18
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 30.54 (30.54)
+ *  PSNR 27.84
+
+
+Epoch: [98][ 0/19]	Time  0.267 ( 0.267)	Data  0.086 ( 0.086)	Loss 5920.074219 (5920.074219)	PSNR 24.65 (24.65)
+Valid: [0/2]	Time  0.101 ( 0.101)	PSNR 27.32 (27.32)
+ *  PSNR 27.23
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 30.62 (30.62)
+ *  PSNR 27.87
+
+
+Epoch: [99][ 0/19]	Time  0.278 ( 0.278)	Data  0.096 ( 0.096)	Loss 5359.818359 (5359.818359)	PSNR 25.08 (25.08)
+Valid: [0/2]	Time  0.103 ( 0.103)	PSNR 27.27 (27.27)
+ *  PSNR 27.18
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 30.56 (30.56)
+ *  PSNR 27.84
+
+
+Epoch: [100][ 0/19]	Time  0.274 ( 0.274)	Data  0.093 ( 0.093)	Loss 5616.057617 (5616.057617)	PSNR 24.88 (24.88)
+Valid: [0/2]	Time  0.102 ( 0.102)	PSNR 27.26 (27.26)
+ *  PSNR 27.18
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 30.52 (30.52)
+ *  PSNR 27.84
+
+
+
+THE TOTAL EXECUTION TIME OF UNPRUNED MODEL:  382.7776930332184 
+
+
+
+THE PSNR OF UNPRUNED MODEL:  27.8393913269043 
+
+
+PRUNER WRAPPED MODEL WITH FPGMPruner: 
+
+ VDSR(
+  (conv1): Sequential(
+    (0): Conv2d(1, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+    (1): ReLU(inplace=True)
+  )
+  (trunk): Sequential(
+    (0): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (1): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (2): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (3): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (4): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (5): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (6): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (7): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (8): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (9): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (10): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (11): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (12): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (13): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (14): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (15): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (16): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+    (17): ConvReLU(
+      (conv): PrunerModuleWrapper(
+        (module): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      )
+      (relu): ReLU(inplace=True)
+    )
+  )
+  (conv2): Conv2d(64, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+) 
+
+
+trunk.0.conv  sparsity :  0.61 
+
+trunk.1.conv  sparsity :  0.61 
+
+trunk.2.conv  sparsity :  0.61 
+
+trunk.3.conv  sparsity :  0.61 
+
+trunk.4.conv  sparsity :  0.61 
+
+trunk.5.conv  sparsity :  0.61 
+
+trunk.6.conv  sparsity :  0.61 
+
+trunk.7.conv  sparsity :  0.61 
+
+trunk.8.conv  sparsity :  0.61 
+
+trunk.9.conv  sparsity :  0.61 
+
+trunk.10.conv  sparsity :  0.61 
+
+trunk.11.conv  sparsity :  0.61 
+
+trunk.12.conv  sparsity :  0.61 
+
+trunk.13.conv  sparsity :  0.61 
+
+trunk.14.conv  sparsity :  0.61 
+
+trunk.15.conv  sparsity :  0.61 
+
+trunk.16.conv  sparsity :  0.61 
+
+trunk.17.conv  sparsity :  0.61 
+
+[2022-12-11 18:01:46] [32mstart to speedup the model[0m
+[2022-12-11 18:01:46] [32minfer module masks...[0m
+[2022-12-11 18:01:46] [32mUpdate mask for conv1.0[0m
+[2022-12-11 18:01:46] [32mUpdate mask for conv1.1[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.0.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.0.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.1.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.1.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.2.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.2.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.3.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.3.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.4.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.4.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.5.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.5.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.6.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.6.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.7.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.7.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.8.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.8.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.9.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.9.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.10.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.10.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.11.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.11.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.12.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.12.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.13.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.13.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.14.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.14.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.15.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.15.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.16.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.16.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.17.conv[0m
+[2022-12-11 18:01:46] [32mUpdate mask for trunk.17.relu[0m
+[2022-12-11 18:01:46] [32mUpdate mask for conv2[0m
+[2022-12-11 18:01:46] [32mUpdate mask for .aten::add.39[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the .aten::add.39[0m
+/jet/home/jshah2/.conda/envs/env2/lib/python3.10/site-packages/nni/compression/pytorch/speedup/compressor.py:305: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at /opt/conda/conda-bld/pytorch_1666642969563/work/build/aten/src/ATen/core/TensorBody.h:480.)
+  if last_output.grad is not None and tin.grad is not None:
+/jet/home/jshah2/.conda/envs/env2/lib/python3.10/site-packages/nni/compression/pytorch/speedup/compressor.py:307: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at /opt/conda/conda-bld/pytorch_1666642969563/work/build/aten/src/ATen/core/TensorBody.h:480.)
+  elif last_output.grad is None:
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the conv2[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.17.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.17.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.16.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.16.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.15.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.15.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.14.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.14.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.13.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.13.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.12.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.12.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.11.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.11.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.10.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.10.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.9.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.9.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.8.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.8.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.7.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.7.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.6.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.6.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.5.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.5.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.4.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.4.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.3.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.3.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.2.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.2.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.1.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.1.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.0.relu[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the trunk.0.conv[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the conv1.1[0m
+[2022-12-11 18:01:46] [32mUpdate the indirect sparsity for the conv1.0[0m
+[2022-12-11 18:01:46] [32mresolve the mask conflict[0m
+[2022-12-11 18:01:46] [32mreplace compressed modules...[0m
+[2022-12-11 18:01:46] [32mreplace module (name: conv1.0, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: conv1.1, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.0.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.0.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.1.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.1.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.2.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.2.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.3.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.3.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.4.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.4.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.5.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.5.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.6.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.6.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.7.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.7.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.8.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.8.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.9.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.9.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.10.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.10.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.11.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.11.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.12.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.12.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.13.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.13.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.14.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.14.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.15.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.15.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.16.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.16.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.17.conv, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: trunk.17.relu, op_type: ReLU)[0m
+[2022-12-11 18:01:46] [32mreplace module (name: conv2, op_type: Conv2d)[0m
+[2022-12-11 18:01:46] [32mspeedup done[0m
+
+PRUNED MODEL WITH FPGMPruner: 
+
+ VDSR(
+  (conv1): Sequential(
+    (0): Conv2d(1, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+    (1): ReLU(inplace=True)
+  )
+  (trunk): Sequential(
+    (0): ConvReLU(
+      (conv): Conv2d(64, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (1): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (2): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (3): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (4): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (5): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (6): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (7): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (8): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (9): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (10): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (11): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (12): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (13): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (14): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (15): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (16): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+    (17): ConvReLU(
+      (conv): Conv2d(39, 39, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (relu): ReLU(inplace=True)
+    )
+  )
+  (conv2): Conv2d(39, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+) 
+
+
+Epoch: [1][ 0/19]	Time  1.386 ( 1.386)	Data  0.090 ( 0.090)	Loss 8293.113281 (8293.113281)	PSNR 23.19 (23.19)
+Valid: [0/2]	Time  0.119 ( 0.119)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.181 ( 0.181)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [2][ 0/19]	Time  0.301 ( 0.301)	Data  0.091 ( 0.091)	Loss 8534.941406 (8534.941406)	PSNR 23.06 (23.06)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [3][ 0/19]	Time  0.296 ( 0.296)	Data  0.086 ( 0.086)	Loss 7635.422852 (7635.422852)	PSNR 23.55 (23.55)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [4][ 0/19]	Time  0.294 ( 0.294)	Data  0.083 ( 0.083)	Loss 7380.880371 (7380.880371)	PSNR 23.69 (23.69)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [5][ 0/19]	Time  0.301 ( 0.301)	Data  0.091 ( 0.091)	Loss 8266.546875 (8266.546875)	PSNR 23.20 (23.20)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [6][ 0/19]	Time  0.302 ( 0.302)	Data  0.092 ( 0.092)	Loss 8563.376953 (8563.376953)	PSNR 23.05 (23.05)
+Valid: [0/2]	Time  0.118 ( 0.118)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [7][ 0/19]	Time  0.300 ( 0.300)	Data  0.089 ( 0.089)	Loss 8172.765625 (8172.765625)	PSNR 23.25 (23.25)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [8][ 0/19]	Time  0.298 ( 0.298)	Data  0.088 ( 0.088)	Loss 7483.416992 (7483.416992)	PSNR 23.63 (23.63)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [9][ 0/19]	Time  0.298 ( 0.298)	Data  0.088 ( 0.088)	Loss 7527.600586 (7527.600586)	PSNR 23.61 (23.61)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [10][ 0/19]	Time  0.303 ( 0.303)	Data  0.092 ( 0.092)	Loss 7852.046387 (7852.046387)	PSNR 23.43 (23.43)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [11][ 0/19]	Time  0.304 ( 0.304)	Data  0.093 ( 0.093)	Loss 7617.528320 (7617.528320)	PSNR 23.56 (23.56)
+Valid: [0/2]	Time  0.117 ( 0.117)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [12][ 0/19]	Time  0.299 ( 0.299)	Data  0.089 ( 0.089)	Loss 7207.974609 (7207.974609)	PSNR 23.80 (23.80)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [13][ 0/19]	Time  0.303 ( 0.303)	Data  0.092 ( 0.092)	Loss 8632.438477 (8632.438477)	PSNR 23.01 (23.01)
+Valid: [0/2]	Time  0.119 ( 0.119)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [14][ 0/19]	Time  0.299 ( 0.299)	Data  0.089 ( 0.089)	Loss 7527.950195 (7527.950195)	PSNR 23.61 (23.61)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [15][ 0/19]	Time  0.292 ( 0.292)	Data  0.082 ( 0.082)	Loss 8078.001465 (8078.001465)	PSNR 23.30 (23.30)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [16][ 0/19]	Time  0.296 ( 0.296)	Data  0.085 ( 0.085)	Loss 8572.398438 (8572.398438)	PSNR 23.04 (23.04)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [17][ 0/19]	Time  0.308 ( 0.308)	Data  0.098 ( 0.098)	Loss 7952.796387 (7952.796387)	PSNR 23.37 (23.37)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [18][ 0/19]	Time  0.298 ( 0.298)	Data  0.088 ( 0.088)	Loss 8514.846680 (8514.846680)	PSNR 23.07 (23.07)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [19][ 0/19]	Time  0.362 ( 0.362)	Data  0.151 ( 0.151)	Loss 7801.118164 (7801.118164)	PSNR 23.45 (23.45)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [20][ 0/19]	Time  0.305 ( 0.305)	Data  0.095 ( 0.095)	Loss 6962.751953 (6962.751953)	PSNR 23.95 (23.95)
+Valid: [0/2]	Time  0.113 ( 0.113)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [21][ 0/19]	Time  0.306 ( 0.306)	Data  0.096 ( 0.096)	Loss 8374.302734 (8374.302734)	PSNR 23.15 (23.15)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [22][ 0/19]	Time  0.306 ( 0.306)	Data  0.096 ( 0.096)	Loss 8180.605469 (8180.605469)	PSNR 23.25 (23.25)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.068 ( 0.068)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [23][ 0/19]	Time  0.298 ( 0.298)	Data  0.087 ( 0.087)	Loss 8460.179688 (8460.179688)	PSNR 23.10 (23.10)
+Valid: [0/2]	Time  0.113 ( 0.113)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [24][ 0/19]	Time  0.294 ( 0.294)	Data  0.084 ( 0.084)	Loss 7904.514648 (7904.514648)	PSNR 23.40 (23.40)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [25][ 0/19]	Time  0.304 ( 0.304)	Data  0.094 ( 0.094)	Loss 7518.764160 (7518.764160)	PSNR 23.61 (23.61)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.068 ( 0.068)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [26][ 0/19]	Time  0.302 ( 0.302)	Data  0.091 ( 0.091)	Loss 7505.716797 (7505.716797)	PSNR 23.62 (23.62)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [27][ 0/19]	Time  0.296 ( 0.296)	Data  0.086 ( 0.086)	Loss 7373.157227 (7373.157227)	PSNR 23.70 (23.70)
+Valid: [0/2]	Time  0.113 ( 0.113)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [28][ 0/19]	Time  0.305 ( 0.305)	Data  0.094 ( 0.094)	Loss 7877.945801 (7877.945801)	PSNR 23.41 (23.41)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [29][ 0/19]	Time  0.290 ( 0.290)	Data  0.080 ( 0.080)	Loss 7672.562988 (7672.562988)	PSNR 23.53 (23.53)
+Valid: [0/2]	Time  0.113 ( 0.113)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [30][ 0/19]	Time  0.301 ( 0.301)	Data  0.091 ( 0.091)	Loss 7435.992188 (7435.992188)	PSNR 23.66 (23.66)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [31][ 0/19]	Time  0.305 ( 0.305)	Data  0.094 ( 0.094)	Loss 7855.009766 (7855.009766)	PSNR 23.42 (23.42)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [32][ 0/19]	Time  0.298 ( 0.298)	Data  0.087 ( 0.087)	Loss 7283.510254 (7283.510254)	PSNR 23.75 (23.75)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [33][ 0/19]	Time  0.298 ( 0.298)	Data  0.088 ( 0.088)	Loss 8391.003906 (8391.003906)	PSNR 23.14 (23.14)
+Valid: [0/2]	Time  0.122 ( 0.122)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [34][ 0/19]	Time  0.309 ( 0.309)	Data  0.098 ( 0.098)	Loss 7372.016113 (7372.016113)	PSNR 23.70 (23.70)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [35][ 0/19]	Time  0.305 ( 0.305)	Data  0.094 ( 0.094)	Loss 7862.143066 (7862.143066)	PSNR 23.42 (23.42)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [36][ 0/19]	Time  0.298 ( 0.298)	Data  0.088 ( 0.088)	Loss 7800.840820 (7800.840820)	PSNR 23.45 (23.45)
+Valid: [0/2]	Time  0.118 ( 0.118)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [37][ 0/19]	Time  0.302 ( 0.302)	Data  0.092 ( 0.092)	Loss 8473.583984 (8473.583984)	PSNR 23.09 (23.09)
+Valid: [0/2]	Time  0.113 ( 0.113)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [38][ 0/19]	Time  0.291 ( 0.291)	Data  0.081 ( 0.081)	Loss 7221.435547 (7221.435547)	PSNR 23.79 (23.79)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [39][ 0/19]	Time  0.363 ( 0.363)	Data  0.152 ( 0.152)	Loss 7599.297852 (7599.297852)	PSNR 23.57 (23.57)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [40][ 0/19]	Time  0.303 ( 0.303)	Data  0.093 ( 0.093)	Loss 7401.302734 (7401.302734)	PSNR 23.68 (23.68)
+Valid: [0/2]	Time  0.113 ( 0.113)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [41][ 0/19]	Time  0.296 ( 0.296)	Data  0.086 ( 0.086)	Loss 8128.339355 (8128.339355)	PSNR 23.28 (23.28)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [42][ 0/19]	Time  0.298 ( 0.298)	Data  0.087 ( 0.087)	Loss 8406.572266 (8406.572266)	PSNR 23.13 (23.13)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [43][ 0/19]	Time  0.300 ( 0.300)	Data  0.088 ( 0.088)	Loss 7861.445312 (7861.445312)	PSNR 23.42 (23.42)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [44][ 0/19]	Time  0.300 ( 0.300)	Data  0.089 ( 0.089)	Loss 8462.322266 (8462.322266)	PSNR 23.10 (23.10)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [45][ 0/19]	Time  0.297 ( 0.297)	Data  0.086 ( 0.086)	Loss 7388.454102 (7388.454102)	PSNR 23.69 (23.69)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [46][ 0/19]	Time  0.306 ( 0.306)	Data  0.095 ( 0.095)	Loss 7607.318359 (7607.318359)	PSNR 23.56 (23.56)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [47][ 0/19]	Time  0.303 ( 0.303)	Data  0.093 ( 0.093)	Loss 8003.729980 (8003.729980)	PSNR 23.34 (23.34)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [48][ 0/19]	Time  0.291 ( 0.291)	Data  0.080 ( 0.080)	Loss 7837.378906 (7837.378906)	PSNR 23.43 (23.43)
+Valid: [0/2]	Time  0.118 ( 0.118)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [49][ 0/19]	Time  0.300 ( 0.300)	Data  0.089 ( 0.089)	Loss 7858.106445 (7858.106445)	PSNR 23.42 (23.42)
+Valid: [0/2]	Time  0.117 ( 0.117)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [50][ 0/19]	Time  0.300 ( 0.300)	Data  0.090 ( 0.090)	Loss 7846.553711 (7846.553711)	PSNR 23.43 (23.43)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [51][ 0/19]	Time  0.303 ( 0.303)	Data  0.093 ( 0.093)	Loss 7862.557617 (7862.557617)	PSNR 23.42 (23.42)
+Valid: [0/2]	Time  0.118 ( 0.118)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [52][ 0/19]	Time  0.303 ( 0.303)	Data  0.092 ( 0.092)	Loss 8879.402344 (8879.402344)	PSNR 22.89 (22.89)
+Valid: [0/2]	Time  0.113 ( 0.113)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [53][ 0/19]	Time  0.305 ( 0.305)	Data  0.095 ( 0.095)	Loss 7579.974609 (7579.974609)	PSNR 23.58 (23.58)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [54][ 0/19]	Time  0.305 ( 0.305)	Data  0.095 ( 0.095)	Loss 7779.172852 (7779.172852)	PSNR 23.47 (23.47)
+Valid: [0/2]	Time  0.117 ( 0.117)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [55][ 0/19]	Time  0.300 ( 0.300)	Data  0.090 ( 0.090)	Loss 7876.711914 (7876.711914)	PSNR 23.41 (23.41)
+Valid: [0/2]	Time  0.117 ( 0.117)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [56][ 0/19]	Time  0.303 ( 0.303)	Data  0.093 ( 0.093)	Loss 7627.917480 (7627.917480)	PSNR 23.55 (23.55)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [57][ 0/19]	Time  0.299 ( 0.299)	Data  0.088 ( 0.088)	Loss 8715.552734 (8715.552734)	PSNR 22.97 (22.97)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [58][ 0/19]	Time  0.299 ( 0.299)	Data  0.089 ( 0.089)	Loss 7364.968750 (7364.968750)	PSNR 23.70 (23.70)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [59][ 0/19]	Time  0.295 ( 0.295)	Data  0.085 ( 0.085)	Loss 7774.360352 (7774.360352)	PSNR 23.47 (23.47)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [60][ 0/19]	Time  0.292 ( 0.292)	Data  0.081 ( 0.081)	Loss 7110.481445 (7110.481445)	PSNR 23.86 (23.86)
+Valid: [0/2]	Time  0.113 ( 0.113)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [61][ 0/19]	Time  0.303 ( 0.303)	Data  0.093 ( 0.093)	Loss 8098.270996 (8098.270996)	PSNR 23.29 (23.29)
+Valid: [0/2]	Time  0.119 ( 0.119)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.062 ( 0.062)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [62][ 0/19]	Time  0.302 ( 0.302)	Data  0.091 ( 0.091)	Loss 7703.412109 (7703.412109)	PSNR 23.51 (23.51)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [63][ 0/19]	Time  0.366 ( 0.366)	Data  0.156 ( 0.156)	Loss 8411.018555 (8411.018555)	PSNR 23.13 (23.13)
+Valid: [0/2]	Time  0.118 ( 0.118)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [64][ 0/19]	Time  0.310 ( 0.310)	Data  0.100 ( 0.100)	Loss 8092.614258 (8092.614258)	PSNR 23.29 (23.29)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [65][ 0/19]	Time  0.303 ( 0.303)	Data  0.092 ( 0.092)	Loss 8133.491699 (8133.491699)	PSNR 23.27 (23.27)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [66][ 0/19]	Time  0.305 ( 0.305)	Data  0.095 ( 0.095)	Loss 8107.305664 (8107.305664)	PSNR 23.29 (23.29)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [67][ 0/19]	Time  0.303 ( 0.303)	Data  0.093 ( 0.093)	Loss 8119.203125 (8119.203125)	PSNR 23.28 (23.28)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [68][ 0/19]	Time  0.297 ( 0.297)	Data  0.087 ( 0.087)	Loss 7245.238281 (7245.238281)	PSNR 23.78 (23.78)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [69][ 0/19]	Time  0.301 ( 0.301)	Data  0.090 ( 0.090)	Loss 7800.220703 (7800.220703)	PSNR 23.45 (23.45)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [70][ 0/19]	Time  0.306 ( 0.306)	Data  0.095 ( 0.095)	Loss 7168.317871 (7168.317871)	PSNR 23.82 (23.82)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [71][ 0/19]	Time  0.305 ( 0.305)	Data  0.095 ( 0.095)	Loss 8145.375977 (8145.375977)	PSNR 23.27 (23.27)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [72][ 0/19]	Time  0.292 ( 0.292)	Data  0.082 ( 0.082)	Loss 7877.346191 (7877.346191)	PSNR 23.41 (23.41)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.068 ( 0.068)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [73][ 0/19]	Time  0.309 ( 0.309)	Data  0.098 ( 0.098)	Loss 7878.816895 (7878.816895)	PSNR 23.41 (23.41)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [74][ 0/19]	Time  0.303 ( 0.303)	Data  0.093 ( 0.093)	Loss 8221.875000 (8221.875000)	PSNR 23.23 (23.23)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [75][ 0/19]	Time  0.302 ( 0.302)	Data  0.092 ( 0.092)	Loss 7923.361328 (7923.361328)	PSNR 23.39 (23.39)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [76][ 0/19]	Time  0.306 ( 0.306)	Data  0.095 ( 0.095)	Loss 7350.672852 (7350.672852)	PSNR 23.71 (23.71)
+Valid: [0/2]	Time  0.113 ( 0.113)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [77][ 0/19]	Time  0.299 ( 0.299)	Data  0.089 ( 0.089)	Loss 8078.494141 (8078.494141)	PSNR 23.30 (23.30)
+Valid: [0/2]	Time  0.113 ( 0.113)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.061 ( 0.061)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [78][ 0/19]	Time  0.300 ( 0.300)	Data  0.090 ( 0.090)	Loss 7639.118652 (7639.118652)	PSNR 23.55 (23.55)
+Valid: [0/2]	Time  0.112 ( 0.112)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [79][ 0/19]	Time  0.298 ( 0.298)	Data  0.088 ( 0.088)	Loss 8568.765625 (8568.765625)	PSNR 23.05 (23.05)
+Valid: [0/2]	Time  0.113 ( 0.113)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [80][ 0/19]	Time  0.301 ( 0.301)	Data  0.091 ( 0.091)	Loss 8238.607422 (8238.607422)	PSNR 23.22 (23.22)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [81][ 0/19]	Time  0.301 ( 0.301)	Data  0.091 ( 0.091)	Loss 7553.399414 (7553.399414)	PSNR 23.59 (23.59)
+Valid: [0/2]	Time  0.117 ( 0.117)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [82][ 0/19]	Time  0.302 ( 0.302)	Data  0.091 ( 0.091)	Loss 8195.271484 (8195.271484)	PSNR 23.24 (23.24)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [83][ 0/19]	Time  0.296 ( 0.296)	Data  0.086 ( 0.086)	Loss 7500.700195 (7500.700195)	PSNR 23.62 (23.62)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [84][ 0/19]	Time  0.305 ( 0.305)	Data  0.095 ( 0.095)	Loss 7297.621582 (7297.621582)	PSNR 23.74 (23.74)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [85][ 0/19]	Time  0.300 ( 0.300)	Data  0.089 ( 0.089)	Loss 8029.684570 (8029.684570)	PSNR 23.33 (23.33)
+Valid: [0/2]	Time  0.119 ( 0.119)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [86][ 0/19]	Time  0.310 ( 0.310)	Data  0.099 ( 0.099)	Loss 7547.787109 (7547.787109)	PSNR 23.60 (23.60)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [87][ 0/19]	Time  0.307 ( 0.307)	Data  0.096 ( 0.096)	Loss 7675.515625 (7675.515625)	PSNR 23.52 (23.52)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [88][ 0/19]	Time  0.304 ( 0.304)	Data  0.094 ( 0.094)	Loss 6950.078613 (6950.078613)	PSNR 23.96 (23.96)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [89][ 0/19]	Time  0.292 ( 0.292)	Data  0.081 ( 0.081)	Loss 7919.505859 (7919.505859)	PSNR 23.39 (23.39)
+Valid: [0/2]	Time  0.119 ( 0.119)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [90][ 0/19]	Time  0.297 ( 0.297)	Data  0.087 ( 0.087)	Loss 8291.921875 (8291.921875)	PSNR 23.19 (23.19)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [91][ 0/19]	Time  0.298 ( 0.298)	Data  0.087 ( 0.087)	Loss 8315.050781 (8315.050781)	PSNR 23.18 (23.18)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [92][ 0/19]	Time  0.300 ( 0.300)	Data  0.089 ( 0.089)	Loss 8085.226562 (8085.226562)	PSNR 23.30 (23.30)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.069 ( 0.069)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [93][ 0/19]	Time  0.299 ( 0.299)	Data  0.088 ( 0.088)	Loss 8088.344727 (8088.344727)	PSNR 23.30 (23.30)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.068 ( 0.068)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [94][ 0/19]	Time  0.300 ( 0.300)	Data  0.089 ( 0.089)	Loss 7478.685547 (7478.685547)	PSNR 23.64 (23.64)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [95][ 0/19]	Time  0.306 ( 0.306)	Data  0.096 ( 0.096)	Loss 8583.332031 (8583.332031)	PSNR 23.04 (23.04)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [96][ 0/19]	Time  0.300 ( 0.300)	Data  0.089 ( 0.089)	Loss 8409.228516 (8409.228516)	PSNR 23.13 (23.13)
+Valid: [0/2]	Time  0.117 ( 0.117)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [97][ 0/19]	Time  0.299 ( 0.299)	Data  0.089 ( 0.089)	Loss 8018.515625 (8018.515625)	PSNR 23.33 (23.33)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [98][ 0/19]	Time  0.302 ( 0.302)	Data  0.092 ( 0.092)	Loss 7853.607422 (7853.607422)	PSNR 23.42 (23.42)
+Valid: [0/2]	Time  0.116 ( 0.116)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [99][ 0/19]	Time  0.365 ( 0.365)	Data  0.154 ( 0.154)	Loss 8064.869141 (8064.869141)	PSNR 23.31 (23.31)
+Valid: [0/2]	Time  0.115 ( 0.115)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+Epoch: [100][ 0/19]	Time  0.305 ( 0.305)	Data  0.095 ( 0.095)	Loss 7257.645508 (7257.645508)	PSNR 23.77 (23.77)
+Valid: [0/2]	Time  0.114 ( 0.114)	PSNR 27.44 (27.44)
+ *  PSNR 27.38
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+
+
+THE TOTAL EXECUTION TIME OF PRUNED MODEL:  441.74417424201965 
+
+
+
+THE PSNR OF PRUNED MODEL:  28.44081039428711 
+
+
+
+Performing distillation...
+
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.068 ( 0.068)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.068 ( 0.068)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.069 ( 0.069)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.069 ( 0.069)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.071 ( 0.071)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.068 ( 0.068)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.069 ( 0.069)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.068 ( 0.068)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.070 ( 0.070)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.071 ( 0.071)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.068 ( 0.068)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.068 ( 0.068)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.068 ( 0.068)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.065 ( 0.065)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.069 ( 0.069)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.067 ( 0.067)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.069 ( 0.069)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.063 ( 0.063)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.066 ( 0.066)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+Test: [0/5]	Time  0.064 ( 0.064)	PSNR 31.85 (31.85)
+ *  PSNR 28.44
+
+THE TOTAL EXECUTION TIME OF MODEL DISTILLATION:  752.5023424625397 
+
+
+
+THE PSNR OF DISTILLED MODEL:  28.440815734863282 
+
+

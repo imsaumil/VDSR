@@ -9,7 +9,7 @@ from train import *
 import os
 import utils
 
-epochs = 10
+# epochs = 10
 
 
 if __name__ == '__main__':

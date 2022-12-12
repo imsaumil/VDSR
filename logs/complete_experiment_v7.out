@@ -810,7 +810,7 @@ THE TOTAL EXECUTION TIME OF UNPRUNED MODEL:  407.58323860168457
 THE PSNR OF UNPRUNED MODEL:  27.8393913269043 
 
 
-PRUNER WRAPPED MODEL WITH LevelPruner: 
+PRUNER WRAPPED MODEL WITH FPGMPruner: 
 
  VDSR(
   (conv1): Sequential(
@@ -1097,7 +1097,7 @@ both dim0 and dim1 masks found.
 [2022-12-11 22:40:45] [32mreplace module (name: conv2, op_type: Conv2d)[0m
 [2022-12-11 22:40:45] [32mspeedup done[0m
 
-PRUNED MODEL WITH LevelPruner: 
+PRUNED MODEL WITH FPGMPruner: 
 
  VDSR(
   (conv1): Sequential(
